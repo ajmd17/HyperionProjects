@@ -1,0 +1,108 @@
+Mesh CubeMesh_1_1 {
+    AABB = {
+        Min = (-1, -1, -1)
+        Max = (1, 14, 26)
+    }
+    LodGeneration = {
+        NumLods = 4
+        TriangleRatios = [
+            1
+            0.5
+            0.25
+            0.125
+        ]
+        MaxRelativeError = 1
+        NormalWeight = 0.5
+        UV0Weight = 1
+        UV1Weight = 0.5
+        WindWeight = 1
+        LockBorder = false
+        Prune = false
+        MaxScreenErrorPixels = 1
+        SourceDataHash = 0
+    }
+    LightmapUVDataHash = 12754676982735577029
+    MeshDesc = {
+        MeshAttributes = {
+            InputLayout = {
+                Mask = 15
+            }
+            Topology = Triangles
+            IndexBufferElemType = UnsignedInt
+        }
+        Lods = [
+            MeshLodDesc {
+                NumVertices = 57
+                NumIndices = 114
+                GeometricError = 0
+                ScreenSize = 0
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+                GeometricError = 0
+                ScreenSize = 0
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+                GeometricError = 0
+                ScreenSize = 0
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+                GeometricError = 0
+                ScreenSize = 0
+            }
+        ]
+    }
+    LodData = [
+        MeshLodData {
+            VertexData = {
+                Key = "Game://Meshes/CubeMesh_1_1.VB"
+                Size = 2280
+            }
+            IndexData = {
+                Key = "Game://Meshes/CubeMesh_1_1.IB"
+                Size = 456
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+    ]
+    BvhData = {
+        Key = "Game://Meshes/CubeMesh_1_1.BVH"
+        Size = 20905
+    }
+    Flags = None
+    UUID = "9fd3eb69-fd8a-4ee5-91e9-af77dd71e62b"
+}

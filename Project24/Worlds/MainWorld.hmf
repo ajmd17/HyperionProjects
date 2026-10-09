@@ -1,0 +1,72 @@
+World MainWorld {
+    WorldFlags = Default
+    NonStreamingScenes = [
+        @"Game://Scenes/MainScene"
+    ]
+    StreamingLayers = []
+    Systems = [
+        PhysicsSystem {}
+
+        LightmapSystem {
+            NextLightmapVolumeId = 0
+            FreedLightmapVolumeIds = []
+        }
+        MeshSystem {}
+
+        CameraSystem {}
+
+        CharacterControllerSystem {}
+
+        PlayerSystem {}
+
+        ReplicationApplySystem {}
+
+        DynamicSkySystem {}
+
+    ]
+    ActiveLayers = []
+    Swatches = [
+        Swatch Default {
+            SwatchId = 0
+            BakeLayer = {
+                Name = Default
+                Categories = [
+                    BakeLayerCategory LightProvider {
+                        Revision = 0
+                        Assets = []
+                    }
+                    BakeLayerCategory LightReceiver {
+                        Revision = 0
+                        Assets = []
+                    }
+                    BakeLayerCategory Lightmap {
+                        Revision = 0
+                        Assets = []
+                    }
+                ]
+            }
+        }
+        Swatch Beans {
+            SwatchId = 1
+            BakeLayer = {
+                Name = Beans
+                Categories = [
+                    BakeLayerCategory LightProvider {
+                        Revision = 0
+                        Assets = []
+                    }
+                    BakeLayerCategory LightReceiver {
+                        Revision = 0
+                        Assets = []
+                    }
+                    BakeLayerCategory Lightmap {
+                        Revision = 0
+                        Assets = []
+                    }
+                ]
+            }
+        }
+    ]
+    ActiveSwatch = Beans
+    Layers = []
+}

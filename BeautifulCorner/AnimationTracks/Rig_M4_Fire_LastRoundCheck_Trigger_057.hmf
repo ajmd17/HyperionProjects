@@ -1,0 +1,8 @@
+AnimationTrack Rig_M4_Fire_LastRoundCheck_Trigger_057 {
+    BoneName = Trigger_057
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Rig_M4_Fire_LastRoundCheck_Trigger_057.KEYF"
+        Size = 8320
+    }
+    UUID = "e13d60c2-6843-470c-9023-eb30b4b7b00a"
+}

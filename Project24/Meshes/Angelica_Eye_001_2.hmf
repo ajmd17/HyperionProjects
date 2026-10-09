@@ -1,0 +1,80 @@
+Mesh Angelica_Eye_001_2 {
+    AABB = {
+        Min = (-1.74978, -0.607893, -0.59503)
+        Max = (1.74978, 0.607891, 0.59503)
+    }
+    MeshDesc = {
+        MeshAttributes = {
+            InputLayout = {
+                Mask = 23
+            }
+            Topology = TOP_TRIANGLES
+            IndexBufferElemType = GET_UNSIGNED_INT
+        }
+        Lods = [
+            MeshLodDesc {
+                NumVertices = 640
+                NumIndices = 3576
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+        ]
+    }
+    LodData = [
+        MeshLodData {
+            VertexData = {
+                Key = "Game://Meshes/Angelica_Eye_001_2.VB"
+                Size = 33280
+            }
+            IndexData = {
+                Key = "Game://Meshes/Angelica_Eye_001_2.IB"
+                Size = 14304
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+    ]
+    BvhData = {
+        Key = "Game://Meshes/Angelica_Eye_001_2.BVH"
+        Size = 27953
+    }
+    Flags = None
+}

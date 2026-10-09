@@ -1,0 +1,8 @@
+InstanceSetData GrassDense_Instances {
+    Records = {
+        Key = "Game://InstanceData/GrassDense_Instances.INST"
+        Size = 412800
+    }
+    NextId = 8600
+    UUID = "0c065100-70c3-46e9-87b9-48abaa39f769"
+}

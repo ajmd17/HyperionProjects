@@ -1,0 +1,86 @@
+Prefab dry_grass {
+    Root = {
+        UUID = "79c4707f-2645-4138-b536-f4b940a336ef"
+        Name = dry_grass
+        NodeFlags = MobilityStatic
+        LocalBounds = {
+            Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+            Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+        }
+        LocalTransform = {
+            Translation = (0, 0, 0)
+            Scale = (1, 1, 1)
+            Rotation = {
+                X = 0
+                Y = 0
+                Z = 0
+                W = 1
+            }
+        }
+        Children = [
+            Node dry_grass {
+                UUID = "95481d53-8a2a-4aee-993f-d4f6339df65c"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                    Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = [
+                    Entity dry_grass_Primitive0 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/dry_grass_LOD0_2"
+                                Material = @"Game://Materials/grass"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "33703d85-0a20-4eff-8860-6ed0c1e03934"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-1.2240751, 0, -1.1382898)
+                            Max = (1.063534, 0.69671553, 1.2495346)
+                        }
+                        LocalTransform = {
+                            Translation = (0, 0, 0)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                ]
+                NodeTags = {
+                    Values = []
+                }
+            }
+        ]
+        NodeTags = {
+            Values = []
+        }
+    }
+    Revision = 0
+    UUID = "a1f0b5ea-1c99-4bc6-8faf-dc923f785b93"
+}

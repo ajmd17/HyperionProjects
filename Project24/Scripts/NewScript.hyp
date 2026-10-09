@@ -1,0 +1,19 @@
+import Lib.*;
+
+Logger := Logger.MakeScriptLogger();
+Channel := new LogChannel();
+
+selfEntity : Entity = null;
+
+func OnAdded(entity : Entity)
+{
+    selfEntity = entity;
+}
+
+globalTime : float = 0;
+
+func Update(deltaTime : float)
+{
+    globalTime += deltaTime;
+	//Logger.LogScript(Channel, LogLevel.Info, "Hey, from " + string(selfEntity.GetName()));
+}

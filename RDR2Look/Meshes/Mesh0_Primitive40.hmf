@@ -1,0 +1,109 @@
+Mesh Mesh0_Primitive40 {
+    AABB = {
+        Min = (-76.27789, -84.75624, -8.324463)
+        Max = (76.27789, 84.756256, 8.324463)
+    }
+    LodGeneration = {
+        NumLods = 4
+        TriangleRatios = [
+            1
+            0.5
+            0.25
+            0.125
+        ]
+        MaxRelativeError = 1
+        NormalWeight = 0.5
+        UV0Weight = 1
+        UV1Weight = 0.5
+        WindWeight = 1
+        LockBorder = false
+        Prune = false
+        MaxScreenErrorPixels = 1
+        SourceDataHash = 0
+    }
+    LightmapUVDataHash = 2729840972613541206
+    Lod0DataRevision = 2
+    MeshDesc = {
+        MeshAttributes = {
+            InputLayout = {
+                Mask = 31
+            }
+            Topology = Triangles
+            IndexBufferElemType = UnsignedInt
+        }
+        Lods = [
+            MeshLodDesc {
+                NumVertices = 98
+                NumIndices = 246
+                GeometricError = 0
+                ScreenSize = 0
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+                GeometricError = 0
+                ScreenSize = 0
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+                GeometricError = 0
+                ScreenSize = 0
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+                GeometricError = 0
+                ScreenSize = 0
+            }
+        ]
+    }
+    LodData = [
+        MeshLodData {
+            VertexData = {
+                Key = "Game://Meshes/Mesh0_Primitive40.VB"
+                Size = 5880
+            }
+            IndexData = {
+                Key = "Game://Meshes/Mesh0_Primitive40.IB"
+                Size = 984
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+    ]
+    BvhData = {
+        Key = "Game://Meshes/Mesh0_Primitive40.BVH"
+        Size = 17418
+    }
+    Flags = None
+    UUID = "cc3348bf-4409-4c24-a4e9-973915788707"
+}

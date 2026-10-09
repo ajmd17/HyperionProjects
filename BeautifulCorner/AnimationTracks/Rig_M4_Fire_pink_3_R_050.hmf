@@ -1,0 +1,8 @@
+AnimationTrack Rig_M4_Fire_pink_3_R_050 {
+    BoneName = pink_3_R_050
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Rig_M4_Fire_pink_3_R_050.KEYF"
+        Size = 2560
+    }
+    UUID = "067c8ace-4f58-4fcd-8bc1-a83326c2067e"
+}

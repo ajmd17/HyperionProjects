@@ -1,0 +1,6 @@
+BoxPhysicsShape LeftWall_236_BoxPhysicsShape {
+    Bounds = {
+        Min = (-1, -1, -1)
+        Max = (1, 1, 1)
+    }
+}

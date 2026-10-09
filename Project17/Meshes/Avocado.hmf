@@ -1,0 +1,80 @@
+Mesh Avocado {
+    AABB = {
+        Min = (-0.0212809, -0.0314479, -0.013809)
+        Max = (0.0212809, 0.0314479, 0.013809)
+    }
+    MeshDesc = {
+        MeshAttributes = {
+            InputLayout = {
+                Mask = 31
+            }
+            Topology = Triangles
+            IndexBufferElemType = UnsignedInt
+        }
+        Lods = [
+            MeshLodDesc {
+                NumVertices = 406
+                NumIndices = 2046
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+        ]
+    }
+    LodData = [
+        MeshLodData {
+            VertexData = {
+                Key = "Game://Meshes/Avocado.VB"
+                Size = 24360
+            }
+            IndexData = {
+                Key = "Game://Meshes/Avocado.IB"
+                Size = 8184
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+    ]
+    BvhData = {
+        Key = "Game://Meshes/Avocado.BVH"
+        Size = 20820
+    }
+    Flags = None
+}

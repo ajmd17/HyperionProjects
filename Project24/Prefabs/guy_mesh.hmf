@@ -1,0 +1,89 @@
+Prefab "guy_mesh" {
+    Root = {
+        Name = "guy.mesh"
+        NodeFlags = MobilityStatic
+        LocalBounds = {
+            Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+            Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+        }
+        LocalTransform = {
+            Translation = (0, 0, 0)
+            Scale = (1, 1, 1)
+            Rotation = {
+                X = 0
+                Y = 0
+                Z = 0
+                W = 1
+            }
+        }
+        Children = [
+            Node {
+                Name = "dragger:Skin"
+                NodeFlags = MobilityStatic|MobilityStaticByProxy
+                LocalBounds = {
+                    Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                    Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = [
+                    Entity {
+                        Tags = []
+                        Components = [
+                            AnimationComponent {
+                                PlaybackState = {
+                                    AnimationIndex = 0
+                                    Status = PLAYING
+                                    LoopMode = REPEAT
+                                    Speed = 1
+                                    CurrentTime = 0
+                                }
+                            }
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/dragger_Skin"
+                                Material = @"Game://Materials/dragger_Skin"
+                                Skeleton = @"Game://Skeletons/Skeleton_1"
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                            }
+                        ]
+                        Name = ""
+                        NodeFlags = MobilityStaticByProxy|MobilityDynamic
+                        LocalBounds = {
+                            Min = (-5.38778, -0.003289, -0.551897)
+                            Max = (5.38758, 16.9488, 3.77575)
+                        }
+                        LocalTransform = {
+                            Translation = (0, 0, 0)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                ]
+                NodeTags = {
+                    Values = []
+                }
+            }
+        ]
+        NodeTags = {
+            Values = []
+        }
+    }
+}

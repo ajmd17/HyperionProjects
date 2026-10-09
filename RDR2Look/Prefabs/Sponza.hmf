@@ -1,0 +1,3656 @@
+Prefab Sponza {
+    Root = {
+        UUID = "c8a72084-187a-40ae-ae36-2513bcc79576"
+        Name = Sponza
+        NodeFlags = MobilityStatic
+        LocalBounds = {
+            Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+            Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+        }
+        LocalTransform = {
+            Translation = (0, 0, 0)
+            Scale = (1, 1, 1)
+            Rotation = {
+                X = 0
+                Y = 0
+                Z = 0
+                W = 1
+            }
+        }
+        Children = [
+            Node Node0 {
+                UUID = "2a7e9b24-b043-491a-b76c-d607a3901a41"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                    Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (0.008, 0.008, 0.008)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = [
+                    Entity Node0_Primitive0 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive0_1"
+                                Material = @"Game://Materials/Material0"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "3a5ab962-a757-4629-88d3-49b3231c8aaf"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-45.716827, -62.78601, -46.40364)
+                            Max = (45.716797, 62.785995, 46.403656)
+                        }
+                        LocalTransform = {
+                            Translation = (495.27972, 148.15741, -198.49435)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive1 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive1_1"
+                                Material = @"Game://Materials/Material1"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "1c4f9f15-e9ca-4303-be83-9600eb77fdf3"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-34.1127, -13.521046, -31.97789)
+                            Max = (34.112686, 13.5210495, 31.977905)
+                        }
+                        LocalTransform = {
+                            Translation = (-243.24289, 59.602547, 221.02069)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive2 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive2_1"
+                                Material = @"Game://Materials/Material2"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "ad34bdd5-4991-4acd-9fbf-6f24a9f6de1c"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-25.965454, -28.169802, -25.994507)
+                            Max = (25.965454, 28.1698, 25.994492)
+                        }
+                        LocalTransform = {
+                            Translation = (-245.28915, 28.029701, 224.7825)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive3 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive3_1"
+                                Material = @"Game://Materials/Material3"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "1fca2759-5f66-4f29-8bcc-6c33404dc470"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-11.491943, -132.75296, -124.54581)
+                            Max = (11.491943, 132.75293, 124.54581)
+                        }
+                        LocalTransform = {
+                            Translation = (-1413.1719, 625.8002, 38.840702)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive4 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive4_1"
+                                Material = @"Game://Materials/Material4"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "257f6c78-2f8e-4c46-83f6-618f481b76fa"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-980.2709, -137.10095, -274.40704)
+                            Max = (980.2709, 137.10095, 274.40704)
+                        }
+                        LocalTransform = {
+                            Translation = (-65.47009, 358.58865, 35.727554)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive5 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive5_1"
+                                Material = @"Game://Materials/Material5"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "aeb211b4-38f7-4913-917e-bd199ed15418"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-982.99585, -7.407196, -280.83203)
+                            Max = (982.99585, 7.407196, 280.83203)
+                        }
+                        LocalTransform = {
+                            Translation = (-65.31213, 500.396, 37.27394)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive6 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive6_1"
+                                Material = @"Game://Materials/Material6"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "cae0ec11-00e4-4dea-91fa-b3832a35c38d"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-1365.827, -84.09221, -610.0255)
+                            Max = (1365.827, 84.09219, 610.0255)
+                        }
+                        LocalTransform = {
+                            Translation = (-63.625366, 299.8958, 35.122803)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive7 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive7_1"
+                                Material = @"Game://Materials/Material7"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "4f67b978-22ec-4c0b-b678-5976fc3c52c6"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-593.76794, -111.728905, -280.71967)
+                            Max = (593.76794, 111.7289, 280.71967)
+                        }
+                        LocalTransform = {
+                            Translation = (-64.82684, 109.2682, 36.14955)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive8 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive8_1"
+                                Material = @"Game://Materials/Material5"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "da8dac10-0863-40fd-b60e-3c7db14f3731"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-977.0386, -99.5049, -269.43216)
+                            Max = (977.0386, 99.50491, 269.43216)
+                        }
+                        LocalTransform = {
+                            Translation = (-64.19046, 310.9004, 36.10575)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive9 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive9_1"
+                                Material = @"Game://Materials/Material8"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "d5321fd2-46c5-44ae-b029-2321e684e3c0"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-1367.2227, 0, -609.8081)
+                            Max = (1367.2227, 0, 609.8081)
+                        }
+                        LocalTransform = {
+                            Translation = (-65.00171, 415.5303, 35.622925)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive10 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive10_1"
+                                Material = @"Game://Materials/Material6"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "8d304fb1-807e-4560-9cd7-19f65a38a351"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-1365.827, -84.09216, -610.0255)
+                            Max = (1365.827, 84.09216, 610.0255)
+                        }
+                        LocalTransform = {
+                            Translation = (-63.625366, 778.55945, 35.122803)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive11 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive11_1"
+                                Material = @"Game://Materials/Material5"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "0e1fbf73-7d67-485e-af9b-3a474c80ca24"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-963.21674, -62.197754, -206.28685)
+                            Max = (963.21674, 62.197754, 206.28685)
+                        }
+                        LocalTransform = {
+                            Translation = (-65.96661, 757.93506, 34.832153)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive12 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive12_1"
+                                Material = @"Game://Materials/Material9"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "359bdb02-6326-4734-9d35-de0bb5eb116a"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-981.89734, -94.09152, -279.39886)
+                            Max = (981.89734, 94.09149, 279.39886)
+                        }
+                        LocalTransform = {
+                            Translation = (-64.394684, 601.2313, 36.04875)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive13 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive13_1"
+                                Material = @"Game://Materials/Material4"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "b15bd355-1ebf-4740-85e7-a564ddec421c"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-935.5054, -113.980896, -222.64655)
+                            Max = (935.5054, 113.980835, 222.64655)
+                        }
+                        LocalTransform = {
+                            Translation = (-66.858154, 807.7477, 36.679253)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive14 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive14_1"
+                                Material = @"Game://Materials/Material6"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "b8559f1f-6b02-4253-b3ef-2fc04d7c1425"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-957.6118, -113.980896, -260.3947)
+                            Max = (957.6118, 113.980835, 260.3947)
+                        }
+                        LocalTransform = {
+                            Translation = (-64.95505, 807.7477, 35.099403)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive15 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive15_1"
+                                Material = @"Game://Materials/Material4"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "1319b4cf-6085-459a-b897-73c18bb49bbc"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-935.48535, -187.49109, -217.42365)
+                            Max = (935.48535, 187.49109, 217.42365)
+                        }
+                        LocalTransform = {
+                            Translation = (-66.891174, 1109.2196, 36.124947)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive16 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive16_1"
+                                Material = @"Game://Materials/Material5"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "962a8357-05d0-4156-af40-7061ebeb1c6b"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-28.73352, -28.792969, -10.245804)
+                            Max = (28.73352, 28.792969, 10.245789)
+                        }
+                        LocalTransform = {
+                            Translation = (507.2279, 1244.6946, 253.379)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive17 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive17_1"
+                                Material = @"Game://Materials/Material6"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "3d7413e4-8cdc-4b00-926f-910c50d6be87"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-17.67334, -17.709839, -7.748535)
+                            Max = (17.67334, 17.709839, 7.7485657)
+                        }
+                        LocalTransform = {
+                            Translation = (507.22784, 1244.6945, 263.71564)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive18 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive18_1"
+                                Material = @"Game://Materials/Material5"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "1354eb75-44b9-4ba2-889e-ceced73125aa"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-28.73349, -28.792969, -10.245804)
+                            Max = (28.733505, 28.792969, 10.245789)
+                        }
+                        LocalTransform = {
+                            Translation = (137.1016, 1244.6946, 253.379)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive19 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive19_1"
+                                Material = @"Game://Materials/Material6"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "c7c3746d-2366-4cb4-a3b8-a1bac80e5755"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-17.673347, -17.709839, -7.748535)
+                            Max = (17.673355, 17.709839, 7.7485657)
+                        }
+                        LocalTransform = {
+                            Translation = (137.10155, 1244.6945, 263.71564)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive20 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive20_1"
+                                Material = @"Game://Materials/Material5"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "12267f68-7c01-4773-942e-ba576e924aa9"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-28.73349, -28.792969, -10.245804)
+                            Max = (28.73352, 28.792969, 10.245789)
+                        }
+                        LocalTransform = {
+                            Translation = (-264.59882, 1244.6946, 253.379)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive21 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive21_1"
+                                Material = @"Game://Materials/Material6"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "87b08f13-b1cf-45d8-8258-271a7bfbfb47"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-17.67334, -17.709839, -7.748535)
+                            Max = (17.67334, 17.709839, 7.7485657)
+                        }
+                        LocalTransform = {
+                            Translation = (-264.59885, 1244.6945, 263.71564)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive22 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive22_1"
+                                Material = @"Game://Materials/Material5"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "711695d1-03ed-440e-aecf-8d69a3370c32"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-28.73352, -28.792969, -10.245804)
+                            Max = (28.73346, 28.792969, 10.245789)
+                        }
+                        LocalTransform = {
+                            Translation = (-634.8246, 1244.6946, 253.379)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive23 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive23_1"
+                                Material = @"Game://Materials/Material6"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "7756b374-e988-4222-9629-160cd15605a0"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-17.673218, -17.709839, -7.748535)
+                            Max = (17.673279, 17.709839, 7.7485657)
+                        }
+                        LocalTransform = {
+                            Translation = (-634.8247, 1244.6945, 263.71564)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive24 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive24_1"
+                                Material = @"Game://Materials/Material5"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "a6b21368-c86a-4120-afb9-daf9a4de1a84"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-10.24585, -28.792969, -28.73345)
+                            Max = (10.24585, 28.792969, 28.733452)
+                        }
+                        LocalTransform = {
+                            Translation = (-1002.3613, 1246.2183, 34.97155)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive25 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive25_1"
+                                Material = @"Game://Materials/Material6"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "fb58b3b5-8ac2-4084-929c-3bfb667ac04a"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-7.748474, -17.709839, -17.67335)
+                            Max = (7.748474, 17.709839, 17.673351)
+                        }
+                        LocalTransform = {
+                            Translation = (-1012.698, 1246.2181, 34.97165)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive26 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive26_1"
+                                Material = @"Game://Materials/Material5"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "d3592d7e-fe35-49c2-8a46-ef2520a48364"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-28.73352, -28.792969, -10.245758)
+                            Max = (28.73352, 28.792969, 10.245743)
+                        }
+                        LocalTransform = {
+                            Translation = (507.2279, 1244.6946, -179.68274)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive27 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive27_1"
+                                Material = @"Game://Materials/Material6"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "924f4d9a-2f62-4ab1-8108-1273d953b8a7"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-17.67334, -17.709839, -7.7485504)
+                            Max = (17.67334, 17.709839, 7.7485504)
+                        }
+                        LocalTransform = {
+                            Translation = (507.22784, 1244.6945, -190.01945)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive28 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive28_1"
+                                Material = @"Game://Materials/Material5"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "07ea7ace-41ed-4694-b923-7d3c67981a52"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-28.73349, -28.792969, -10.245758)
+                            Max = (28.733505, 28.792969, 10.245743)
+                        }
+                        LocalTransform = {
+                            Translation = (137.1016, 1244.6946, -179.68274)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive29 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive29_1"
+                                Material = @"Game://Materials/Material6"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "d5a0315f-2c0a-4eba-83e7-ff468537bfa6"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-17.673347, -17.709839, -7.7485504)
+                            Max = (17.673355, 17.709839, 7.7485504)
+                        }
+                        LocalTransform = {
+                            Translation = (137.10155, 1244.6945, -190.01945)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive30 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive30_1"
+                                Material = @"Game://Materials/Material5"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "4fba7e33-fdb7-4e65-bd0a-916672357a97"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-28.73349, -28.792969, -10.245758)
+                            Max = (28.73352, 28.792969, 10.245743)
+                        }
+                        LocalTransform = {
+                            Translation = (-264.59882, 1244.6946, -179.68274)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive31 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive31_1"
+                                Material = @"Game://Materials/Material6"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "e532f690-6f02-42fa-b1ef-993bba1fde99"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-17.67334, -17.709839, -7.7484894)
+                            Max = (17.67334, 17.709839, 7.7485046)
+                        }
+                        LocalTransform = {
+                            Translation = (-264.59885, 1244.6945, -190.01941)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive32 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive32_1"
+                                Material = @"Game://Materials/Material5"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "ee409a33-05a5-40dd-b3d1-78bc53237703"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-28.73352, -28.792969, -10.245758)
+                            Max = (28.73346, 28.792969, 10.245743)
+                        }
+                        LocalTransform = {
+                            Translation = (-634.8246, 1244.6946, -179.68274)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive33 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive33_1"
+                                Material = @"Game://Materials/Material6"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "2b6fa48c-90c4-4e91-8d40-f5a0e67da988"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-17.673279, -17.709839, -7.7484894)
+                            Max = (17.673279, 17.709839, 7.7485046)
+                        }
+                        LocalTransform = {
+                            Translation = (-634.8247, 1244.6945, -190.01941)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive34 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive34_1"
+                                Material = @"Game://Materials/Material5"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "e8102fec-ce18-40c7-9c29-08f4caf1fd45"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-875.9369, -46.371338, -238.78241)
+                            Max = (875.9369, 46.371277, 238.78241)
+                        }
+                        LocalTransform = {
+                            Translation = (-154.11707, 968.09985, 35.995308)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive35 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive35_1"
+                                Material = @"Game://Materials/Material4"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "0a4c106b-896d-4cc8-a150-a13ed9ea317f"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-1042.0095, -203.37311, -363.5238)
+                            Max = (1042.0095, 203.37305, 363.5238)
+                        }
+                        LocalTransform = {
+                            Translation = (-44.41333, 1111.1172, 44.623)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive36 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive36_1"
+                                Material = @"Game://Materials/Material5"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "e9079016-8f6c-445d-b4b5-eb00874df5dc"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-982.99585, -7.4072266, -280.83203)
+                            Max = (982.99585, 7.4072876, 280.83203)
+                        }
+                        LocalTransform = {
+                            Translation = (-65.31213, 922.85864, 37.27394)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive37 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive37_1"
+                                Material = @"Game://Materials/Material4"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "3d561581-d709-487a-89c3-5369a972900a"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-1366.7104, -435.00357, -609.5088)
+                            Max = (1366.7104, 435.0036, 609.5088)
+                        }
+                        LocalTransform = {
+                            Translation = (-64.48956, 432.38348, 34.802612)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive38 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive38_1"
+                                Material = @"Game://Materials/Material10"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "5f6efc34-2491-4aea-afd6-fdf3d1d7fa94"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-275.3972, -145.72621, -25.371887)
+                            Max = (275.39722, 145.7262, 25.371948)
+                        }
+                        LocalTransform = {
+                            Translation = (-234.2861, 143.59131, -579.6417)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive39 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive39_1"
+                                Material = @"Game://Materials/Material4"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "dd800400-1183-41ab-9b7f-73931769a814"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-76.277954, -84.75621, -5.2841187)
+                            Max = (76.277954, 84.756195, 5.2841187)
+                        }
+                        LocalTransform = {
+                            Translation = (-433.40555, 204.56131, -578.388)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive40 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive40_1"
+                                Material = @"Game://Materials/Material10"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "21f98039-540e-4f6f-b525-8f1852a9afd3"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-76.27789, -84.75624, -8.324463)
+                            Max = (76.27789, 84.756256, 8.324463)
+                        }
+                        LocalTransform = {
+                            Translation = (307.8433, 204.56134, -581.42847)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive41 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive41_1"
+                                Material = @"Game://Materials/Material4"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "30ae4b64-c343-4d0e-b5c0-cf769e2573a5"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-76.277954, -84.75624, -5.2841187)
+                            Max = (76.277954, 84.756256, 5.2840576)
+                        }
+                        LocalTransform = {
+                            Translation = (307.84335, 204.56134, -578.38806)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive42 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive42_1"
+                                Material = @"Game://Materials/Material10"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "569609dd-afca-47f5-97cf-b9bc3dfb9b90"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-727.98566, -359.53305, -347.06528)
+                            Max = (727.98566, 359.53305, 347.06525)
+                        }
+                        LocalTransform = {
+                            Translation = (587.53876, 357.31754, 304.47327)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive43 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive43_1"
+                                Material = @"Game://Materials/Material4"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "c6d27bde-17a9-4aac-8ad3-1ab8c32d4669"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-1367.0447, -4.5022583, -608.4514)
+                            Max = (1367.0447, 4.5022583, 608.4514)
+                        }
+                        LocalTransform = {
+                            Translation = (-64.854004, 419.96365, 33.151)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive44 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive44_1"
+                                Material = @"Game://Materials/Material9"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "aa7f49e1-d32d-41e0-bb8c-2455680b2f77"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-1366.7886, -256.3352, -611.3467)
+                            Max = (1366.7886, 256.3352, 611.3467)
+                        }
+                        LocalTransform = {
+                            Translation = (-63.5166, 438.9875, 35.621185)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive45 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive45_1"
+                                Material = @"Game://Materials/Material4"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "9a2a12ba-581c-4e9b-82ed-6ca2be836d7c"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-1365.3552, -4.50225, -609.17053)
+                            Max = (1365.3552, 4.50225, 609.17053)
+                        }
+                        LocalTransform = {
+                            Translation = (-63.16461, 1.1228501, 35.14084)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive46 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive46_1"
+                                Material = @"Game://Materials/Material8"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "b0b3d93b-6a1f-4d3a-b1e0-ed7a43e45f11"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-1365.3552, 0, -609.17053)
+                            Max = (1365.3552, 0, 609.17053)
+                        }
+                        LocalTransform = {
+                            Translation = (-63.16461, -2.5062, 35.14084)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive47 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive47_1"
+                                Material = @"Game://Materials/Material7"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "feac8efe-8488-48c4-bc6f-d844369af758"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-991.412, -111.728905, -281.74207)
+                            Max = (991.412, 111.7289, 281.74207)
+                        }
+                        LocalTransform = {
+                            Translation = (-65.8082, 109.2682, 35.12715)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive48 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive48_1"
+                                Material = @"Game://Materials/Material5"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "6b841d93-ce68-4e93-b48b-bf9f919fbd48"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-987.40564, -204.71652, -281.54175)
+                            Max = (987.40564, 204.71655, 281.54175)
+                        }
+                        LocalTransform = {
+                            Translation = (-65.47012, 618.6276, 35.727547)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive49 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive49_1"
+                                Material = @"Game://Materials/Material11"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "4fbd68f3-30f3-4065-bedc-09a79d32fae7"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-972.5293, -96.48929, -272.23944)
+                            Max = (972.5293, 96.48932, 272.23944)
+                        }
+                        LocalTransform = {
+                            Translation = (-65.122345, 603.1225, 37.46605)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive50 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive50_1"
+                                Material = @"Game://Materials/Material12"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "f841dbac-7dbb-4f7b-ae2f-d95824ed2d10"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-55.5722, -45.733185, -3.4234009)
+                            Max = (55.5722, 45.733215, 3.4234009)
+                        }
+                        LocalTransform = {
+                            Translation = (-63.835102, 302.46417, -572.0818)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive51 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive51_1"
+                                Material = @"Game://Materials/Material4"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "03a7e500-33f0-4e14-9852-eab3c4cace3d"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-1042.0095, -211.51263, -363.5238)
+                            Max = (1042.0095, 211.51257, 363.5238)
+                        }
+                        LocalTransform = {
+                            Translation = (-44.41333, 1119.2567, 44.623)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive52 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive52_1"
+                                Material = @"Game://Materials/Material13"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "7c4845e7-d203-4b94-a1c1-862fcf41e935"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-565.92615, -28.664062, -235.11057)
+                            Max = (565.92615, 28.664001, 235.11057)
+                        }
+                        LocalTransform = {
+                            Translation = (-62.72751, 857.475, 35.719856)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive53 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive53_1"
+                                Material = @"Game://Materials/Material0"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "c8800804-ea34-4192-9588-1e5344b35868"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-615.7453, -126.57584, -303.78925)
+                            Max = (615.7453, 126.57585, 303.78925)
+                        }
+                        LocalTransform = {
+                            Translation = (-64.51892, 98.526245, 37.346954)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive54 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive54_1"
+                                Material = @"Game://Materials/Material14"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "b38b7772-f999-4411-b7ae-3ba886345cb4"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-164.96606, -90.57544, -47.560745)
+                            Max = (164.96603, 90.57544, 47.560745)
+                        }
+                        LocalTransform = {
+                            Translation = (-618.8281, 430.01843, -204.72505)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive55 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive55_1"
+                                Material = @"Game://Materials/Material15"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "9254833c-d2f3-44b4-ae59-81c9a53123da"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-164.966, -90.57544, -47.56076)
+                            Max = (164.96599, 90.57544, 47.560745)
+                        }
+                        LocalTransform = {
+                            Translation = (-250.22198, 430.01843, -204.72495)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive56 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive56_1"
+                                Material = @"Game://Materials/Material16"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "9729fac7-d26b-466c-83f7-f316957a82ed"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-164.96603, -90.57544, -47.5607)
+                            Max = (164.96605, 90.57544, 47.5607)
+                        }
+                        LocalTransform = {
+                            Translation = (118.38414, 430.01843, -204.7249)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive57 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive57_1"
+                                Material = @"Game://Materials/Material14"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "4b368eab-05ed-4cfe-9f40-19c8414ef5d1"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-164.96597, -90.57544, -47.560745)
+                            Max = (164.966, 90.57544, 47.56076)
+                        }
+                        LocalTransform = {
+                            Translation = (486.99017, 430.01843, -204.72485)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive58 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive58_1"
+                                Material = @"Game://Materials/Material15"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "a1c69407-54a6-4feb-b617-c0096e0f89d2"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-164.96597, -90.57544, -47.560715)
+                            Max = (164.966, 90.57544, 47.5607)
+                        }
+                        LocalTransform = {
+                            Translation = (483.88568, 430.01843, 276.9655)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive59 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive59_1"
+                                Material = @"Game://Materials/Material14"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "2a43ad5d-b1d0-4eb3-9e62-83a784d0fb04"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-164.966, -90.57544, -47.560715)
+                            Max = (164.966, 90.57544, 47.5607)
+                        }
+                        LocalTransform = {
+                            Translation = (115.2796, 430.01843, 276.9655)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive60 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive60_1"
+                                Material = @"Game://Materials/Material16"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "3b7161f3-2d38-4155-b176-30d1e48342c1"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-164.96605, -90.57544, -47.560715)
+                            Max = (164.96606, 90.57544, 47.5607)
+                        }
+                        LocalTransform = {
+                            Translation = (-253.32655, 430.01843, 276.9655)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive61 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive61_1"
+                                Material = @"Game://Materials/Material15"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "731e3414-8cbd-4daa-8f75-fb44f8aa5413"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-164.96606, -90.57544, -47.560715)
+                            Max = (164.966, 90.57544, 47.5607)
+                        }
+                        LocalTransform = {
+                            Translation = (-621.9326, 430.01843, 276.9655)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive62 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive62_1"
+                                Material = @"Game://Materials/Material13"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "83b2efbe-6560-4bfd-9f2f-d8354a941d9e"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-894.49585, -9.577209, -249.4093)
+                            Max = (894.49585, 9.577209, 249.4093)
+                        }
+                        LocalTransform = {
+                            Translation = (-64.201965, 284.5368, 40.294304)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive63 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive63_1"
+                                Material = @"Game://Materials/Material17"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "b0347633-1e4a-4e1d-8c9f-bb6a0b6b2e0f"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-143.64859, -141.4424, -12.2903595)
+                            Max = (143.64859, 141.4424, 12.290344)
+                        }
+                        LocalTransform = {
+                            Translation = (-61.288795, 141.57289, -201.19214)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive64 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive64_1"
+                                Material = @"Game://Materials/Material18"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "b209de7d-5f29-4128-915a-fab1006e7a36"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-143.5216, -141.99495, -12.654053)
+                            Max = (143.52158, 141.99495, 12.654053)
+                        }
+                        LocalTransform = {
+                            Translation = (-434.09857, 141.68605, -195.55835)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive65 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive65_1"
+                                Material = @"Game://Materials/Material19"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "d48e95c2-c45d-4255-a3a9-a629c93831a9"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-143.64862, -141.4424, -12.2903595)
+                            Max = (143.64862, 141.4424, 12.290344)
+                        }
+                        LocalTransform = {
+                            Translation = (-802.5893, 141.57289, -201.19214)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive66 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive66_1"
+                                Material = @"Game://Materials/Material18"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "b90b89cb-5adc-4e88-9dec-1f1b72f2db7f"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-143.64862, -141.4424, -12.290344)
+                            Max = (143.64862, 141.4424, 12.290344)
+                        }
+                        LocalTransform = {
+                            Translation = (-802.5893, 141.57289, 276.96655)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive67 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive67_1"
+                                Material = @"Game://Materials/Material19"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "a452e841-2d9d-4c09-8528-e223c77b1368"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-143.52165, -141.99495, -12.654053)
+                            Max = (143.52167, 141.99495, 12.654053)
+                        }
+                        LocalTransform = {
+                            Translation = (304.51215, 141.68605, -195.55835)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive68 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive68_1"
+                                Material = @"Game://Materials/Material18"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "1f12ba23-3c73-4c6e-9251-3eac26c19468"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-143.64862, -141.4424, -12.2903595)
+                            Max = (143.64862, 141.4424, 12.290344)
+                        }
+                        LocalTransform = {
+                            Translation = (676.5254, 141.57289, -201.19214)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive69 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive69_1"
+                                Material = @"Game://Materials/Material17"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "f7a6f179-4a14-4f4e-8aeb-50c1ddca886c"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-143.5216, -141.99495, -12.654053)
+                            Max = (143.52158, 141.99495, 12.654053)
+                        }
+                        LocalTransform = {
+                            Translation = (-434.09857, 141.68605, 282.60034)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive70 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive70_1"
+                                Material = @"Game://Materials/Material19"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "828daea1-2dfa-4c5e-bffe-47cff7bad4db"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-143.64859, -141.4424, -12.290344)
+                            Max = (143.64859, 141.4424, 12.290344)
+                        }
+                        LocalTransform = {
+                            Translation = (-61.288795, 141.57289, 276.96655)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive71 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive71_1"
+                                Material = @"Game://Materials/Material18"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "56a61853-4bff-403d-a6cf-48d00fd88e8d"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-143.52165, -141.99495, -12.654053)
+                            Max = (143.52167, 141.99495, 12.654053)
+                        }
+                        LocalTransform = {
+                            Translation = (304.51215, 141.68605, 282.60034)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive72 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive72_1"
+                                Material = @"Game://Materials/Material17"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "84457a63-9518-49ed-860b-60fd76d73703"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-143.64862, -141.4424, -12.290344)
+                            Max = (143.64862, 141.4424, 12.290344)
+                        }
+                        LocalTransform = {
+                            Translation = (676.5254, 141.57289, 276.96655)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive73 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive73_1"
+                                Material = @"Game://Materials/Material20"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "79b359c0-ca77-4ef9-975a-2be504c44a84"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-25.701355, -40.316803, -1.7866974)
+                            Max = (25.701355, 40.316803, 1.7866974)
+                        }
+                        LocalTransform = {
+                            Translation = (487.60437, 174.0381, 219.7005)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive74 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive74_1"
+                                Material = @"Game://Materials/Material21"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "66088922-68e2-498c-a755-932d3ae5f369"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-34.979645, -59.139206, -26.254745)
+                            Max = (34.979675, 59.13919, 26.25476)
+                        }
+                        LocalTransform = {
+                            Translation = (487.63184, 157.8121, 220.57974)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive75 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive75_1"
+                                Material = @"Game://Materials/Material20"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "52d0fb85-dc1d-4bfc-b6a5-a76f81ab4cce"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-25.701416, -40.316803, -1.7866974)
+                            Max = (25.701416, 40.316803, 1.7866974)
+                        }
+                        LocalTransform = {
+                            Translation = (-619.2317, 174.0381, 219.7005)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive76 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive76_1"
+                                Material = @"Game://Materials/Material21"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "66a25948-98d8-46c6-8f0d-7d5a59de8882"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-34.979553, -59.139206, -26.254745)
+                            Max = (34.979614, 59.13919, 26.25476)
+                        }
+                        LocalTransform = {
+                            Translation = (-619.2042, 157.8121, 220.57974)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive77 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive77_1"
+                                Material = @"Game://Materials/Material20"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "3746e34f-1a55-4918-a951-2225fea123a9"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-25.701416, -40.316803, -1.7866974)
+                            Max = (25.701416, 40.316803, 1.7867126)
+                        }
+                        LocalTransform = {
+                            Translation = (-619.1767, 174.0381, -143.3417)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive78 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive78_1"
+                                Material = @"Game://Materials/Material21"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "86c90772-bdd0-4594-8d81-6e32cb6b9fe1"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-34.979675, -59.139206, -26.254791)
+                            Max = (34.979675, 59.13919, 26.254807)
+                        }
+                        LocalTransform = {
+                            Translation = (-619.2041, 157.8121, -144.22101)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive79 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive79_1"
+                                Material = @"Game://Materials/Material20"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "4db6db6e-1391-4ee5-8455-bd9aa59799a0"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-25.701385, -40.316803, -1.7867432)
+                            Max = (25.701385, 40.316803, 1.7867584)
+                        }
+                        LocalTransform = {
+                            Translation = (487.6594, 174.0381, -143.34155)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive80 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive80_1"
+                                Material = @"Game://Materials/Material21"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "e06008fa-4c00-4ac9-8d16-578e2cc1b289"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-34.979645, -59.139206, -26.254807)
+                            Max = (34.979614, 59.13919, 26.254791)
+                        }
+                        LocalTransform = {
+                            Translation = (487.63196, 157.8121, -144.2208)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive81 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive81_1"
+                                Material = @"Game://Materials/Material1"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "7bb728d5-a330-47e6-a4d3-fb8334bf73e7"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-31.977783, -13.521046, -34.11264)
+                            Max = (31.977783, 13.5210495, 34.11264)
+                        }
+                        LocalTransform = {
+                            Translation = (-960.9826, 59.602547, 227.72385)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive82 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive82_1"
+                                Material = @"Game://Materials/Material2"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "18804103-4fc2-466d-bb8e-e689e1cde169"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-25.994507, -28.169802, -25.965439)
+                            Max = (25.994507, 28.1698, 25.965454)
+                        }
+                        LocalTransform = {
+                            Translation = (-964.7444, 28.029701, 225.67764)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive83 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive83_1"
+                                Material = @"Game://Materials/Material1"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "23659a29-8d9c-4448-b0c6-4b7fd10082fd"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-31.977783, -13.5210495, -34.112656)
+                            Max = (31.977783, 13.5210495, 34.112648)
+                        }
+                        LocalTransform = {
+                            Translation = (-960.9826, 55.84015, -149.17055)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive84 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive84_1"
+                                Material = @"Game://Materials/Material2"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "b27df583-ca03-451d-8a1a-50c5b16d30dc"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-25.994507, -28.1698, -25.965454)
+                            Max = (25.994507, 28.1698, 25.965454)
+                        }
+                        LocalTransform = {
+                            Translation = (-964.7444, 24.2673, -151.21675)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive85 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive85_1"
+                                Material = @"Game://Materials/Material1"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "5d232cef-1831-4c8a-bccb-348183a4f2e9"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-34.1127, -13.5210495, -31.977905)
+                            Max = (34.112686, 13.5210495, 31.97789)
+                        }
+                        LocalTransform = {
+                            Translation = (-243.24289, 55.84015, -155.87369)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive86 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive86_1"
+                                Material = @"Game://Materials/Material2"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "ad004053-74f0-4d70-ace2-4130ddd23f3b"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-25.965454, -28.1698, -25.994492)
+                            Max = (25.965454, 28.1698, 25.994507)
+                        }
+                        LocalTransform = {
+                            Translation = (-245.28915, 24.2673, -152.11191)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive87 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive87_1"
+                                Material = @"Game://Materials/Material1"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "ecfe9229-b3a0-4d13-8897-0633f8f4b453"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-27.763695, -11.597702, -28.591843)
+                            Max = (27.763702, 11.597702, 28.59185)
+                        }
+                        LocalTransform = {
+                            Translation = (119.570694, 55.47, -154.74565)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive88 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive88_1"
+                                Material = @"Game://Materials/Material2"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "c373d9b9-5d1a-49d0-a46d-dc2c33cc5997"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-25.9945, -28.1698, -25.965454)
+                            Max = (25.9945, 28.1698, 25.965454)
+                        }
+                        LocalTransform = {
+                            Translation = (118.749596, 24.1391, -153.34535)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive89 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive89_1"
+                                Material = @"Game://Materials/Material1"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "454401a2-e549-4743-8578-d143cb343c78"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-27.763672, -11.597698, -28.591843)
+                            Max = (27.763733, 11.597702, 28.59185)
+                        }
+                        LocalTransform = {
+                            Translation = (834.1221, 56.021698, -154.74565)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive90 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive90_1"
+                                Material = @"Game://Materials/Material2"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "f66b0ee3-97f5-4a86-bce0-5c09dedfd60e"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-25.994507, -28.1698, -25.965454)
+                            Max = (25.994446, 28.1698, 25.965454)
+                        }
+                        LocalTransform = {
+                            Translation = (833.301, 24.6908, -153.34535)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive91 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive91_1"
+                                Material = @"Game://Materials/Material1"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "4793b03c-462f-492f-9775-08a60d247ffe"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-27.763672, -11.597649, -28.591843)
+                            Max = (27.763733, 11.597649, 28.591858)
+                        }
+                        LocalTransform = {
+                            Translation = (834.1221, 59.36055, 222.14874)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive92 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive92_1"
+                                Material = @"Game://Materials/Material2"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "6e8ecb4b-5876-48d3-9d2c-ce036be3cd38"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-25.994507, -28.169802, -25.965439)
+                            Max = (25.994446, 28.1698, 25.965454)
+                        }
+                        LocalTransform = {
+                            Translation = (833.301, 28.029701, 223.54904)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive93 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive93_1"
+                                Material = @"Game://Materials/Material1"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "2cca1ecb-8d1d-497c-8af5-a619685a93dc"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-27.763695, -11.597649, -28.591843)
+                            Max = (27.763702, 11.597649, 28.591858)
+                        }
+                        LocalTransform = {
+                            Translation = (119.570694, 59.36055, 222.14874)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive94 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive94_1"
+                                Material = @"Game://Materials/Material2"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "25ebfdec-94dd-47c3-a318-629d2f8b903a"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-25.9945, -28.169802, -25.965439)
+                            Max = (25.9945, 28.1698, 25.965454)
+                        }
+                        LocalTransform = {
+                            Translation = (118.749596, 28.029701, 223.54904)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive95 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive95_1"
+                                Material = @"Game://Materials/Material22"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "99c326e0-2c34-4d5f-8136-c578ae29e47d"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-1235.4219, -66.855095, -500.88068)
+                            Max = (1235.4219, 66.8551, 500.88068)
+                        }
+                        LocalTransform = {
+                            Translation = (-41.251404, 66.1617, 22.618881)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive96 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive96_1"
+                                Material = @"Game://Materials/Material23"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "877cce3f-3800-4ab4-aece-09c4e72a9551"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-37.489014, -92.42821, -78.079544)
+                            Max = (37.489014, 92.42819, 78.07955)
+                        }
+                        LocalTransform = {
+                            Translation = (1261.5374, 172.33301, 36.611946)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive97 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive97_1"
+                                Material = @"Game://Materials/Material3"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "fda92a74-855d-43eb-b6c8-b560a66f020c"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-11.422119, -132.75299, -124.5458)
+                            Max = (11.421997, 132.75299, 124.5458)
+                        }
+                        LocalTransform = {
+                            Translation = (1288.4448, 173.5716, 35.919197)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive98 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive98_1"
+                                Material = @"Game://Materials/Material23"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "987e931f-9eb3-4fcd-8806-e8ffefee5e38"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-37.489014, -92.42821, -78.07955)
+                            Max = (37.489014, 92.42819, 78.07955)
+                        }
+                        LocalTransform = {
+                            Translation = (-1389.9453, 172.33301, 35.22615)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive99 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive99_1"
+                                Material = @"Game://Materials/Material3"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "d55542d6-4eed-4307-8350-ac584a36abef"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-11.422119, -132.75299, -124.545746)
+                            Max = (11.422119, 132.75299, 124.545746)
+                        }
+                        LocalTransform = {
+                            Translation = (-1416.8528, 173.5716, 35.91885)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive100 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive100_1"
+                                Material = @"Game://Materials/Material4"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "36167875-a957-49ba-9501-755c33d32eb7"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-1806.8379, -736.81915, -1089.3708)
+                            Max = (1806.8379, 736.81915, 1089.3708)
+                        }
+                        LocalTransform = {
+                            Translation = (-60.14502, 610.37665, 49.659668)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive101 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive101_1"
+                                Material = @"Game://Materials/Material24"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "da1f552f-2204-4606-9244-11dc751c7b91"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-1860.427, -74.45996, -1144.1166)
+                            Max = (1860.427, 74.45984, 1144.1166)
+                        }
+                        LocalTransform = {
+                            Translation = (-60.51892, 1354.9734, 38.69055)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity Node0_Primitive102 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Mesh0_Primitive102_1"
+                                Material = @"Game://Materials/Material4"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "7d491886-3833-423d-9638-357fabfa5bf1"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-1442.5359, -693.5081, -728.63855)
+                            Max = (1442.5359, 693.5081, 728.63855)
+                        }
+                        LocalTransform = {
+                            Translation = (-61.932434, 577.529, 53.881775)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                ]
+                NodeTags = {
+                    Values = []
+                }
+            }
+        ]
+        NodeTags = {
+            Values = []
+        }
+    }
+    Revision = 0
+    UUID = "ae7ab063-1fd4-4e86-ad05-367a7e6b154d"
+}

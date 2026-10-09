@@ -1,0 +1,8 @@
+AnimationTrack Rig_M4_Fire_ring_R_043 {
+    BoneName = ring_R_043
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Rig_M4_Fire_ring_R_043.KEYF"
+        Size = 2560
+    }
+    UUID = "f9c83e87-7e2f-4c65-bf15-8f60bfc6222a"
+}

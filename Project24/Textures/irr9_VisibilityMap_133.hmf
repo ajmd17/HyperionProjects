@@ -1,0 +1,34 @@
+Texture irr9_VisibilityMap_133 {
+    TextureDesc = {
+        Type = Cubemap
+        Format = RG16F
+        Extent = (64, 64, 1)
+        MinFilterMode = Linear
+        MagFilterMode = Linear
+        TextureWrapMode = ClampToEdge
+        NumLayers = 1
+        ImageUsage = Sampled|Storage
+        MipOffsets = [
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+        ]
+    }
+    ImageData = {
+        Key = ""
+        Size = 98304
+    }
+}

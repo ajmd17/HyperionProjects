@@ -1,0 +1,7 @@
+AnimationTrack Walk3_forearm_L {
+    BoneName = "forearm.L"
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Walk3_forearm_L.KEYF"
+        Size = 2688
+    }
+}

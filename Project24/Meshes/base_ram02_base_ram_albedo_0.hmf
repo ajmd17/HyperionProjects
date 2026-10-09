@@ -1,0 +1,80 @@
+Mesh base_ram02_base_ram_albedo_0 {
+    AABB = {
+        Min = (-13.5283, -4.13596, -28.4386)
+        Max = (13.5283, 4.13596, 28.4386)
+    }
+    MeshDesc = {
+        MeshAttributes = {
+            InputLayout = {
+                Mask = 31
+            }
+            Topology = TOP_TRIANGLES
+            IndexBufferElemType = GET_UNSIGNED_INT
+        }
+        Lods = [
+            MeshLodDesc {
+                NumVertices = 8805
+                NumIndices = 9237
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+        ]
+    }
+    LodData = [
+        MeshLodData {
+            VertexData = {
+                Key = "Game://Meshes/base_ram02_base_ram_albedo_0.VB"
+                Size = 528300
+            }
+            IndexData = {
+                Key = "Game://Meshes/base_ram02_base_ram_albedo_0.IB"
+                Size = 36948
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+    ]
+    BvhData = {
+        Key = "Game://Meshes/base_ram02_base_ram_albedo_0.BVH"
+        Size = 32769
+    }
+    Flags = None
+}

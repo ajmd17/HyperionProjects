@@ -1,0 +1,80 @@
+Mesh MeshEditClone_1 {
+    AABB = {
+        Min = (-1.03727, -1, -1.06412)
+        Max = (1, 1.14935, 1.44261)
+    }
+    MeshDesc = {
+        MeshAttributes = {
+            InputLayout = {
+                Mask = 15
+            }
+            Topology = Triangles
+            IndexBufferElemType = UnsignedInt
+        }
+        Lods = [
+            MeshLodDesc {
+                NumVertices = 24
+                NumIndices = 36
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+        ]
+    }
+    LodData = [
+        MeshLodData {
+            VertexData = {
+                Key = "Game://Meshes/MeshEditClone_1.VB"
+                Size = 960
+            }
+            IndexData = {
+                Key = "Game://Meshes/MeshEditClone_1.IB"
+                Size = 144
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+    ]
+    BvhData = {
+        Key = "Game://Meshes/MeshEditClone_1.BVH"
+        Size = 13161
+    }
+    Flags = None
+}

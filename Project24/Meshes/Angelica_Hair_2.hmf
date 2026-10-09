@@ -1,0 +1,80 @@
+Mesh Angelica_Hair_2 {
+    AABB = {
+        Min = (-6.4051, -6.88108, -5.48768)
+        Max = (6.4051, 6.88108, 5.48768)
+    }
+    MeshDesc = {
+        MeshAttributes = {
+            InputLayout = {
+                Mask = 23
+            }
+            Topology = TOP_TRIANGLES
+            IndexBufferElemType = GET_UNSIGNED_INT
+        }
+        Lods = [
+            MeshLodDesc {
+                NumVertices = 57425
+                NumIndices = 246024
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+        ]
+    }
+    LodData = [
+        MeshLodData {
+            VertexData = {
+                Key = "Game://Meshes/Angelica_Hair_2.VB"
+                Size = 2986100
+            }
+            IndexData = {
+                Key = "Game://Meshes/Angelica_Hair_2.IB"
+                Size = 984096
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+    ]
+    BvhData = {
+        Key = "Game://Meshes/Angelica_Hair_2.BVH"
+        Size = 536465
+    }
+    Flags = None
+}

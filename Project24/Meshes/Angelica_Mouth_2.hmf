@@ -1,0 +1,80 @@
+Mesh Angelica_Mouth_2 {
+    AABB = {
+        Min = (-2.09871, -1.30495, -1.91326)
+        Max = (2.09871, 1.30495, 1.91326)
+    }
+    MeshDesc = {
+        MeshAttributes = {
+            InputLayout = {
+                Mask = 23
+            }
+            Topology = TOP_TRIANGLES
+            IndexBufferElemType = GET_UNSIGNED_INT
+        }
+        Lods = [
+            MeshLodDesc {
+                NumVertices = 4015
+                NumIndices = 22254
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+        ]
+    }
+    LodData = [
+        MeshLodData {
+            VertexData = {
+                Key = "Game://Meshes/Angelica_Mouth_2.VB"
+                Size = 208780
+            }
+            IndexData = {
+                Key = "Game://Meshes/Angelica_Mouth_2.IB"
+                Size = 89016
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+    ]
+    BvhData = {
+        Key = "Game://Meshes/Angelica_Mouth_2.BVH"
+        Size = 63219
+    }
+    Flags = None
+}

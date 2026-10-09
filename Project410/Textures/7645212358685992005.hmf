@@ -1,0 +1,35 @@
+Texture "7645212358685992005" {
+    TextureDesc = {
+        Type = Texture2D
+        Format = RGBA8
+        Extent = (1024, 1024, 1)
+        MinFilterMode = LinearMipmap
+        MagFilterMode = Linear
+        TextureWrapMode = Repeat
+        NumLayers = 1
+        ImageUsage = Sampled
+        MipOffsets = [
+            4194304
+            5242880
+            5505024
+            5570560
+            5586944
+            5591040
+            5592064
+            5592320
+            5592384
+            5592400
+            0
+            0
+            0
+            0
+            0
+            0
+        ]
+    }
+    ImageData = {
+        Key = "Game://Textures/7645212358685992005.TEX"
+        Size = 5592404
+    }
+    UUID = "c1843402-98d5-4bec-a129-f3559ec9eab5"
+}

@@ -1,0 +1,6 @@
+SpherePhysicsShape SpherePhysicsShape {
+    Bounds = {
+        Center = (0, 0, 0)
+        Radius = 1
+    }
+}

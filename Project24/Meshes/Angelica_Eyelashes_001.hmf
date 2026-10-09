@@ -1,0 +1,80 @@
+Mesh Angelica_Eyelashes_001 {
+    AABB = {
+        Min = (-0.0776331, 2.27852, 0.0974886)
+        Max = (0.0831623, 2.307, 0.128749)
+    }
+    MeshDesc = {
+        MeshAttributes = {
+            InputLayout = {
+                Mask = 23
+            }
+            Topology = TOP_TRIANGLES
+            IndexBufferElemType = GET_UNSIGNED_INT
+        }
+        Lods = [
+            MeshLodDesc {
+                NumVertices = 5628
+                NumIndices = 14148
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+        ]
+    }
+    LodData = [
+        MeshLodData {
+            VertexData = {
+                Key = "Game://Meshes/Angelica_Eyelashes_001.VB"
+                Size = 292656
+            }
+            IndexData = {
+                Key = "Game://Meshes/Angelica_Eyelashes_001.IB"
+                Size = 56592
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+    ]
+    BvhData = {
+        Key = "Game://Meshes/Angelica_Eyelashes_001.BVH"
+        Size = 44591
+    }
+    Flags = None
+}

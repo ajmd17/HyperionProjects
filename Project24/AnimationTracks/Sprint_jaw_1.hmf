@@ -1,0 +1,7 @@
+AnimationTrack "Sprint_jaw_1" {
+    BoneName = "jaw"
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Sprint_jaw_1.KEYF"
+        Size = 1408
+    }
+}

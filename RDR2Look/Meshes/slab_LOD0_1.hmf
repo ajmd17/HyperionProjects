@@ -1,0 +1,109 @@
+Mesh slab_LOD0_1 {
+    AABB = {
+        Min = (-1.1310217, -0.30322212, -1.0607591)
+        Max = (1.1310217, 0.30322212, 1.0607591)
+    }
+    LodGeneration = {
+        NumLods = 4
+        TriangleRatios = [
+            1
+            0.5
+            0.25
+            0.125
+        ]
+        MaxRelativeError = 1
+        NormalWeight = 0.5
+        UV0Weight = 1
+        UV1Weight = 0.5
+        WindWeight = 1
+        LockBorder = false
+        Prune = false
+        MaxScreenErrorPixels = 1
+        SourceDataHash = 0
+    }
+    LightmapUVDataHash = 0
+    Lod0DataRevision = 1
+    MeshDesc = {
+        MeshAttributes = {
+            InputLayout = {
+                Mask = 31
+            }
+            Topology = Triangles
+            IndexBufferElemType = UnsignedInt
+        }
+        Lods = [
+            MeshLodDesc {
+                NumVertices = 906
+                NumIndices = 4800
+                GeometricError = 0
+                ScreenSize = 0
+            }
+            MeshLodDesc {
+                NumVertices = 365
+                NumIndices = 1800
+                GeometricError = 0
+                ScreenSize = 0.3
+            }
+            MeshLodDesc {
+                NumVertices = 142
+                NumIndices = 600
+                GeometricError = 0
+                ScreenSize = 0.12
+            }
+            MeshLodDesc {
+                NumVertices = 63
+                NumIndices = 210
+                GeometricError = 0
+                ScreenSize = 0.05
+            }
+        ]
+    }
+    LodData = [
+        MeshLodData {
+            VertexData = {
+                Key = "Game://Meshes/slab_LOD0_1.VB"
+                Size = 54360
+            }
+            IndexData = {
+                Key = "Game://Meshes/slab_LOD0_1.IB"
+                Size = 19200
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = "Game://Meshes/slab_LOD0_1.VB1"
+                Size = 21900
+            }
+            IndexData = {
+                Key = "Game://Meshes/slab_LOD0_1.IB1"
+                Size = 7200
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = "Game://Meshes/slab_LOD0_1.VB2"
+                Size = 8520
+            }
+            IndexData = {
+                Key = "Game://Meshes/slab_LOD0_1.IB2"
+                Size = 2400
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = "Game://Meshes/slab_LOD0_1.VB3"
+                Size = 3780
+            }
+            IndexData = {
+                Key = "Game://Meshes/slab_LOD0_1.IB3"
+                Size = 840
+            }
+        }
+    ]
+    BvhData = {
+        Key = "Game://Meshes/slab_LOD0_1.BVH"
+        Size = 29434
+    }
+    Flags = None
+    UUID = "dc71438a-877d-4338-943e-0e26050cb843"
+}

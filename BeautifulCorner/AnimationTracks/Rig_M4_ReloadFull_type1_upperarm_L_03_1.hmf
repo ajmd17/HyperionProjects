@@ -1,0 +1,8 @@
+AnimationTrack Rig_M4_ReloadFull_type1_upperarm_L_03_1 {
+    BoneName = upperarm_L_03
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Rig_M4_ReloadFull_type1_upperarm_L_03_1.KEYF"
+        Size = 27200
+    }
+    UUID = "b8334a0e-2eb5-4257-88ac-96d6823d3d2b"
+}

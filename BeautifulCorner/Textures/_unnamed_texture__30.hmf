@@ -1,0 +1,35 @@
+Texture _unnamed_texture__30 {
+    TextureDesc = {
+        Type = Texture2D
+        Format = RGBA8_SRGB
+        Extent = (64, 128, 1)
+        MinFilterMode = LinearMipmap
+        MagFilterMode = Linear
+        TextureWrapMode = ClampToEdge
+        NumLayers = 1
+        ImageUsage = Sampled
+        MipOffsets = [
+            32768
+            40960
+            43008
+            43520
+            43648
+            43680
+            43688
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+        ]
+    }
+    ImageData = {
+        Key = "Game://Textures/_unnamed_texture__30.TEX"
+        Size = 43692
+    }
+    UUID = "21ce1002-cd90-4cf9-821a-472f4b6a13ba"
+}

@@ -1,0 +1,34 @@
+Texture AccentLight_BakedShadowMap_11 {
+    TextureDesc = {
+        Type = Cubemap
+        Format = D16
+        Extent = (256, 256, 1)
+        MinFilterMode = Nearest
+        MagFilterMode = Nearest
+        TextureWrapMode = ClampToEdge
+        NumLayers = 1
+        ImageUsage = Sampled|Attachment
+        MipOffsets = [
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+        ]
+    }
+    ImageData = {
+        Key = "Game://Textures/AccentLight_BakedShadowMap_11.TEX"
+        Size = 786432
+    }
+}

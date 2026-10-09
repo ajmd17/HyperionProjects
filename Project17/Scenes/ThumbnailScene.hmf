@@ -1,0 +1,217 @@
+Scene ThumbnailScene {
+    UUID = "80c8888c-ff68-48da-a341-372725aa2a58"
+    Root = {
+        UUID = "16cca254-a6a6-486f-b71d-dac86189cbee"
+        Name = "<ROOT>"
+        NodeFlags = MobilityStatic
+        LocalBounds = {
+            Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+            Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+        }
+        LocalTransform = {
+            Translation = (0, 0, 0)
+            Scale = (1, 1, 1)
+            Rotation = {
+                X = 0
+                Y = 0
+                Z = 0
+                W = 1
+            }
+        }
+        Children = [
+            Camera ThumbnailCamera {
+                Flags = None
+                CameraControllers = [
+                    NullCameraController {
+                        ProjectionMode = NONE
+                    }
+                    PerspectiveCameraController {
+                        ProjectionMode = PERSPECTIVE
+                    }
+                ]
+                Dimensions = (128, 128)
+                NearClip = 0.05
+                FarClip = 100
+                FOV = 40
+                Direction = (-0.55138034, -0.45112923, -0.70175654)
+                UpVector = (0, 1, 0)
+                OrthoRect = {
+                    Left = 0
+                    Right = 0
+                    Bottom = 0
+                    Top = 0
+                }
+                Frustum = {
+                    Planes = [
+                        (1.6090109, -0.4511292, -2.3992076, 6.424344)
+                        (-2.7117717, -0.4511292, 0.99569476, 6.4243364)
+                        (-1.3171501, 2.0008807, -1.676372, 6.424339)
+                        (0.21438938, -2.903139, 0.2728591, 6.4243417)
+                        (-0.55165625, -0.45135492, -0.7021076, 6.3775296)
+                        (0.0002758503, 0.00022572279, 0.00035113096, 0.046810627)
+                    ]
+                    Corners = [
+                        (3.5340672, 2.85941, 4.468447)
+                        (3.5239227, 2.8918931, 4.455536)
+                        (3.4953027, 2.8918931, 4.478023)
+                        (3.5054471, 2.85941, 4.4909344)
+                        (-12.82991, -74.69407, -75.23922)
+                        (-33.118324, -9.730642, -101.06049)
+                        (-90.357735, -9.730872, -56.08995)
+                        (-70.06883, -74.69583, -30.268063)
+                    ]
+                }
+                ViewMatrix = [
+                    [-0.7863182, 0, 0.61782175, -1.4305115e-06]
+                    [-0.27871743, 0.8924587, -0.35473108, -4.7683716e-07]
+                    [-0.5513804, -0.4511292, -0.7017565, 6.4243402]
+                    [0, 0, 0, 1]
+                ]
+                MatchWindowSizeRatio = 1
+                Tags = []
+                Components = []
+                Layers = []
+                UUID = "4e7dda8f-a475-4e1e-a708-3946b9b2181a"
+                NodeFlags = ExcludeFromParentBounds|ExcludeFromOctree|MobilityStatic
+                LocalBounds = {
+                    Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                    Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                }
+                LocalTransform = {
+                    Translation = (3.5422535, 2.8982074, 4.5083227)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0.075795144
+                        Y = -0.9193113
+                        Z = 0.21914782
+                        W = 0.31795585
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+            DirectionalLight ThumbnailKeyLight {
+                LightFlags = None
+                Normal = (0, 0, 0)
+                AreaSize = (0, 0)
+                Color = (1, 0.9764706, 0.9372549, 1)
+                Intensity = 4
+                Radius = inf
+                Falloff = 1
+                SpotAngles = (0, 0)
+                Material = null
+                ShadowMapDimensions = (1024, 1024)
+                ShadowMapCascades = 4
+                BakedShadowMap = null
+                Type = Directional
+                Tags = [
+                    Light
+                ]
+                Components = []
+                Layers = []
+                UUID = "cd6c72fc-ac49-4f08-ae3c-14b265bbb22c"
+                NodeFlags = ExcludeFromParentBounds|ExcludeFromOctree|MobilityStatic
+                LocalBounds = {
+                    Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                    Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                }
+                LocalTransform = {
+                    Translation = (0.5795647, 0.8146056, -0.022861004)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+            DirectionalLight ThumbnailFillLight {
+                LightFlags = None
+                Normal = (0, 0, 0)
+                AreaSize = (0, 0)
+                Color = (0.6, 0.69803923, 0.84705883, 1)
+                Intensity = 1.5
+                Radius = inf
+                Falloff = 1
+                SpotAngles = (0, 0)
+                Material = null
+                ShadowMapDimensions = (1024, 1024)
+                ShadowMapCascades = 4
+                BakedShadowMap = null
+                Type = Directional
+                Tags = [
+                    Light
+                ]
+                Components = []
+                Layers = []
+                UUID = "100d5107-0b56-4e8b-9471-1de4599fc298"
+                NodeFlags = ExcludeFromParentBounds|ExcludeFromOctree|MobilityStatic
+                LocalBounds = {
+                    Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                    Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                }
+                LocalTransform = {
+                    Translation = (0.51847583, 0.20739034, 0.82956135)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+            Entity ThumbnailEntity {
+                Tags = []
+                Components = [
+                    MeshComponent {
+                        Mesh = @"Game://Meshes/ThumbnailSphere"
+                        Material = @"Game://Materials/PlaneMaterial_LM_1"
+                        Skeleton = null
+                        EnableAutoInstancing = false
+                        InstanceData = null
+                        ForcedLod = 0
+                        LodBias = 0
+                    }
+                ]
+                Layers = []
+                UUID = "cebdb230-3569-4dfd-8592-a35261380904"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (-1, -1, -1)
+                    Max = (1, 1, 1)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+        ]
+        NodeTags = {
+            Values = []
+        }
+    }
+    StreamingCentroid = (0, 0)
+    SceneFlags = EDITOR|HAS_OCTREE
+}

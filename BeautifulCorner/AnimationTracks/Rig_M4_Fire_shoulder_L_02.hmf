@@ -1,0 +1,8 @@
+AnimationTrack Rig_M4_Fire_shoulder_L_02 {
+    BoneName = shoulder_L_02
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Rig_M4_Fire_shoulder_L_02.KEYF"
+        Size = 64
+    }
+    UUID = "ab9012d5-1e0b-4239-a616-4f3f6b3134ff"
+}

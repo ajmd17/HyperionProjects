@@ -1,0 +1,80 @@
+Mesh Angelica_EyeScleraReflect_001_2 {
+    AABB = {
+        Min = (-1.75993, -0.619211, -0.623281)
+        Max = (1.75993, 0.619209, 0.62328)
+    }
+    MeshDesc = {
+        MeshAttributes = {
+            InputLayout = {
+                Mask = 23
+            }
+            Topology = TOP_TRIANGLES
+            IndexBufferElemType = GET_UNSIGNED_INT
+        }
+        Lods = [
+            MeshLodDesc {
+                NumVertices = 534
+                NumIndices = 2940
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+        ]
+    }
+    LodData = [
+        MeshLodData {
+            VertexData = {
+                Key = "Game://Meshes/Angelica_EyeScleraReflect_001_2.VB"
+                Size = 27768
+            }
+            IndexData = {
+                Key = "Game://Meshes/Angelica_EyeScleraReflect_001_2.IB"
+                Size = 11760
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+    ]
+    BvhData = {
+        Key = "Game://Meshes/Angelica_EyeScleraReflect_001_2.BVH"
+        Size = 26113
+    }
+    Flags = None
+}

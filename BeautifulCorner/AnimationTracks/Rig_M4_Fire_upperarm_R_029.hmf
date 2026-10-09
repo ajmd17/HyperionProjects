@@ -1,0 +1,8 @@
+AnimationTrack Rig_M4_Fire_upperarm_R_029 {
+    BoneName = upperarm_R_029
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Rig_M4_Fire_upperarm_R_029.KEYF"
+        Size = 2560
+    }
+    UUID = "d661ba0f-964d-4312-9010-30f12b6fb700"
+}

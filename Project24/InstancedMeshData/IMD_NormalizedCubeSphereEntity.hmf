@@ -1,0 +1,39 @@
+InstancedMeshData IMD_NormalizedCubeSphereEntity {
+    Buffers = [
+        BlobDataReference {
+            Key = "Game://InstancedMeshData/IMD_NormalizedCubeSphereEntity.IMD0"
+            Size = 64
+        }
+        BlobDataReference {
+            Key = "Game://InstancedMeshData/IMD_NormalizedCubeSphereEntity.IMD1"
+            Size = 64
+        }
+        BlobDataReference {
+            Key = ""
+            Size = 0
+        }
+        BlobDataReference {
+            Key = ""
+            Size = 0
+        }
+        BlobDataReference {
+            Key = ""
+            Size = 0
+        }
+    ]
+    BufferStructSizes = [
+        64
+        64
+        0
+        0
+        0
+    ]
+    BufferStructAlignments = [
+        16
+        16
+        0
+        0
+        0
+    ]
+    UUID = "6903e46b-f8a7-4f74-a015-dcc0b30ca68e"
+}

@@ -1,0 +1,8 @@
+AnimationTrack Rig_M4_ReloadOne_type2_pink_L_021_1 {
+    BoneName = pink_L_021
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Rig_M4_ReloadOne_type2_pink_L_021_1.KEYF"
+        Size = 7232
+    }
+    UUID = "5682b6fa-76e7-4903-96bf-c5cbfc4a93e3"
+}

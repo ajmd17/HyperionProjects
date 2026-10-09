@@ -1,0 +1,8 @@
+InstanceSetData slab_Instances {
+    Records = {
+        Key = "Game://InstanceData/slab_Instances.INST"
+        Size = 480
+    }
+    NextId = 10
+    UUID = "5f4c0dc7-34c2-460a-bf12-611f486c9d75"
+}

@@ -1,0 +1,76 @@
+Material "walldeco" {
+    BaseMaterial = null
+    Parameters = {
+        NormalMapFlipY = false
+        RoughnessChannel = G
+        MetalnessChannel = A
+        AmbientOcclusionChannel = R
+        InverseHeight = false
+        Albedo = (1, 1, 1, 1)
+        Metalness = 0
+        Roughness = 0.4
+        AlphaThreshold = 0
+        ParallaxHeightScale = 0.3
+        Transmission = 0
+        IOR = 1.5
+        EmissiveColor = {
+            Red = 0
+            Green = 0
+            Blue = 0
+            Alpha = 0
+        }
+        EmissiveIntensity = 0
+        UserParams = (0, 0, 0, 0)
+        UVScale = (8, 3)
+        Unlit = false
+        Flags = 26
+    }
+    Textures = {
+        Values = [
+            @"Game://Textures/art-deco-scales-wallpaper_albedo"
+            @"Game://Textures/art-deco-scales-wallpaper_normal-ogl"
+            @"Game://Textures/art-deco-scales-wallpaper_height"
+            @"Game://Textures/art-deco-scales-wallpaper_metallic"
+            @"Game://Textures/art-deco-scales-wallpaper_roughness"
+            @"Game://Textures/art-deco-scales-wallpaper_ao"
+            null
+            null
+        ]
+    }
+    Attributes = {
+        ShaderName = "GeometryPass"
+        ShaderProperties = {
+            Chunks = [
+                0
+                0
+                0
+                0
+                0
+                0
+                0
+                0
+            ]
+        }
+        Bucket = Lightmapped
+        FillMode = Fill
+        BlendFunction = {
+            SrcColor = One
+            DstColor = Zero
+            SrcAlpha = One
+            DstAlpha = Zero
+        }
+        CullFaces = Back
+        Flags = MAF_DEPTH_WRITE|MAF_DEPTH_TEST
+        StencilFunction = {
+            PassOp = Replace
+            FailOp = Keep
+            DepthFailOp = Keep
+            CompareOp = Always
+        }
+        DepthCompareOp = Less
+        StencilReference = 0
+        DepthBias = 0
+        DepthBiasSlope = 0
+    }
+    IsDynamic = false
+}

@@ -1,0 +1,238 @@
+World MainWorld {
+    WorldFlags = Default
+    EnvironmentSettings = {
+        Sky = {
+            Tint = (1, 1, 1)
+            Intensity = 1
+            OvercastBrightness = 1
+            ShowSunDisk = true
+        }
+        SkyLight = {
+            DiffuseIntensity = 0.86
+            SpecularIntensity = 1
+            OcclusionStrength = 1
+            OcclusionRadius = 3
+            OcclusionBias = 0.5
+        }
+        Exposure = {
+            ExposureCompensation = 1.6
+            TonemapOperator = ACES
+            WhiteBalanceTemperature = 0
+            WhiteBalanceTint = 0
+            Saturation = 1.05
+            Contrast = 1.05
+            Vignette = 0.25
+        }
+        HeightFog = {
+            Enabled = false
+            Density = 0.003
+            HeightFalloff = 0.05
+            BaseHeight = 0
+            StartDistance = 50
+            AerialPerspectiveDistance = 4500
+            SkyInscatter = 1
+            SunInscatter = 0.25
+            SunAnisotropy = 0.6
+            MaxOpacity = 1
+        }
+        Clouds = {
+            Enabled = true
+            Layer = {
+                BaseAltitude = 1500
+                Thickness = 1000
+            }
+            Shape = {
+                Coverage = 0.2
+                CloudTypeBias = 0.9
+                DensityMultiplier = 1
+                DetailErosion = 0.3
+            }
+            Noise = {
+                WeatherScale = 12000
+                CloudSize = 1500
+                ShapeScale = 3000
+                DetailScale = 250
+                Seed = 0
+            }
+            Wind = {
+                Direction = 45
+                Speed = 10
+                EvolutionSpeed = 1
+            }
+            Lighting = {
+                ShadowStrength = 0.85
+                ShadowSoftness = 0.2
+                HazeDistance = 40000
+            }
+        }
+        Wind = {
+            Direction = 45
+            Strength = 0.3
+            Gustiness = 0.5
+        }
+        GlobalIllumination = {
+            GlimmerEnabled = true
+            DDGIEnabled = true
+            RayTracedReflectionsEnabled = true
+        }
+    }
+    NonStreamingScenes = [
+        @"Game://Scenes/MainScene"
+    ]
+    StreamingLayers = [
+        WGLayerDesc {
+            ClassName = WorldGridLayer
+            LayerName = Scenes_Layer
+            Info = {
+                Offset = (0, 0, 0)
+                Scale = (1, 1, 1)
+                Range = (-10, 10)
+                CellSize = 32
+                MaxDistance = 5
+                Seed = 0
+                Infinite = true
+            }
+            Objects = []
+            Assets = []
+        }
+    ]
+    Systems = [
+        DynamicSkySystem {}
+
+        PhysicsSystem {}
+
+        CameraSystem {}
+
+        CharacterControllerSystem {}
+
+        LightmapSystem {
+            NextLightmapVolumeId = 1
+            FreedLightmapVolumeIds = []
+        }
+        PlayerSystem {}
+
+        ReplicationApplySystem {}
+
+        WeaponSystem {}
+
+    ]
+    ActiveLayers = []
+    Environment = {
+        Sky = {
+            Tint = (1, 1, 1)
+            Intensity = 1
+            OvercastBrightness = 1
+            ShowSunDisk = true
+        }
+        SkyLight = {
+            DiffuseIntensity = 0.86
+            SpecularIntensity = 1
+            OcclusionStrength = 1
+            OcclusionRadius = 3
+            OcclusionBias = 0.5
+        }
+        Exposure = {
+            ExposureCompensation = 1.6
+            TonemapOperator = ACES
+            WhiteBalanceTemperature = 0
+            WhiteBalanceTint = 0
+            Saturation = 1.05
+            Contrast = 1.05
+            Vignette = 0.25
+        }
+        HeightFog = {
+            Enabled = false
+            Density = 0.003
+            HeightFalloff = 0.05
+            BaseHeight = 0
+            StartDistance = 50
+            AerialPerspectiveDistance = 4500
+            SkyInscatter = 1
+            SunInscatter = 0.25
+            SunAnisotropy = 0.6
+            MaxOpacity = 1
+        }
+        Clouds = {
+            Enabled = true
+            Layer = {
+                BaseAltitude = 1500
+                Thickness = 1000
+            }
+            Shape = {
+                Coverage = 0.2
+                CloudTypeBias = 0.9
+                DensityMultiplier = 1
+                DetailErosion = 0.3
+            }
+            Noise = {
+                WeatherScale = 12000
+                CloudSize = 1500
+                ShapeScale = 3000
+                DetailScale = 250
+                Seed = 0
+            }
+            Wind = {
+                Direction = 45
+                Speed = 10
+                EvolutionSpeed = 1
+            }
+            Lighting = {
+                ShadowStrength = 0.85
+                ShadowSoftness = 0.2
+                HazeDistance = 40000
+            }
+        }
+        Wind = {
+            Direction = 45
+            Strength = 0.3
+            Gustiness = 0.5
+        }
+        GlobalIllumination = {
+            GlimmerEnabled = true
+            DDGIEnabled = true
+            RayTracedReflectionsEnabled = true
+        }
+    }
+    Swatches = [
+        Swatch Default {
+            SwatchId = 0
+            BakeLayer = {
+                Name = Default
+                Categories = [
+                    BakeLayerCategory LightProvider {
+                        Revision = 0
+                        Assets = []
+                    }
+                    BakeLayerCategory LightReceiver {
+                        Revision = 0
+                        Assets = [
+                            ("MainScene/ReflectionProbe1", 14408086320267342268)
+                            ("MainScene/LightmapVolume_1", 8005645825835636471)
+                            ("MainScene/ReflectionProbe", 14408086320267342268)
+                            ("MainScene/IrradianceProbe", 14408086320267342268)
+                            ("MainScene/IrradianceProbe1", 14408086320267342268)
+                            ("MainScene/IrradianceProbe2", 14408086320267342268)
+                            ("MainScene/IrradianceProbe3", 14408086320267342268)
+                            ("MainScene/IrradianceProbe4", 14408086320267342268)
+                            ("MainScene/IrradianceProbe5", 14408086320267342268)
+                            ("MainScene/FogVolume", 17872473898964489887)
+                        ]
+                    }
+                    BakeLayerCategory Lightmap {
+                        Revision = 4
+                        Assets = [
+                            ("MainScene/LightmapVolume_1", 8005645825835636471)
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+    ActiveSwatch = Default
+    Layers = [
+        Layer Default {
+            LayerId = 0
+        }
+    ]
+    UUID = "f8940f7f-63b1-463b-8bdc-c0109b24a1f9"
+}

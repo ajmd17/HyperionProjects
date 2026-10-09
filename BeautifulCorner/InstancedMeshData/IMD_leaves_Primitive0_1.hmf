@@ -1,0 +1,39 @@
+InstancedMeshData IMD_leaves_Primitive0_1 {
+    Buffers = [
+        BlobDataReference {
+            Key = "Game://InstancedMeshData/IMD_leaves_Primitive0_1.IMD0"
+            Size = 192
+        }
+        BlobDataReference {
+            Key = "Game://InstancedMeshData/IMD_leaves_Primitive0_1.IMD1"
+            Size = 192
+        }
+        BlobDataReference {
+            Key = ""
+            Size = 0
+        }
+        BlobDataReference {
+            Key = ""
+            Size = 0
+        }
+        BlobDataReference {
+            Key = ""
+            Size = 0
+        }
+    ]
+    BufferStructSizes = [
+        64
+        64
+        0
+        0
+        0
+    ]
+    BufferStructAlignments = [
+        16
+        16
+        0
+        0
+        0
+    ]
+    UUID = "27ba7340-5467-4e77-90af-366cfc3e314f"
+}

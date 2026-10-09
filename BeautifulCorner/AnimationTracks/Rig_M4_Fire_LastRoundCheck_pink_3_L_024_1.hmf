@@ -1,0 +1,8 @@
+AnimationTrack Rig_M4_Fire_LastRoundCheck_pink_3_L_024_1 {
+    BoneName = pink_3_L_024
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Rig_M4_Fire_LastRoundCheck_pink_3_L_024_1.KEYF"
+        Size = 8320
+    }
+    UUID = "126ed6a8-0f26-4147-9669-41e5be81736a"
+}

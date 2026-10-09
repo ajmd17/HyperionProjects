@@ -1,0 +1,19 @@
+TerrainCellData "TerrainCellData_-7_6" {
+    Coord = (-7, 6)
+    Extent = (257, 257, 257)
+    GeneratorFingerprint = 12232722048678487982
+    IsSculpted = false
+    Heights = {
+        Key = "Game://Terrain/TerrainCellData_-7_6.TCD"
+        Size = 268324
+    }
+    SplatMap = {
+        Key = ""
+        Size = 0
+    }
+    ErosionMasks = {
+        Key = "Game://Terrain/TerrainCellData_-7_6.EMSK"
+        Size = 264196
+    }
+    UUID = "1ad255c3-1302-4cae-a0dc-753e4545c561"
+}

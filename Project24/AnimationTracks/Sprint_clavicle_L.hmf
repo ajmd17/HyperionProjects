@@ -1,0 +1,7 @@
+AnimationTrack "Sprint_clavicle_L" {
+    BoneName = "clavicle.L"
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Sprint_clavicle_L.KEYF"
+        Size = 1408
+    }
+}

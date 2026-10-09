@@ -1,0 +1,76 @@
+Material Material17 {
+    BaseMaterial = null
+    Attributes = {
+        ShaderName = GeometryPass
+        ShaderProperties = {
+            Chunks = [
+                0
+                0
+                0
+                0
+                0
+                0
+                0
+                0
+            ]
+        }
+        Bucket = Opaque
+        FillMode = Fill
+        BlendFunction = {
+            SrcColor = None
+            DstColor = None
+            SrcAlpha = None
+            DstAlpha = None
+        }
+        FaceCullMode = Back
+        Flags = MAF_DEPTH_WRITE|MAF_DEPTH_TEST
+        StencilFunction = {
+            PassOp = Replace
+            FailOp = Keep
+            DepthFailOp = Keep
+            CompareOp = Always
+        }
+        DepthCompareOp = Less
+        StencilReference = 0
+        DepthBias = 0
+        DepthBiasSlope = 0
+    }
+    Parameters = {
+        NormalMapFlipY = false
+        RoughnessChannel = R
+        MetalnessChannel = R
+        AmbientOcclusionChannel = R
+        InverseHeight = false
+        Albedo = (0.588, 0.588, 0.588, 1)
+        Metalness = 1
+        Roughness = 1
+        AlphaThreshold = 0
+        ParallaxHeightScale = 0.02
+        Transmission = 0
+        IOR = 1.5
+        EmissiveColor = {
+            Red = 0
+            Green = 0
+            Blue = 0
+            Alpha = 0
+        }
+        EmissiveIntensity = 0
+        UserParams = (0, 0, 0, 0)
+        UVScale = (1, 1)
+        Unlit = false
+        Flags = 0
+    }
+    Textures = {
+        Values = [
+            @"Game://Textures/17876391417123941155"
+            @"Game://Textures/6593109234861095314"
+            null
+            @"Game://Textures/Material17_Metalness"
+            @"Game://Textures/Material17_Roughness"
+            null
+            null
+            null
+        ]
+    }
+    IsDynamic = false
+}

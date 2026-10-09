@@ -1,0 +1,203 @@
+World NewLevel {
+    WorldFlags = Default
+    EnvironmentSettings = {
+        Sky = {
+            Tint = (1, 1, 1)
+            Intensity = 1
+            OvercastBrightness = 1
+            ShowSunDisk = true
+        }
+        SkyLight = {
+            DiffuseIntensity = 1
+            SpecularIntensity = 1
+            OcclusionStrength = 1
+            OcclusionRadius = 3
+            OcclusionBias = 0.5
+        }
+        Exposure = {
+            ExposureCompensation = 1.6
+            TonemapOperator = AgX
+            WhiteBalanceTemperature = 0
+            WhiteBalanceTint = 0
+            Saturation = 1.05
+            Contrast = 1.05
+        }
+        HeightFog = {
+            Enabled = true
+            Density = 0.001
+            HeightFalloff = 0.05
+            BaseHeight = 0
+            StartDistance = 150
+            AerialPerspectiveDistance = 4500
+            SkyInscatter = 1
+            SunInscatter = 0.25
+            SunAnisotropy = 0.6
+            MaxOpacity = 1
+        }
+        Clouds = {
+            Enabled = true
+            Layer = {
+                BaseAltitude = 800
+                Thickness = 500
+            }
+            Shape = {
+                Coverage = 0.5
+                CloudTypeBias = 0.5
+                DensityMultiplier = 1
+                DetailErosion = 0.3
+            }
+            Noise = {
+                WeatherScale = 12000
+                CloudSize = 1500
+                ShapeScale = 3000
+                DetailScale = 250
+                Seed = 0
+            }
+            Wind = {
+                Direction = 45
+                Speed = 10
+                EvolutionSpeed = 1
+            }
+            Lighting = {
+                ShadowStrength = 0.85
+                ShadowSoftness = 0.2
+                HazeDistance = 40000
+            }
+        }
+        Wind = {
+            Direction = 45
+            Strength = 0.3
+            Gustiness = 0.5
+        }
+        GlobalIllumination = {
+            DDGIEnabled = true
+            RayTracedReflectionsEnabled = true
+        }
+    }
+    NonStreamingScenes = [
+        @"Game://Scenes/Levels/NewLevel/MainScene"
+    ]
+    StreamingLayers = []
+    Systems = [
+        PhysicsSystem {}
+
+        LightmapSystem {
+            NextLightmapVolumeId = 0
+            FreedLightmapVolumeIds = []
+        }
+        MeshSystem {}
+
+        CameraSystem {}
+
+        WeaponSystem {}
+
+        CharacterControllerSystem {}
+
+        PlayerSystem {}
+
+        ReplicationApplySystem {}
+
+        DynamicSkySystem {}
+
+    ]
+    ActiveLayers = []
+    Environment = {
+        Sky = {
+            Tint = (1, 1, 1)
+            Intensity = 1
+            OvercastBrightness = 1
+            ShowSunDisk = true
+        }
+        SkyLight = {
+            DiffuseIntensity = 1
+            SpecularIntensity = 1
+            OcclusionStrength = 1
+            OcclusionRadius = 3
+            OcclusionBias = 0.5
+        }
+        Exposure = {
+            ExposureCompensation = 1.6
+            TonemapOperator = AgX
+            WhiteBalanceTemperature = 0
+            WhiteBalanceTint = 0
+            Saturation = 1.05
+            Contrast = 1.05
+        }
+        HeightFog = {
+            Enabled = true
+            Density = 0.001
+            HeightFalloff = 0.05
+            BaseHeight = 0
+            StartDistance = 150
+            AerialPerspectiveDistance = 4500
+            SkyInscatter = 1
+            SunInscatter = 0.25
+            SunAnisotropy = 0.6
+            MaxOpacity = 1
+        }
+        Clouds = {
+            Enabled = true
+            Layer = {
+                BaseAltitude = 800
+                Thickness = 500
+            }
+            Shape = {
+                Coverage = 0.5
+                CloudTypeBias = 0.5
+                DensityMultiplier = 1
+                DetailErosion = 0.3
+            }
+            Noise = {
+                WeatherScale = 12000
+                CloudSize = 1500
+                ShapeScale = 3000
+                DetailScale = 250
+                Seed = 0
+            }
+            Wind = {
+                Direction = 45
+                Speed = 10
+                EvolutionSpeed = 1
+            }
+            Lighting = {
+                ShadowStrength = 0.85
+                ShadowSoftness = 0.2
+                HazeDistance = 40000
+            }
+        }
+        Wind = {
+            Direction = 45
+            Strength = 0.3
+            Gustiness = 0.5
+        }
+        GlobalIllumination = {
+            DDGIEnabled = true
+            RayTracedReflectionsEnabled = true
+        }
+    }
+    Swatches = [
+        Swatch Default {
+            SwatchId = 0
+            BakeLayer = {
+                Name = Default
+                Categories = [
+                    BakeLayerCategory LightProvider {
+                        Revision = 0
+                        Assets = []
+                    }
+                    BakeLayerCategory LightReceiver {
+                        Revision = 0
+                        Assets = []
+                    }
+                    BakeLayerCategory Lightmap {
+                        Revision = 0
+                        Assets = []
+                    }
+                ]
+            }
+        }
+    ]
+    ActiveSwatch = Default
+    Layers = []
+    UUID = "1c1a8be6-9816-468b-9c08-89de9f0b44d9"
+}

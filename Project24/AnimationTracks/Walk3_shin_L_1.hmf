@@ -1,0 +1,7 @@
+AnimationTrack "Walk3_shin_L_1" {
+    BoneName = "shin.L"
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Walk3_shin_L_1.KEYF"
+        Size = 2688
+    }
+}

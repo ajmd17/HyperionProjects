@@ -1,0 +1,76 @@
+Material BoomBox_Mat {
+    BaseMaterial = null
+    Attributes = {
+        ShaderName = GeometryPass
+        ShaderProperties = {
+            Chunks = [
+                0
+                0
+                0
+                0
+                0
+                0
+                0
+                0
+            ]
+        }
+        Bucket = Opaque
+        FillMode = Fill
+        BlendFunction = {
+            SrcColor = None
+            DstColor = None
+            SrcAlpha = None
+            DstAlpha = None
+        }
+        FaceCullMode = Back
+        Flags = MAF_DEPTH_WRITE|MAF_DEPTH_TEST
+        StencilFunction = {
+            PassOp = Replace
+            FailOp = Keep
+            DepthFailOp = Keep
+            CompareOp = Always
+        }
+        DepthCompareOp = Less
+        StencilReference = 0
+        DepthBias = 0
+        DepthBiasSlope = 0
+    }
+    Parameters = {
+        NormalMapFlipY = false
+        RoughnessChannel = R
+        MetalnessChannel = R
+        AmbientOcclusionChannel = R
+        InverseHeight = false
+        Albedo = (1, 1, 1, 1)
+        Metalness = 1
+        Roughness = 1
+        AlphaThreshold = 0
+        ParallaxHeightScale = 0.02
+        Transmission = 0
+        IOR = 1.5
+        EmissiveColor = {
+            Red = 0.576471
+            Green = 0.576471
+            Blue = 0.576471
+            Alpha = 1
+        }
+        EmissiveIntensity = 1.73205
+        UserParams = (0, 0, 0, 0)
+        UVScale = (1, 1)
+        Unlit = false
+        Flags = 0
+    }
+    Textures = {
+        Values = [
+            null
+            null
+            null
+            null
+            null
+            null
+            null
+            null
+        ]
+    }
+    IsDynamic = false
+}

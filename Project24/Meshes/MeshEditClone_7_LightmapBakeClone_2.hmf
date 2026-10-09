@@ -1,0 +1,80 @@
+Mesh MeshEditClone_7_LightmapBakeClone_2 {
+    AABB = {
+        Min = (-1.00016, -1, -0.965218)
+        Max = (13.7359, 5.21463, 0.427968)
+    }
+    MeshDesc = {
+        MeshAttributes = {
+            InputLayout = {
+                Mask = 15
+            }
+            Topology = Triangles
+            IndexBufferElemType = UnsignedInt
+        }
+        Lods = [
+            MeshLodDesc {
+                NumVertices = 24
+                NumIndices = 36
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+        ]
+    }
+    LodData = [
+        MeshLodData {
+            VertexData = {
+                Key = "Game://Meshes/MeshEditClone_7_LightmapBakeClone_2.VB"
+                Size = 960
+            }
+            IndexData = {
+                Key = "Game://Meshes/MeshEditClone_7_LightmapBakeClone_2.IB"
+                Size = 144
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+    ]
+    BvhData = {
+        Key = "Game://Meshes/MeshEditClone_7_LightmapBakeClone_2.BVH"
+        Size = 12509
+    }
+    Flags = None
+}

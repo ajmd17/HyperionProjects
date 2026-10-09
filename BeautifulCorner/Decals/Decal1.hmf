@@ -1,0 +1,13 @@
+Decal Decal1 {
+    Desc = {
+        Material = @"Game://Materials/12gauge"
+        DefaultSize = (1, 0.5, 1)
+        Opacity = 1
+        NormalStrength = 1
+        AngleFadeStart = 0.5
+        AngleFadeEnd = 0.2
+        ExcludeMask = 52
+        SortOrder = 0
+    }
+    UUID = "a86ed525-7f93-4456-a9ea-1cfb5c2e09a7"
+}

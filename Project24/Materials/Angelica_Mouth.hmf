@@ -1,0 +1,76 @@
+Material Angelica_Mouth {
+    BaseMaterial = null
+    Attributes = {
+        ShaderName = GeometryPass
+        ShaderProperties = {
+            Chunks = [
+                0
+                0
+                0
+                0
+                0
+                0
+                0
+                0
+            ]
+        }
+        Bucket = Opaque
+        FillMode = FM_FILL
+        BlendFunction = {
+            SrcColor = None
+            DstColor = None
+            SrcAlpha = None
+            DstAlpha = None
+        }
+        FaceCullMode = FCM_BACK
+        Flags = MAF_DEPTH_WRITE|MAF_DEPTH_TEST
+        StencilFunction = {
+            PassOp = SO_REPLACE
+            FailOp = SO_KEEP
+            DepthFailOp = SO_KEEP
+            CompareOp = SCO_ALWAYS
+        }
+        DepthCompareOp = DCO_LESS
+        StencilReference = 0
+        DepthBias = 0
+        DepthBiasSlope = 0
+    }
+    Parameters = {
+        NormalMapFlipY = false
+        RoughnessChannel = R
+        MetalnessChannel = R
+        AmbientOcclusionChannel = R
+        InverseHeight = false
+        Albedo = (0.8, 0.8, 0.8, 1)
+        Metalness = 0
+        Roughness = 0.65
+        AlphaThreshold = 0
+        ParallaxHeightScale = 0.02
+        Transmission = 0
+        IOR = 1.5
+        EmissiveColor = {
+            Red = 0
+            Green = 0
+            Blue = 0
+            Alpha = 0
+        }
+        EmissiveIntensity = 0
+        UserParams = (0, 0, 0, 0)
+        UVScale = (1, 1)
+        Unlit = false
+        Flags = 0
+    }
+    Textures = {
+        Values = [
+            null
+            null
+            null
+            null
+            null
+            null
+            null
+            null
+        ]
+    }
+    IsDynamic = false
+}

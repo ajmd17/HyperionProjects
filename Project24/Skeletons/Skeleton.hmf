@@ -1,0 +1,2011 @@
+Skeleton "Skeleton" {
+    RootBone = {
+        BoneName = "hips"
+        BoneMatrix = [
+            [1, 0, 0, 0]
+            [0, 1, 0, 0]
+            [0, 0, 1, 0]
+            [0, 0, 0, 1]
+        ]
+        BindingTransform = {
+            Translation = (-0, 9.38991, 0.0675)
+            Scale = (1, 1, 1)
+            Rotation = {
+                X = -0.0710246
+                Y = -0
+                Z = -0
+                W = 0.997475
+            }
+        }
+        PoseTransform = {
+            Translation = (0, 0, 0)
+            Scale = (1, 1, 1)
+            Rotation = {
+                X = 0
+                Y = 0
+                Z = 0
+                W = 1
+            }
+        }
+        WorldBoneTranslation = (-0, 9.38991, 0.0675)
+        WorldBoneRotation = {
+            X = -0.0710246
+            Y = -0
+            Z = -0
+            W = 0.997475
+        }
+        InvBindingRotation = {
+            X = 0.0710246
+            Y = 0
+            Z = 0
+            W = 0.997475
+        }
+        Name = "hips"
+        NodeFlags = MobilityStatic
+        LocalBounds = {
+            Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+            Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+        }
+        LocalTransform = {
+            Translation = (-0, 9.38991, 0.0675)
+            Scale = (1, 1, 1)
+            Rotation = {
+                X = -0.0710246
+                Y = -0
+                Z = -0
+                W = 0.997475
+            }
+        }
+        Children = [
+            Bone {
+                BoneName = "thigh.L"
+                BoneMatrix = [
+                    [1, 2.91039e-11, 4.65662e-10, 0]
+                    [-2.91039e-11, 1, -6.77626e-21, 0]
+                    [-4.65662e-10, -6.77626e-21, 1, 0]
+                    [0, 0, 0, 1]
+                ]
+                BindingTransform = {
+                    Translation = (1.0987, -0.042274, -0.112937)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = -0.998284
+                        Y = -0.0496856
+                        Z = -0.00434895
+                        W = 0.0306915
+                    }
+                }
+                PoseTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                WorldBoneTranslation = (1.0987, 9.33206, -0.0383077)
+                WorldBoneRotation = {
+                    X = -0.997943
+                    Y = -0.049869
+                    Z = -0.000809066
+                    W = -0.0402887
+                }
+                InvBindingRotation = {
+                    X = 0.997943
+                    Y = 0.049869
+                    Z = 0.000809066
+                    W = -0.0402887
+                }
+                Name = "thigh.L"
+                NodeFlags = MobilityStatic|MobilityStaticByProxy
+                LocalBounds = {
+                    Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                    Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                }
+                LocalTransform = {
+                    Translation = (1.0987, -0.042274, -0.112937)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = -0.998284
+                        Y = -0.0496856
+                        Z = -0.00434895
+                        W = 0.0306915
+                    }
+                }
+                Children = [
+                    Bone {
+                        BoneName = "shin.L"
+                        BoneMatrix = [
+                            [1, 9.68794e-08, -4.07453e-09, -4.76837e-07]
+                            [-9.68794e-08, 1, 3.53903e-08, 1.38778e-17]
+                            [4.07454e-09, -3.53903e-08, 1, 1.78814e-07]
+                            [0, 0, 0, 1]
+                        ]
+                        BindingTransform = {
+                            Translation = (-0, 4.29064, -0)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0.0540472
+                                Y = -8.64749e-07
+                                Z = 8.10702e-07
+                                W = 0.998538
+                            }
+                        }
+                        PoseTransform = {
+                            Translation = (0, 0, 0)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        WorldBoneTranslation = (1.52548, 5.07669, 0.307056)
+                        WorldBoneRotation = {
+                            X = -0.998661
+                            Y = -0.049839
+                            Z = 0.00188822
+                            W = 0.0137061
+                        }
+                        InvBindingRotation = {
+                            X = 0.998662
+                            Y = 0.049839
+                            Z = -0.00188822
+                            W = 0.0137061
+                        }
+                        Name = "shin.L"
+                        NodeFlags = MobilityStatic|MobilityStaticByProxy
+                        LocalBounds = {
+                            Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                            Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                        }
+                        LocalTransform = {
+                            Translation = (-0, 4.29064, -0)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0.0540472
+                                Y = -8.64749e-07
+                                Z = 8.10702e-07
+                                W = 0.998538
+                            }
+                        }
+                        Children = [
+                            Bone {
+                                BoneName = "foot.L"
+                                BoneMatrix = [
+                                    [1, 9.50167e-08, 1.5134e-09, -4.76837e-07]
+                                    [-9.50167e-08, 1, 3.53903e-08, 5.41234e-16]
+                                    [-1.5134e-09, -3.53903e-08, 1, 1.93715e-07]
+                                    [0, 0, 0, 1]
+                                ]
+                                BindingTransform = {
+                                    Translation = (-0, 4.37548, -0)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = -0.537086
+                                        Y = -0.00814854
+                                        Z = 0.0213884
+                                        W = 0.843217
+                                    }
+                                }
+                                PoseTransform = {
+                                    Translation = (0, 0, 0)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = 0
+                                        Y = 0
+                                        Z = 0
+                                        W = 1
+                                    }
+                                }
+                                WorldBoneTranslation = (1.96081, 0.724589, 0.186452)
+                                WorldBoneRotation = {
+                                    X = -0.8505
+                                    Y = -0.0217911
+                                    Z = -0.0167449
+                                    W = -0.525257
+                                }
+                                InvBindingRotation = {
+                                    X = 0.8505
+                                    Y = 0.0217911
+                                    Z = 0.0167449
+                                    W = -0.525257
+                                }
+                                Name = "foot.L"
+                                NodeFlags = MobilityStatic|MobilityStaticByProxy
+                                LocalBounds = {
+                                    Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                                    Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                                }
+                                LocalTransform = {
+                                    Translation = (-0, 4.37548, -0)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = -0.537086
+                                        Y = -0.00814854
+                                        Z = 0.0213884
+                                        W = 0.843217
+                                    }
+                                }
+                                Children = [
+                                    Bone {
+                                        BoneName = "toe.L"
+                                        BoneMatrix = [
+                                            [1, 9.50167e-08, 3.37605e-09, -4.76837e-07]
+                                            [-9.50167e-08, 1, 3.53903e-08, 5.41234e-16]
+                                            [-3.37605e-09, -3.53903e-08, 1, 1.93715e-07]
+                                            [0, 0, 0, 1]
+                                        ]
+                                        BindingTransform = {
+                                            Translation = (0, 1.42952, 0)
+                                            Scale = (1, 1, 1)
+                                            Rotation = {
+                                                X = -0.230142
+                                                Y = -6.90426e-06
+                                                Z = -1.38085e-06
+                                                W = 0.973157
+                                            }
+                                        }
+                                        PoseTransform = {
+                                            Translation = (0, 0, 0)
+                                            Scale = (1, 1, 1)
+                                            Rotation = {
+                                                X = 0
+                                                Y = 0
+                                                Z = 0
+                                                W = 1
+                                            }
+                                        }
+                                        WorldBoneTranslation = (1.98865, 0.0852208, 1.46471)
+                                        WorldBoneRotation = {
+                                            X = -0.706787
+                                            Y = -0.01735
+                                            Z = -0.0213038
+                                            W = -0.706893
+                                        }
+                                        InvBindingRotation = {
+                                            X = 0.706787
+                                            Y = 0.01735
+                                            Z = 0.0213038
+                                            W = -0.706893
+                                        }
+                                        Name = "toe.L"
+                                        NodeFlags = MobilityStatic|MobilityStaticByProxy
+                                        LocalBounds = {
+                                            Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                                            Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                                        }
+                                        LocalTransform = {
+                                            Translation = (0, 1.42952, 0)
+                                            Scale = (1, 1, 1)
+                                            Rotation = {
+                                                X = -0.230142
+                                                Y = -6.90426e-06
+                                                Z = -1.38085e-06
+                                                W = 0.973157
+                                            }
+                                        }
+                                        Children = []
+                                        NodeTags = {
+                                            Values = []
+                                        }
+                                    }
+                                ]
+                                NodeTags = {
+                                    Values = []
+                                }
+                            }
+                        ]
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                ]
+                NodeTags = {
+                    Values = []
+                }
+            }
+            Bone {
+                BoneName = "thigh.R"
+                BoneMatrix = [
+                    [1, -2.91039e-11, -4.65662e-10, 0]
+                    [2.91039e-11, 1, -6.77626e-21, 0]
+                    [4.65662e-10, -6.77626e-21, 1, 0]
+                    [0, 0, 0, 1]
+                ]
+                BindingTransform = {
+                    Translation = (-1.0987, -0.042274, -0.112937)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = -0.998284
+                        Y = 0.0496856
+                        Z = 0.00434895
+                        W = 0.0306915
+                    }
+                }
+                PoseTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                WorldBoneTranslation = (-1.0987, 9.33206, -0.0383077)
+                WorldBoneRotation = {
+                    X = -0.997943
+                    Y = 0.049869
+                    Z = 0.000809066
+                    W = -0.0402887
+                }
+                InvBindingRotation = {
+                    X = 0.997943
+                    Y = -0.049869
+                    Z = -0.000809066
+                    W = -0.0402887
+                }
+                Name = "thigh.R"
+                NodeFlags = MobilityStatic|MobilityStaticByProxy
+                LocalBounds = {
+                    Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                    Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                }
+                LocalTransform = {
+                    Translation = (-1.0987, -0.042274, -0.112937)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = -0.998284
+                        Y = 0.0496856
+                        Z = 0.00434895
+                        W = 0.0306915
+                    }
+                }
+                Children = [
+                    Bone {
+                        BoneName = "shin.R"
+                        BoneMatrix = [
+                            [1, -9.68794e-08, 4.07453e-09, 4.76837e-07]
+                            [9.68794e-08, 1, 3.53903e-08, 1.38778e-17]
+                            [-4.07454e-09, -3.53903e-08, 1, 1.78814e-07]
+                            [0, 0, 0, 1]
+                        ]
+                        BindingTransform = {
+                            Translation = (0, 4.29064, -0)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0.0540472
+                                Y = 8.64749e-07
+                                Z = -8.10702e-07
+                                W = 0.998538
+                            }
+                        }
+                        PoseTransform = {
+                            Translation = (0, 0, 0)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        WorldBoneTranslation = (-1.52548, 5.07669, 0.307056)
+                        WorldBoneRotation = {
+                            X = -0.998661
+                            Y = 0.049839
+                            Z = -0.00188822
+                            W = 0.0137061
+                        }
+                        InvBindingRotation = {
+                            X = 0.998662
+                            Y = -0.049839
+                            Z = 0.00188822
+                            W = 0.0137061
+                        }
+                        Name = "shin.R"
+                        NodeFlags = MobilityStatic|MobilityStaticByProxy
+                        LocalBounds = {
+                            Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                            Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                        }
+                        LocalTransform = {
+                            Translation = (0, 4.29064, -0)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0.0540472
+                                Y = 8.64749e-07
+                                Z = -8.10702e-07
+                                W = 0.998538
+                            }
+                        }
+                        Children = [
+                            Bone {
+                                BoneName = "foot.R"
+                                BoneMatrix = [
+                                    [1, -9.50167e-08, -1.5134e-09, 4.76837e-07]
+                                    [9.50167e-08, 1, 3.53903e-08, 5.41234e-16]
+                                    [1.5134e-09, -3.53903e-08, 1, 1.93715e-07]
+                                    [0, 0, 0, 1]
+                                ]
+                                BindingTransform = {
+                                    Translation = (0, 4.37548, -0)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = -0.537086
+                                        Y = 0.00814854
+                                        Z = -0.0213884
+                                        W = 0.843217
+                                    }
+                                }
+                                PoseTransform = {
+                                    Translation = (0, 0, 0)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = 0
+                                        Y = 0
+                                        Z = 0
+                                        W = 1
+                                    }
+                                }
+                                WorldBoneTranslation = (-1.96081, 0.724589, 0.186452)
+                                WorldBoneRotation = {
+                                    X = -0.8505
+                                    Y = 0.0217911
+                                    Z = 0.0167449
+                                    W = -0.525257
+                                }
+                                InvBindingRotation = {
+                                    X = 0.8505
+                                    Y = -0.0217911
+                                    Z = -0.0167449
+                                    W = -0.525257
+                                }
+                                Name = "foot.R"
+                                NodeFlags = MobilityStatic|MobilityStaticByProxy
+                                LocalBounds = {
+                                    Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                                    Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                                }
+                                LocalTransform = {
+                                    Translation = (0, 4.37548, -0)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = -0.537086
+                                        Y = 0.00814854
+                                        Z = -0.0213884
+                                        W = 0.843217
+                                    }
+                                }
+                                Children = [
+                                    Bone {
+                                        BoneName = "toe.R"
+                                        BoneMatrix = [
+                                            [1, -9.50167e-08, -3.37605e-09, 4.76837e-07]
+                                            [9.50167e-08, 1, 3.53903e-08, 5.41234e-16]
+                                            [3.37605e-09, -3.53903e-08, 1, 1.93715e-07]
+                                            [0, 0, 0, 1]
+                                        ]
+                                        BindingTransform = {
+                                            Translation = (-0, 1.42952, 0)
+                                            Scale = (1, 1, 1)
+                                            Rotation = {
+                                                X = -0.230142
+                                                Y = 6.90426e-06
+                                                Z = 1.38085e-06
+                                                W = 0.973157
+                                            }
+                                        }
+                                        PoseTransform = {
+                                            Translation = (0, 0, 0)
+                                            Scale = (1, 1, 1)
+                                            Rotation = {
+                                                X = 0
+                                                Y = 0
+                                                Z = 0
+                                                W = 1
+                                            }
+                                        }
+                                        WorldBoneTranslation = (-1.98865, 0.0852208, 1.46471)
+                                        WorldBoneRotation = {
+                                            X = -0.706787
+                                            Y = 0.01735
+                                            Z = 0.0213038
+                                            W = -0.706893
+                                        }
+                                        InvBindingRotation = {
+                                            X = 0.706787
+                                            Y = -0.01735
+                                            Z = -0.0213038
+                                            W = -0.706893
+                                        }
+                                        Name = "toe.R"
+                                        NodeFlags = MobilityStatic|MobilityStaticByProxy
+                                        LocalBounds = {
+                                            Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                                            Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                                        }
+                                        LocalTransform = {
+                                            Translation = (-0, 1.42952, 0)
+                                            Scale = (1, 1, 1)
+                                            Rotation = {
+                                                X = -0.230142
+                                                Y = 6.90426e-06
+                                                Z = 1.38085e-06
+                                                W = 0.973157
+                                            }
+                                        }
+                                        Children = []
+                                        NodeTags = {
+                                            Values = []
+                                        }
+                                    }
+                                ]
+                                NodeTags = {
+                                    Values = []
+                                }
+                            }
+                        ]
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                ]
+                NodeTags = {
+                    Values = []
+                }
+            }
+            Bone {
+                BoneName = "spine"
+                BoneMatrix = [
+                    [1, 0, 0, 0]
+                    [0, 1, 0, 0]
+                    [0, 0, 1, 0]
+                    [0, 0, 0, 1]
+                ]
+                BindingTransform = {
+                    Translation = (0, 1.59963, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0.0252828
+                        Y = 0
+                        Z = 0
+                        W = 0.99968
+                    }
+                }
+                PoseTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                WorldBoneTranslation = (0, 10.9734, -0.159152)
+                WorldBoneRotation = {
+                    X = -0.045783
+                    Y = 0
+                    Z = 0
+                    W = 0.998951
+                }
+                InvBindingRotation = {
+                    X = 0.045783
+                    Y = -0
+                    Z = -0
+                    W = 0.998951
+                }
+                Name = "spine"
+                NodeFlags = MobilityStatic|MobilityStaticByProxy
+                LocalBounds = {
+                    Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                    Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                }
+                LocalTransform = {
+                    Translation = (0, 1.59963, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0.0252828
+                        Y = 0
+                        Z = 0
+                        W = 0.99968
+                    }
+                }
+                Children = [
+                    Bone {
+                        BoneName = "chest"
+                        BoneMatrix = [
+                            [1, 0, 0, 0]
+                            [0, 1, 0, 0]
+                            [0, 0, 1, 0]
+                            [0, 0, 0, 1]
+                        ]
+                        BindingTransform = {
+                            Translation = (0, 0.602224, 0)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0.108395
+                                Y = 0
+                                Z = 0
+                                W = 0.994108
+                            }
+                        }
+                        PoseTransform = {
+                            Translation = (0, 0, 0)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        WorldBoneTranslation = (0, 11.5731, -0.214238)
+                        WorldBoneRotation = {
+                            X = 0.0627677
+                            Y = 0
+                            Z = 0
+                            W = 0.998028
+                        }
+                        InvBindingRotation = {
+                            X = -0.0627677
+                            Y = -0
+                            Z = -0
+                            W = 0.998028
+                        }
+                        Name = "chest"
+                        NodeFlags = MobilityStatic|MobilityStaticByProxy
+                        LocalBounds = {
+                            Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                            Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                        }
+                        LocalTransform = {
+                            Translation = (0, 0.602224, 0)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0.108395
+                                Y = 0
+                                Z = 0
+                                W = 0.994108
+                            }
+                        }
+                        Children = [
+                            Bone {
+                                BoneName = "clavicle.R"
+                                BoneMatrix = [
+                                    [1, 5.96046e-08, -5.96046e-08, -8.04663e-07]
+                                    [-5.96046e-08, 1, 1.19209e-07, 0]
+                                    [5.96046e-08, -1.19209e-07, 1, 1.66893e-06]
+                                    [0, 0, 0, 1]
+                                ]
+                                BindingTransform = {
+                                    Translation = (-0.21297, 2.57055, 0.423774)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = -0.676296
+                                        Y = 0.457907
+                                        Z = 0.403719
+                                        W = 0.412257
+                                    }
+                                }
+                                PoseTransform = {
+                                    Translation = (0, 0, 0)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = 0
+                                        Y = 0
+                                        Z = 0
+                                        W = 1
+                                    }
+                                }
+                                WorldBoneTranslation = (-0.21297, 14.0703, 0.528256)
+                                WorldBoneRotation = {
+                                    X = -0.649086
+                                    Y = 0.431664
+                                    Z = 0.431664
+                                    W = 0.453894
+                                }
+                                InvBindingRotation = {
+                                    X = 0.649086
+                                    Y = -0.431664
+                                    Z = -0.431664
+                                    W = 0.453894
+                                }
+                                Name = "clavicle.R"
+                                NodeFlags = MobilityStatic|MobilityStaticByProxy
+                                LocalBounds = {
+                                    Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                                    Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                                }
+                                LocalTransform = {
+                                    Translation = (-0.21297, 2.57055, 0.423774)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = -0.676296
+                                        Y = 0.457907
+                                        Z = 0.403719
+                                        W = 0.412257
+                                    }
+                                }
+                                Children = [
+                                    Bone {
+                                        BoneName = "upper_arm.R"
+                                        BoneMatrix = [
+                                            [1, 5.96046e-08, -9.77889e-08, -8.04663e-07]
+                                            [-5.96046e-08, 1, 1.546e-07, 6.57252e-14]
+                                            [9.77889e-08, -1.546e-07, 1, 2.22027e-06]
+                                            [0, 0, 0, 1]
+                                        ]
+                                        BindingTransform = {
+                                            Translation = (-1e-06, 1.44778, 0)
+                                            Scale = (1, 1, 1)
+                                            Rotation = {
+                                                X = -0.190951
+                                                Y = -0.734264
+                                                Z = 0.261932
+                                                W = 0.596478
+                                            }
+                                        }
+                                        PoseTransform = {
+                                            Translation = (0, 0, 0)
+                                            Scale = (1, 1, 1)
+                                            Rotation = {
+                                                X = 0
+                                                Y = 0
+                                                Z = 0
+                                                W = 1
+                                            }
+                                        }
+                                        WorldBoneTranslation = (-1.59159, 13.7586, 0.21472)
+                                        WorldBoneRotation = {
+                                            X = -0.0438149
+                                            Y = 0.0117894
+                                            Z = 0.935395
+                                            W = 0.350682
+                                        }
+                                        InvBindingRotation = {
+                                            X = 0.0438149
+                                            Y = -0.0117894
+                                            Z = -0.935395
+                                            W = 0.350682
+                                        }
+                                        Name = "upper_arm.R"
+                                        NodeFlags = MobilityStatic|MobilityStaticByProxy
+                                        LocalBounds = {
+                                            Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                                            Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                                        }
+                                        LocalTransform = {
+                                            Translation = (-1e-06, 1.44778, 0)
+                                            Scale = (1, 1, 1)
+                                            Rotation = {
+                                                X = -0.190951
+                                                Y = -0.734264
+                                                Z = 0.261932
+                                                W = 0.596478
+                                            }
+                                        }
+                                        Children = [
+                                            Bone {
+                                                BoneName = "forearm.R"
+                                                BoneMatrix = [
+                                                    [1, 5.96047e-08, -6.79866e-08, -8.04663e-07]
+                                                    [-5.96046e-08, 1, 2.14204e-07, 1.60177e-13]
+                                                    [6.79866e-08, -2.14204e-07, 1, 2.83122e-06]
+                                                    [0, 0, 0, 1]
+                                                ]
+                                                BindingTransform = {
+                                                    Translation = (-1e-06, 2.53872, 0)
+                                                    Scale = (1, 1, 1)
+                                                    Rotation = {
+                                                        X = 0.393741
+                                                        Y = 3.93741e-07
+                                                        Z = -1.57496e-06
+                                                        W = 0.919222
+                                                    }
+                                                }
+                                                PoseTransform = {
+                                                    Translation = (0, 0, 0)
+                                                    Scale = (1, 1, 1)
+                                                    Rotation = {
+                                                        X = 0
+                                                        Y = 0
+                                                        Z = 0
+                                                        W = 1
+                                                    }
+                                                }
+                                                WorldBoneTranslation = (-3.25974, 11.845, 0.192697)
+                                                WorldBoneRotation = {
+                                                    X = 0.0978018
+                                                    Y = 0.37914
+                                                    Z = 0.855192
+                                                    W = 0.339608
+                                                }
+                                                InvBindingRotation = {
+                                                    X = -0.0978018
+                                                    Y = -0.37914
+                                                    Z = -0.855192
+                                                    W = 0.339608
+                                                }
+                                                Name = "forearm.R"
+                                                NodeFlags = MobilityStatic|MobilityStaticByProxy
+                                                LocalBounds = {
+                                                    Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                                                    Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                                                }
+                                                LocalTransform = {
+                                                    Translation = (-1e-06, 2.53872, 0)
+                                                    Scale = (1, 1, 1)
+                                                    Rotation = {
+                                                        X = 0.393741
+                                                        Y = 3.93741e-07
+                                                        Z = -1.57496e-06
+                                                        W = 0.919222
+                                                    }
+                                                }
+                                                Children = [
+                                                    Bone {
+                                                        BoneName = "hand.R"
+                                                        BoneMatrix = [
+                                                            [1, 5.96047e-08, -5.30854e-08, -8.04663e-07]
+                                                            [-5.96046e-08, 1, 2.14204e-07, 1.60177e-13]
+                                                            [5.30854e-08, -2.14204e-07, 1, 2.83122e-06]
+                                                            [0, 0, 0, 1]
+                                                        ]
+                                                        BindingTransform = {
+                                                            Translation = (-0, 2.61977, 0)
+                                                            Scale = (1, 1, 1)
+                                                            Rotation = {
+                                                                X = 0.119469
+                                                                Y = -0.668513
+                                                                Z = 0.0661198
+                                                                W = 0.731058
+                                                            }
+                                                        }
+                                                        PoseTransform = {
+                                                            Translation = (0, 0, 0)
+                                                            Scale = (1, 1, 1)
+                                                            Rotation = {
+                                                                X = 0
+                                                                Y = 0
+                                                                Z = 0
+                                                                W = 1
+                                                            }
+                                                        }
+                                                        WorldBoneTranslation = (-4.58718, 10.5827, 2.06558)
+                                                        WorldBoneRotation = {
+                                                            X = 0.708848
+                                                            Y = 0.145843
+                                                            Z = 0.536973
+                                                            W = 0.433504
+                                                        }
+                                                        InvBindingRotation = {
+                                                            X = -0.708848
+                                                            Y = -0.145843
+                                                            Z = -0.536973
+                                                            W = 0.433504
+                                                        }
+                                                        Name = "hand.R"
+                                                        NodeFlags = MobilityStatic|MobilityStaticByProxy
+                                                        LocalBounds = {
+                                                            Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                                                            Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                                                        }
+                                                        LocalTransform = {
+                                                            Translation = (-0, 2.61977, 0)
+                                                            Scale = (1, 1, 1)
+                                                            Rotation = {
+                                                                X = 0.119469
+                                                                Y = -0.668513
+                                                                Z = 0.0661198
+                                                                W = 0.731058
+                                                            }
+                                                        }
+                                                        Children = [
+                                                            Bone {
+                                                                BoneName = "thumb.02.R"
+                                                                BoneMatrix = [
+                                                                    [1, 5.96047e-08, -6.0536e-08, -8.04663e-07]
+                                                                    [-5.96046e-08, 1, 2.14204e-07, 1.60177e-13]
+                                                                    [6.0536e-08, -2.14204e-07, 1, 2.83122e-06]
+                                                                    [0, 0, 0, 1]
+                                                                ]
+                                                                BindingTransform = {
+                                                                    Translation = (0.424577, 0.611829, 0.228429)
+                                                                    Scale = (1, 1, 1)
+                                                                    Rotation = {
+                                                                        X = 0.0148054
+                                                                        Y = -0.664749
+                                                                        Z = -0.299772
+                                                                        W = 0.684125
+                                                                    }
+                                                                }
+                                                                PoseTransform = {
+                                                                    Translation = (0, 0, 0)
+                                                                    Scale = (1, 1, 1)
+                                                                    Rotation = {
+                                                                        X = 0
+                                                                        Y = 0
+                                                                        Z = 0
+                                                                        W = 1
+                                                                    }
+                                                                }
+                                                                WorldBoneTranslation = (-4.38107, 10.4077, 2.79611)
+                                                                WorldBoneRotation = {
+                                                                    X = 0.80459
+                                                                    Y = 0.0320468
+                                                                    Z = -0.235961
+                                                                    W = 0.543994
+                                                                }
+                                                                InvBindingRotation = {
+                                                                    X = -0.80459
+                                                                    Y = -0.0320468
+                                                                    Z = 0.235961
+                                                                    W = 0.543994
+                                                                }
+                                                                Name = "thumb.02.R"
+                                                                NodeFlags = MobilityStatic|MobilityStaticByProxy
+                                                                LocalBounds = {
+                                                                    Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                                                                    Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                                                                }
+                                                                LocalTransform = {
+                                                                    Translation = (0.424577, 0.611829, 0.228429)
+                                                                    Scale = (1, 1, 1)
+                                                                    Rotation = {
+                                                                        X = 0.0148054
+                                                                        Y = -0.664749
+                                                                        Z = -0.299772
+                                                                        W = 0.684125
+                                                                    }
+                                                                }
+                                                                Children = [
+                                                                    Bone {
+                                                                        BoneName = "thumb.03.R"
+                                                                        BoneMatrix = [
+                                                                            [1, -4.02331e-07, -1.1269e-07, 3.96371e-06]
+                                                                            [4.02332e-07, 1, 1.88314e-06, -3.81469e-06]
+                                                                            [1.1269e-07, -1.88314e-06, 1, 2.02358e-05]
+                                                                            [0, 0, 0, 1]
+                                                                        ]
+                                                                        BindingTransform = {
+                                                                            Translation = (0, 0.416908, -1e-06)
+                                                                            Scale = (1, 1, 1)
+                                                                            Rotation = {
+                                                                                X = 0.0362572
+                                                                                Y = 0.00994835
+                                                                                Z = -0.00343696
+                                                                                W = 0.999287
+                                                                            }
+                                                                        }
+                                                                        PoseTransform = {
+                                                                            Translation = (0, 0, 0)
+                                                                            Scale = (1, 1, 1)
+                                                                            Rotation = {
+                                                                                X = 0
+                                                                                Y = 0
+                                                                                Z = 0
+                                                                                W = 1
+                                                                            }
+                                                                        }
+                                                                        WorldBoneTranslation = (-4.25254, 10.2384, 3.15476)
+                                                                        WorldBoneRotation = {
+                                                                            X = 0.825978
+                                                                            Y = 0.0316459
+                                                                            Z = -0.23082
+                                                                            W = 0.513304
+                                                                        }
+                                                                        InvBindingRotation = {
+                                                                            X = -0.825978
+                                                                            Y = -0.0316459
+                                                                            Z = 0.23082
+                                                                            W = 0.513305
+                                                                        }
+                                                                        Name = "thumb.03.R"
+                                                                        NodeFlags = MobilityStatic|MobilityStaticByProxy
+                                                                        LocalBounds = {
+                                                                            Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                                                                            Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                                                                        }
+                                                                        LocalTransform = {
+                                                                            Translation = (0, 0.416908, -1e-06)
+                                                                            Scale = (1, 1, 1)
+                                                                            Rotation = {
+                                                                                X = 0.0362572
+                                                                                Y = 0.00994835
+                                                                                Z = -0.00343696
+                                                                                W = 0.999287
+                                                                            }
+                                                                        }
+                                                                        Children = []
+                                                                        NodeTags = {
+                                                                            Values = []
+                                                                        }
+                                                                    }
+                                                                ]
+                                                                NodeTags = {
+                                                                    Values = []
+                                                                }
+                                                            }
+                                                            Bone {
+                                                                BoneName = "f_ring.01.R"
+                                                                BoneMatrix = [
+                                                                    [1, 8.9407e-08, -4.56348e-08, -1.2815e-06]
+                                                                    [-8.9407e-08, 1, 2.14204e-07, 1.88599e-13]
+                                                                    [4.56348e-08, -2.14204e-07, 1, 2.83122e-06]
+                                                                    [0, 0, 0, 1]
+                                                                ]
+                                                                BindingTransform = {
+                                                                    Translation = (-0.224792, 1.02655, -0.159237)
+                                                                    Scale = (1, 1, 1)
+                                                                    Rotation = {
+                                                                        X = -0.0287438
+                                                                        Y = 0.0197432
+                                                                        Z = 0.156186
+                                                                        W = 0.987112
+                                                                    }
+                                                                }
+                                                                PoseTransform = {
+                                                                    Translation = (0, 0, 0)
+                                                                    Scale = (1, 1, 1)
+                                                                    Rotation = {
+                                                                        X = 0
+                                                                        Y = 0
+                                                                        Z = 0
+                                                                        W = 1
+                                                                    }
+                                                                }
+                                                                WorldBoneTranslation = (-5.0798, 9.90743, 2.72212)
+                                                                WorldBoneRotation = {
+                                                                    X = 0.699428
+                                                                    Y = 0.0263757
+                                                                    Z = 0.615946
+                                                                    W = 0.361545
+                                                                }
+                                                                InvBindingRotation = {
+                                                                    X = -0.699428
+                                                                    Y = -0.0263757
+                                                                    Z = -0.615946
+                                                                    W = 0.361545
+                                                                }
+                                                                Name = "f_ring.01.R"
+                                                                NodeFlags = MobilityStatic|MobilityStaticByProxy
+                                                                LocalBounds = {
+                                                                    Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                                                                    Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                                                                }
+                                                                LocalTransform = {
+                                                                    Translation = (-0.224792, 1.02655, -0.159237)
+                                                                    Scale = (1, 1, 1)
+                                                                    Rotation = {
+                                                                        X = -0.0287438
+                                                                        Y = 0.0197432
+                                                                        Z = 0.156186
+                                                                        W = 0.987112
+                                                                    }
+                                                                }
+                                                                Children = []
+                                                                NodeTags = {
+                                                                    Values = []
+                                                                }
+                                                            }
+                                                            Bone {
+                                                                BoneName = "f_index.01.R"
+                                                                BoneMatrix = [
+                                                                    [1, 2.68221e-07, 6.5472e-07, -5.0962e-06]
+                                                                    [-2.68221e-07, 1, -7.3947e-07, 1.90735e-06]
+                                                                    [-6.5472e-07, 7.3947e-07, 1, -1.02818e-05]
+                                                                    [0, 0, 0, 1]
+                                                                ]
+                                                                BindingTransform = {
+                                                                    Translation = (0.271134, 1.12704, -0.079711)
+                                                                    Scale = (1, 1, 1)
+                                                                    Rotation = {
+                                                                        X = 0.0271797
+                                                                        Y = -0.203198
+                                                                        Z = -0.0635294
+                                                                        W = 0.976696
+                                                                    }
+                                                                }
+                                                                PoseTransform = {
+                                                                    Translation = (0, 0, 0)
+                                                                    Scale = (1, 1, 1)
+                                                                    Rotation = {
+                                                                        X = 0
+                                                                        Y = 0
+                                                                        Z = 0
+                                                                        W = 1
+                                                                    }
+                                                                }
+                                                                WorldBoneTranslation = (-4.84637, 10.146, 3.11066)
+                                                                WorldBoneRotation = {
+                                                                    X = 0.803957
+                                                                    Y = 0.113985
+                                                                    Z = 0.348919
+                                                                    W = 0.467884
+                                                                }
+                                                                InvBindingRotation = {
+                                                                    X = -0.803958
+                                                                    Y = -0.113985
+                                                                    Z = -0.348919
+                                                                    W = 0.467884
+                                                                }
+                                                                Name = "f_index.01.R"
+                                                                NodeFlags = MobilityStatic|MobilityStaticByProxy
+                                                                LocalBounds = {
+                                                                    Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                                                                    Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                                                                }
+                                                                LocalTransform = {
+                                                                    Translation = (0.271134, 1.12704, -0.079711)
+                                                                    Scale = (1, 1, 1)
+                                                                    Rotation = {
+                                                                        X = 0.0271797
+                                                                        Y = -0.203198
+                                                                        Z = -0.0635294
+                                                                        W = 0.976696
+                                                                    }
+                                                                }
+                                                                Children = []
+                                                                NodeTags = {
+                                                                    Values = []
+                                                                }
+                                                            }
+                                                        ]
+                                                        NodeTags = {
+                                                            Values = []
+                                                        }
+                                                    }
+                                                ]
+                                                NodeTags = {
+                                                    Values = []
+                                                }
+                                            }
+                                        ]
+                                        NodeTags = {
+                                            Values = []
+                                        }
+                                    }
+                                ]
+                                NodeTags = {
+                                    Values = []
+                                }
+                            }
+                            Bone {
+                                BoneName = "clavicle.L"
+                                BoneMatrix = [
+                                    [1, -5.96046e-08, 5.96046e-08, 8.04663e-07]
+                                    [5.96046e-08, 1, 1.19209e-07, 0]
+                                    [-5.96046e-08, -1.19209e-07, 1, 1.66893e-06]
+                                    [0, 0, 0, 1]
+                                ]
+                                BindingTransform = {
+                                    Translation = (0.21297, 2.57055, 0.423774)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = -0.676296
+                                        Y = -0.457907
+                                        Z = -0.403719
+                                        W = 0.412257
+                                    }
+                                }
+                                PoseTransform = {
+                                    Translation = (0, 0, 0)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = 0
+                                        Y = 0
+                                        Z = 0
+                                        W = 1
+                                    }
+                                }
+                                WorldBoneTranslation = (0.21297, 14.0703, 0.528256)
+                                WorldBoneRotation = {
+                                    X = -0.649086
+                                    Y = -0.431664
+                                    Z = -0.431664
+                                    W = 0.453894
+                                }
+                                InvBindingRotation = {
+                                    X = 0.649086
+                                    Y = 0.431664
+                                    Z = 0.431664
+                                    W = 0.453894
+                                }
+                                Name = "clavicle.L"
+                                NodeFlags = MobilityStatic|MobilityStaticByProxy
+                                LocalBounds = {
+                                    Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                                    Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                                }
+                                LocalTransform = {
+                                    Translation = (0.21297, 2.57055, 0.423774)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = -0.676296
+                                        Y = -0.457907
+                                        Z = -0.403719
+                                        W = 0.412257
+                                    }
+                                }
+                                Children = [
+                                    Bone {
+                                        BoneName = "upper_arm.L"
+                                        BoneMatrix = [
+                                            [1, -5.96046e-08, 9.77889e-08, 8.04663e-07]
+                                            [5.96046e-08, 1, 1.546e-07, 6.57252e-14]
+                                            [-9.77889e-08, -1.546e-07, 1, 2.22027e-06]
+                                            [0, 0, 0, 1]
+                                        ]
+                                        BindingTransform = {
+                                            Translation = (1e-06, 1.44778, 0)
+                                            Scale = (1, 1, 1)
+                                            Rotation = {
+                                                X = -0.190951
+                                                Y = 0.734264
+                                                Z = -0.261932
+                                                W = 0.596478
+                                            }
+                                        }
+                                        PoseTransform = {
+                                            Translation = (0, 0, 0)
+                                            Scale = (1, 1, 1)
+                                            Rotation = {
+                                                X = 0
+                                                Y = 0
+                                                Z = 0
+                                                W = 1
+                                            }
+                                        }
+                                        WorldBoneTranslation = (1.59159, 13.7586, 0.21472)
+                                        WorldBoneRotation = {
+                                            X = -0.0438149
+                                            Y = -0.0117894
+                                            Z = -0.935395
+                                            W = 0.350682
+                                        }
+                                        InvBindingRotation = {
+                                            X = 0.0438149
+                                            Y = 0.0117894
+                                            Z = 0.935395
+                                            W = 0.350682
+                                        }
+                                        Name = "upper_arm.L"
+                                        NodeFlags = MobilityStatic|MobilityStaticByProxy
+                                        LocalBounds = {
+                                            Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                                            Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                                        }
+                                        LocalTransform = {
+                                            Translation = (1e-06, 1.44778, 0)
+                                            Scale = (1, 1, 1)
+                                            Rotation = {
+                                                X = -0.190951
+                                                Y = 0.734264
+                                                Z = -0.261932
+                                                W = 0.596478
+                                            }
+                                        }
+                                        Children = [
+                                            Bone {
+                                                BoneName = "forearm.L"
+                                                BoneMatrix = [
+                                                    [1, -5.96047e-08, 6.79866e-08, 8.04663e-07]
+                                                    [5.96046e-08, 1, 2.14204e-07, 1.60177e-13]
+                                                    [-6.79866e-08, -2.14204e-07, 1, 2.83122e-06]
+                                                    [0, 0, 0, 1]
+                                                ]
+                                                BindingTransform = {
+                                                    Translation = (1e-06, 2.53872, 0)
+                                                    Scale = (1, 1, 1)
+                                                    Rotation = {
+                                                        X = 0.393741
+                                                        Y = -3.93741e-07
+                                                        Z = 1.57496e-06
+                                                        W = 0.919222
+                                                    }
+                                                }
+                                                PoseTransform = {
+                                                    Translation = (0, 0, 0)
+                                                    Scale = (1, 1, 1)
+                                                    Rotation = {
+                                                        X = 0
+                                                        Y = 0
+                                                        Z = 0
+                                                        W = 1
+                                                    }
+                                                }
+                                                WorldBoneTranslation = (3.25974, 11.845, 0.192697)
+                                                WorldBoneRotation = {
+                                                    X = 0.0978018
+                                                    Y = -0.37914
+                                                    Z = -0.855192
+                                                    W = 0.339608
+                                                }
+                                                InvBindingRotation = {
+                                                    X = -0.0978018
+                                                    Y = 0.37914
+                                                    Z = 0.855192
+                                                    W = 0.339608
+                                                }
+                                                Name = "forearm.L"
+                                                NodeFlags = MobilityStatic|MobilityStaticByProxy
+                                                LocalBounds = {
+                                                    Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                                                    Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                                                }
+                                                LocalTransform = {
+                                                    Translation = (1e-06, 2.53872, 0)
+                                                    Scale = (1, 1, 1)
+                                                    Rotation = {
+                                                        X = 0.393741
+                                                        Y = -3.93741e-07
+                                                        Z = 1.57496e-06
+                                                        W = 0.919222
+                                                    }
+                                                }
+                                                Children = [
+                                                    Bone {
+                                                        BoneName = "hand.L"
+                                                        BoneMatrix = [
+                                                            [1, -5.96047e-08, 5.30854e-08, 8.04663e-07]
+                                                            [5.96046e-08, 1, 2.14204e-07, 1.60177e-13]
+                                                            [-5.30854e-08, -2.14204e-07, 1, 2.83122e-06]
+                                                            [0, 0, 0, 1]
+                                                        ]
+                                                        BindingTransform = {
+                                                            Translation = (0, 2.61977, 0)
+                                                            Scale = (1, 1, 1)
+                                                            Rotation = {
+                                                                X = 0.119469
+                                                                Y = 0.668513
+                                                                Z = -0.0661198
+                                                                W = 0.731058
+                                                            }
+                                                        }
+                                                        PoseTransform = {
+                                                            Translation = (0, 0, 0)
+                                                            Scale = (1, 1, 1)
+                                                            Rotation = {
+                                                                X = 0
+                                                                Y = 0
+                                                                Z = 0
+                                                                W = 1
+                                                            }
+                                                        }
+                                                        WorldBoneTranslation = (4.58718, 10.5827, 2.06558)
+                                                        WorldBoneRotation = {
+                                                            X = 0.708848
+                                                            Y = -0.145843
+                                                            Z = -0.536973
+                                                            W = 0.433504
+                                                        }
+                                                        InvBindingRotation = {
+                                                            X = -0.708848
+                                                            Y = 0.145843
+                                                            Z = 0.536973
+                                                            W = 0.433504
+                                                        }
+                                                        Name = "hand.L"
+                                                        NodeFlags = MobilityStatic|MobilityStaticByProxy
+                                                        LocalBounds = {
+                                                            Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                                                            Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                                                        }
+                                                        LocalTransform = {
+                                                            Translation = (0, 2.61977, 0)
+                                                            Scale = (1, 1, 1)
+                                                            Rotation = {
+                                                                X = 0.119469
+                                                                Y = 0.668513
+                                                                Z = -0.0661198
+                                                                W = 0.731058
+                                                            }
+                                                        }
+                                                        Children = [
+                                                            Bone {
+                                                                BoneName = "thumb.02.L"
+                                                                BoneMatrix = [
+                                                                    [1, -5.96047e-08, 9.31319e-10, 8.04663e-07]
+                                                                    [5.96047e-08, 1, 2.14204e-07, 1.09107e-13]
+                                                                    [-9.31319e-10, -2.14204e-07, 1, 2.5928e-06]
+                                                                    [0, 0, 0, 1]
+                                                                ]
+                                                                BindingTransform = {
+                                                                    Translation = (-0.424577, 0.611829, 0.228429)
+                                                                    Scale = (1, 1, 1)
+                                                                    Rotation = {
+                                                                        X = 0.0147578
+                                                                        Y = 0.664858
+                                                                        Z = 0.299774
+                                                                        W = 0.684018
+                                                                    }
+                                                                }
+                                                                PoseTransform = {
+                                                                    Translation = (0, 0, 0)
+                                                                    Scale = (1, 1, 1)
+                                                                    Rotation = {
+                                                                        X = 0
+                                                                        Y = 0
+                                                                        Z = 0
+                                                                        W = 1
+                                                                    }
+                                                                }
+                                                                WorldBoneTranslation = (4.38107, 10.4077, 2.79611)
+                                                                WorldBoneRotation = {
+                                                                    X = 0.804553
+                                                                    Y = -0.0319597
+                                                                    Z = 0.23609
+                                                                    W = 0.543999
+                                                                }
+                                                                InvBindingRotation = {
+                                                                    X = -0.804553
+                                                                    Y = 0.0319597
+                                                                    Z = -0.23609
+                                                                    W = 0.543999
+                                                                }
+                                                                Name = "thumb.02.L"
+                                                                NodeFlags = MobilityStatic|MobilityStaticByProxy
+                                                                LocalBounds = {
+                                                                    Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                                                                    Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                                                                }
+                                                                LocalTransform = {
+                                                                    Translation = (-0.424577, 0.611829, 0.228429)
+                                                                    Scale = (1, 1, 1)
+                                                                    Rotation = {
+                                                                        X = 0.0147578
+                                                                        Y = 0.664858
+                                                                        Z = 0.299774
+                                                                        W = 0.684018
+                                                                    }
+                                                                }
+                                                                Children = [
+                                                                    Bone {
+                                                                        BoneName = "thumb.03.L"
+                                                                        BoneMatrix = [
+                                                                            [1, -5.96047e-08, 1.21072e-08, 8.04663e-07]
+                                                                            [5.96047e-08, 1, 2.14204e-07, 1.09107e-13]
+                                                                            [-1.21072e-08, -2.14204e-07, 1, 2.5928e-06]
+                                                                            [0, 0, 0, 1]
+                                                                        ]
+                                                                        BindingTransform = {
+                                                                            Translation = (0, 0.416908, 0)
+                                                                            Scale = (1, 1, 1)
+                                                                            Rotation = {
+                                                                                X = 0.0362556
+                                                                                Y = -0.00997317
+                                                                                Z = 0.00344764
+                                                                                W = 0.999287
+                                                                            }
+                                                                        }
+                                                                        PoseTransform = {
+                                                                            Translation = (0, 0, 0)
+                                                                            Scale = (1, 1, 1)
+                                                                            Rotation = {
+                                                                                X = 0
+                                                                                Y = 0
+                                                                                Z = 0
+                                                                                W = 1
+                                                                            }
+                                                                        }
+                                                                        WorldBoneTranslation = (4.25254, 10.2384, 3.15476)
+                                                                        WorldBoneRotation = {
+                                                                            X = 0.825946
+                                                                            Y = -0.0315766
+                                                                            Z = 0.230932
+                                                                            W = 0.513309
+                                                                        }
+                                                                        InvBindingRotation = {
+                                                                            X = -0.825946
+                                                                            Y = 0.0315766
+                                                                            Z = -0.230932
+                                                                            W = 0.513309
+                                                                        }
+                                                                        Name = "thumb.03.L"
+                                                                        NodeFlags = MobilityStatic|MobilityStaticByProxy
+                                                                        LocalBounds = {
+                                                                            Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                                                                            Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                                                                        }
+                                                                        LocalTransform = {
+                                                                            Translation = (0, 0.416908, 0)
+                                                                            Scale = (1, 1, 1)
+                                                                            Rotation = {
+                                                                                X = 0.0362556
+                                                                                Y = -0.00997317
+                                                                                Z = 0.00344764
+                                                                                W = 0.999287
+                                                                            }
+                                                                        }
+                                                                        Children = []
+                                                                        NodeTags = {
+                                                                            Values = []
+                                                                        }
+                                                                    }
+                                                                ]
+                                                                NodeTags = {
+                                                                    Values = []
+                                                                }
+                                                            }
+                                                            Bone {
+                                                                BoneName = "f_ring.01.L"
+                                                                BoneMatrix = [
+                                                                    [1, -8.9407e-08, 4.56348e-08, 1.2815e-06]
+                                                                    [8.9407e-08, 1, 2.14204e-07, 1.88599e-13]
+                                                                    [-4.56348e-08, -2.14204e-07, 1, 2.83122e-06]
+                                                                    [0, 0, 0, 1]
+                                                                ]
+                                                                BindingTransform = {
+                                                                    Translation = (0.224792, 1.02655, -0.159237)
+                                                                    Scale = (1, 1, 1)
+                                                                    Rotation = {
+                                                                        X = -0.0287438
+                                                                        Y = -0.0197432
+                                                                        Z = -0.156186
+                                                                        W = 0.987112
+                                                                    }
+                                                                }
+                                                                PoseTransform = {
+                                                                    Translation = (0, 0, 0)
+                                                                    Scale = (1, 1, 1)
+                                                                    Rotation = {
+                                                                        X = 0
+                                                                        Y = 0
+                                                                        Z = 0
+                                                                        W = 1
+                                                                    }
+                                                                }
+                                                                WorldBoneTranslation = (5.0798, 9.90743, 2.72212)
+                                                                WorldBoneRotation = {
+                                                                    X = 0.699428
+                                                                    Y = -0.0263757
+                                                                    Z = -0.615946
+                                                                    W = 0.361545
+                                                                }
+                                                                InvBindingRotation = {
+                                                                    X = -0.699428
+                                                                    Y = 0.0263757
+                                                                    Z = 0.615946
+                                                                    W = 0.361545
+                                                                }
+                                                                Name = "f_ring.01.L"
+                                                                NodeFlags = MobilityStatic|MobilityStaticByProxy
+                                                                LocalBounds = {
+                                                                    Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                                                                    Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                                                                }
+                                                                LocalTransform = {
+                                                                    Translation = (0.224792, 1.02655, -0.159237)
+                                                                    Scale = (1, 1, 1)
+                                                                    Rotation = {
+                                                                        X = -0.0287438
+                                                                        Y = -0.0197432
+                                                                        Z = -0.156186
+                                                                        W = 0.987112
+                                                                    }
+                                                                }
+                                                                Children = []
+                                                                NodeTags = {
+                                                                    Values = []
+                                                                }
+                                                            }
+                                                            Bone {
+                                                                BoneName = "f_index.01.L"
+                                                                BoneMatrix = [
+                                                                    [1, -2.68221e-07, -6.5472e-07, 5.0962e-06]
+                                                                    [2.68221e-07, 1, -7.3947e-07, 1.90735e-06]
+                                                                    [6.5472e-07, 7.3947e-07, 1, -1.02818e-05]
+                                                                    [0, 0, 0, 1]
+                                                                ]
+                                                                BindingTransform = {
+                                                                    Translation = (-0.271134, 1.12704, -0.079711)
+                                                                    Scale = (1, 1, 1)
+                                                                    Rotation = {
+                                                                        X = 0.0271797
+                                                                        Y = 0.203198
+                                                                        Z = 0.0635294
+                                                                        W = 0.976696
+                                                                    }
+                                                                }
+                                                                PoseTransform = {
+                                                                    Translation = (0, 0, 0)
+                                                                    Scale = (1, 1, 1)
+                                                                    Rotation = {
+                                                                        X = 0
+                                                                        Y = 0
+                                                                        Z = 0
+                                                                        W = 1
+                                                                    }
+                                                                }
+                                                                WorldBoneTranslation = (4.84637, 10.146, 3.11066)
+                                                                WorldBoneRotation = {
+                                                                    X = 0.803957
+                                                                    Y = -0.113985
+                                                                    Z = -0.348919
+                                                                    W = 0.467884
+                                                                }
+                                                                InvBindingRotation = {
+                                                                    X = -0.803958
+                                                                    Y = 0.113985
+                                                                    Z = 0.348919
+                                                                    W = 0.467884
+                                                                }
+                                                                Name = "f_index.01.L"
+                                                                NodeFlags = MobilityStatic|MobilityStaticByProxy
+                                                                LocalBounds = {
+                                                                    Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                                                                    Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                                                                }
+                                                                LocalTransform = {
+                                                                    Translation = (-0.271134, 1.12704, -0.079711)
+                                                                    Scale = (1, 1, 1)
+                                                                    Rotation = {
+                                                                        X = 0.0271797
+                                                                        Y = 0.203198
+                                                                        Z = 0.0635294
+                                                                        W = 0.976696
+                                                                    }
+                                                                }
+                                                                Children = []
+                                                                NodeTags = {
+                                                                    Values = []
+                                                                }
+                                                            }
+                                                        ]
+                                                        NodeTags = {
+                                                            Values = []
+                                                        }
+                                                    }
+                                                ]
+                                                NodeTags = {
+                                                    Values = []
+                                                }
+                                            }
+                                        ]
+                                        NodeTags = {
+                                            Values = []
+                                        }
+                                    }
+                                ]
+                                NodeTags = {
+                                    Values = []
+                                }
+                            }
+                            Bone {
+                                BoneName = "neck"
+                                BoneMatrix = [
+                                    [1, 0, 0, 0]
+                                    [0, 1, 0, 0]
+                                    [0, 0, 1, 0]
+                                    [0, 0, 0, 1]
+                                ]
+                                BindingTransform = {
+                                    Translation = (0, 3.15687, 0)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = -0.114023
+                                        Y = -0
+                                        Z = -0
+                                        W = 0.993478
+                                    }
+                                }
+                                PoseTransform = {
+                                    Translation = (0, 0, 0)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = 0
+                                        Y = 0
+                                        Z = 0
+                                        W = 1
+                                    }
+                                }
+                                WorldBoneTranslation = (0, 14.7051, 0.18128)
+                                WorldBoneRotation = {
+                                    X = -0.0514403
+                                    Y = 0
+                                    Z = 0
+                                    W = 0.998676
+                                }
+                                InvBindingRotation = {
+                                    X = 0.0514403
+                                    Y = -0
+                                    Z = -0
+                                    W = 0.998676
+                                }
+                                Name = "neck"
+                                NodeFlags = MobilityStatic|MobilityStaticByProxy
+                                LocalBounds = {
+                                    Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                                    Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                                }
+                                LocalTransform = {
+                                    Translation = (0, 3.15687, 0)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = -0.114023
+                                        Y = -0
+                                        Z = -0
+                                        W = 0.993478
+                                    }
+                                }
+                                Children = [
+                                    Bone {
+                                        BoneName = "head"
+                                        BoneMatrix = [
+                                            [1, 0, 0, 0]
+                                            [0, 1, -1.86265e-09, 0]
+                                            [0, 1.86265e-09, 1, -2.98023e-08]
+                                            [0, 0, 0, 1]
+                                        ]
+                                        BindingTransform = {
+                                            Translation = (-0, 0.90308, -0)
+                                            Scale = (1, 1, 1)
+                                            Rotation = {
+                                                X = 0.0612596
+                                                Y = -0
+                                                Z = -0
+                                                W = 0.998122
+                                            }
+                                        }
+                                        PoseTransform = {
+                                            Translation = (0, 0, 0)
+                                            Scale = (1, 1, 1)
+                                            Rotation = {
+                                                X = 0
+                                                Y = 0
+                                                Z = 0
+                                                W = 1
+                                            }
+                                        }
+                                        WorldBoneTranslation = (0, 15.6034, 0.088494)
+                                        WorldBoneRotation = {
+                                            X = 0.00983484
+                                            Y = 0
+                                            Z = 0
+                                            W = 0.999952
+                                        }
+                                        InvBindingRotation = {
+                                            X = -0.00983484
+                                            Y = -0
+                                            Z = -0
+                                            W = 0.999952
+                                        }
+                                        Name = "head"
+                                        NodeFlags = MobilityStatic|MobilityStaticByProxy
+                                        LocalBounds = {
+                                            Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                                            Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                                        }
+                                        LocalTransform = {
+                                            Translation = (-0, 0.90308, -0)
+                                            Scale = (1, 1, 1)
+                                            Rotation = {
+                                                X = 0.0612596
+                                                Y = -0
+                                                Z = -0
+                                                W = 0.998122
+                                            }
+                                        }
+                                        Children = [
+                                            Bone {
+                                                BoneName = "jaw"
+                                                BoneMatrix = [
+                                                    [1, 0, 0, 0]
+                                                    [0, 1, -6.14673e-08, 1.77636e-15]
+                                                    [0, 6.14673e-08, 1, -9.83477e-07]
+                                                    [0, 0, 0, 1]
+                                                ]
+                                                BindingTransform = {
+                                                    Translation = (-0, -0.034468, 0.556191)
+                                                    Scale = (1, 1, 1)
+                                                    Rotation = {
+                                                        X = 0.920402
+                                                        Y = 0
+                                                        Z = 0
+                                                        W = 0.390973
+                                                    }
+                                                }
+                                                PoseTransform = {
+                                                    Translation = (0, 0, 0)
+                                                    Scale = (1, 1, 1)
+                                                    Rotation = {
+                                                        X = 0
+                                                        Y = 0
+                                                        Z = 0
+                                                        W = 1
+                                                    }
+                                                }
+                                                WorldBoneTranslation = (0, 15.558, 0.6439)
+                                                WorldBoneRotation = {
+                                                    X = 0.924203
+                                                    Y = 0
+                                                    Z = 0
+                                                    W = 0.381902
+                                                }
+                                                InvBindingRotation = {
+                                                    X = -0.924203
+                                                    Y = -0
+                                                    Z = -0
+                                                    W = 0.381902
+                                                }
+                                                Name = "jaw"
+                                                NodeFlags = MobilityStatic|MobilityStaticByProxy
+                                                LocalBounds = {
+                                                    Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                                                    Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                                                }
+                                                LocalTransform = {
+                                                    Translation = (-0, -0.034468, 0.556191)
+                                                    Scale = (1, 1, 1)
+                                                    Rotation = {
+                                                        X = 0.920402
+                                                        Y = 0
+                                                        Z = 0
+                                                        W = 0.390973
+                                                    }
+                                                }
+                                                Children = []
+                                                NodeTags = {
+                                                    Values = []
+                                                }
+                                            }
+                                            Bone {
+                                                BoneName = "eye.R"
+                                                BoneMatrix = [
+                                                    [1, 0, 0, 0]
+                                                    [0, 1, -1.86265e-09, 0]
+                                                    [0, 1.86265e-09, 1, -2.98023e-08]
+                                                    [0, 0, 0, 1]
+                                                ]
+                                                BindingTransform = {
+                                                    Translation = (-0.293127, 0.30276, 1.21533)
+                                                    Scale = (1, 1, 1)
+                                                    Rotation = {
+                                                        X = 0.683055
+                                                        Y = -0.323819
+                                                        Z = -0.2569
+                                                        W = 0.602146
+                                                    }
+                                                }
+                                                PoseTransform = {
+                                                    Translation = (0, 0, 0)
+                                                    Scale = (1, 1, 1)
+                                                    Rotation = {
+                                                        X = 0
+                                                        Y = 0
+                                                        Z = 0
+                                                        W = 1
+                                                    }
+                                                }
+                                                WorldBoneTranslation = (-0.293127, 15.8822, 1.30955)
+                                                WorldBoneRotation = {
+                                                    X = 0.688944
+                                                    Y = -0.321277
+                                                    Z = -0.260072
+                                                    W = 0.595399
+                                                }
+                                                InvBindingRotation = {
+                                                    X = -0.688944
+                                                    Y = 0.321277
+                                                    Z = 0.260072
+                                                    W = 0.595399
+                                                }
+                                                Name = "eye.R"
+                                                NodeFlags = MobilityStatic|MobilityStaticByProxy
+                                                LocalBounds = {
+                                                    Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                                                    Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                                                }
+                                                LocalTransform = {
+                                                    Translation = (-0.293127, 0.30276, 1.21533)
+                                                    Scale = (1, 1, 1)
+                                                    Rotation = {
+                                                        X = 0.683055
+                                                        Y = -0.323819
+                                                        Z = -0.2569
+                                                        W = 0.602146
+                                                    }
+                                                }
+                                                Children = []
+                                                NodeTags = {
+                                                    Values = []
+                                                }
+                                            }
+                                            Bone {
+                                                BoneName = "eye.L"
+                                                BoneMatrix = [
+                                                    [1, 0, 0, 0]
+                                                    [0, 1, -1.86265e-09, 0]
+                                                    [0, 1.86265e-09, 1, -2.98023e-08]
+                                                    [0, 0, 0, 1]
+                                                ]
+                                                BindingTransform = {
+                                                    Translation = (0.293127, 0.30276, 1.21533)
+                                                    Scale = (1, 1, 1)
+                                                    Rotation = {
+                                                        X = 0.683055
+                                                        Y = 0.323819
+                                                        Z = 0.2569
+                                                        W = 0.602146
+                                                    }
+                                                }
+                                                PoseTransform = {
+                                                    Translation = (0, 0, 0)
+                                                    Scale = (1, 1, 1)
+                                                    Rotation = {
+                                                        X = 0
+                                                        Y = 0
+                                                        Z = 0
+                                                        W = 1
+                                                    }
+                                                }
+                                                WorldBoneTranslation = (0.293127, 15.8822, 1.30955)
+                                                WorldBoneRotation = {
+                                                    X = 0.688944
+                                                    Y = 0.321277
+                                                    Z = 0.260072
+                                                    W = 0.595399
+                                                }
+                                                InvBindingRotation = {
+                                                    X = -0.688944
+                                                    Y = -0.321277
+                                                    Z = -0.260072
+                                                    W = 0.595399
+                                                }
+                                                Name = "eye.L"
+                                                NodeFlags = MobilityStatic|MobilityStaticByProxy
+                                                LocalBounds = {
+                                                    Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                                                    Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                                                }
+                                                LocalTransform = {
+                                                    Translation = (0.293127, 0.30276, 1.21533)
+                                                    Scale = (1, 1, 1)
+                                                    Rotation = {
+                                                        X = 0.683055
+                                                        Y = 0.323819
+                                                        Z = 0.2569
+                                                        W = 0.602146
+                                                    }
+                                                }
+                                                Children = []
+                                                NodeTags = {
+                                                    Values = []
+                                                }
+                                            }
+                                        ]
+                                        NodeTags = {
+                                            Values = []
+                                        }
+                                    }
+                                ]
+                                NodeTags = {
+                                    Values = []
+                                }
+                            }
+                        ]
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                ]
+                NodeTags = {
+                    Values = []
+                }
+            }
+        ]
+        NodeTags = {
+            Values = []
+        }
+    }
+    Animations = [
+        @"Game://Animations/Sprint"
+        @"Game://Animations/Walk3"
+    ]
+}

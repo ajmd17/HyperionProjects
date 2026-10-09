@@ -1,0 +1,8 @@
+InstanceSetData fir_open_custom_Instances {
+    Records = {
+        Key = "Game://InstancedMeshData/fir_open_custom_Instances.INST"
+        Size = 528
+    }
+    NextId = 11
+    UUID = "0edb4dad-b20a-407c-9840-907e787dc3db"
+}

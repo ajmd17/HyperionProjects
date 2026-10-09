@@ -1,0 +1,34 @@
+Texture "irr9_VisibilityMap_51" {
+    TextureDesc = {
+        Type = Cubemap
+        Format = RG16F
+        Extent = (16, 16, 1)
+        MinFilterMode = Linear
+        MagFilterMode = Linear
+        TextureWrapMode = ClampToEdge
+        NumLayers = 1
+        ImageUsage = Sampled|Storage
+        MipOffsets = [
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+        ]
+    }
+    ImageData = {
+        Key = "Game://Textures/irr9_VisibilityMap_51.TEX"
+        Size = 6144
+    }
+}

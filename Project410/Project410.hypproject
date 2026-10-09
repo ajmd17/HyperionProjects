@@ -1,0 +1,7 @@
+EditorProject Project410 {
+    GameInstance = {}
+
+    EditorCameraPosition = (3.6806042, 16.528265, 5.082666)
+    EditorCameraDirection = (0.57177734, -0.40978983, -0.7107341)
+    EditWorldName = MainWorld
+}

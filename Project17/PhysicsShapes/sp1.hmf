@@ -1,0 +1,7 @@
+SpherePhysicsShape sp1 {
+    Bounds = {
+        Center = (0, 0, 0)
+        Radius = 1
+    }
+    UUID = "9afddfce-fde6-479d-96b7-5d44c35d4fd1"
+}

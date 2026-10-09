@@ -1,0 +1,35 @@
+Texture grass_albedo_2 {
+    TextureDesc = {
+        Type = Texture2D
+        Format = RGBA8_SRGB
+        Extent = (1536, 1024, 1)
+        MinFilterMode = LinearMipmap
+        MagFilterMode = Linear
+        TextureWrapMode = ClampToEdge
+        NumLayers = 1
+        ImageUsage = Sampled
+        MipOffsets = [
+            6291456
+            7864320
+            8257536
+            8355840
+            8380416
+            8386560
+            8388096
+            8388480
+            8388576
+            8388600
+            0
+            0
+            0
+            0
+            0
+            0
+        ]
+    }
+    ImageData = {
+        Key = "Game://Textures/grass_albedo_2.TEX"
+        Size = 8388604
+    }
+    UUID = "2ef914da-0dea-4cdc-8767-2086329039ef"
+}

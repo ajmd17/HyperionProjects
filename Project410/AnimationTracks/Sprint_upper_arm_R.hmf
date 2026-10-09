@@ -1,0 +1,7 @@
+AnimationTrack Sprint_upper_arm_R {
+    BoneName = "upper_arm.R"
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Sprint_upper_arm_R.KEYF"
+        Size = 1408
+    }
+}

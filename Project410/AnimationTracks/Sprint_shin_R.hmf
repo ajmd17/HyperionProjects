@@ -1,0 +1,7 @@
+AnimationTrack Sprint_shin_R {
+    BoneName = "shin.R"
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Sprint_shin_R.KEYF"
+        Size = 1408
+    }
+}

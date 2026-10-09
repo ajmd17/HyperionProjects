@@ -1,0 +1,66 @@
+Skeleton Skeleton_2 {
+    RootBone = {
+        BoneName = ""
+        BoneMatrix = [
+            [1, 0, 0, 0]
+            [0, 1, 0, 0]
+            [0, 0, 1, 0]
+            [0, 0, 0, 1]
+        ]
+        BindingTransform = {
+            Translation = (0, 0, 0)
+            Scale = (1, 1, 1)
+            Rotation = {
+                X = 0
+                Y = 0
+                Z = 0
+                W = 1
+            }
+        }
+        PoseTransform = {
+            Translation = (0, 0, 0)
+            Scale = (1, 1, 1)
+            Rotation = {
+                X = 0
+                Y = 0
+                Z = 0
+                W = 1
+            }
+        }
+        WorldBoneTranslation = (0, 0, 0)
+        WorldBoneRotation = {
+            X = 0
+            Y = 0
+            Z = 0
+            W = 1
+        }
+        InvBindingRotation = {
+            X = -0
+            Y = -0
+            Z = -0
+            W = 1
+        }
+        UUID = "8aa01690-3c73-4e5d-a3a7-e9daf1ae5f50"
+        Name = ""
+        NodeFlags = MobilityStatic
+        LocalBounds = {
+            Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+            Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+        }
+        LocalTransform = {
+            Translation = (0, 0, 0)
+            Scale = (1, 1, 1)
+            Rotation = {
+                X = 0
+                Y = 0
+                Z = 0
+                W = 1
+            }
+        }
+        Children = []
+        NodeTags = {
+            Values = []
+        }
+    }
+    Animations = []
+}

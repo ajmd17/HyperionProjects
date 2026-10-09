@@ -1,0 +1,7 @@
+AnimationTrack "Sprint_foot_R_1" {
+    BoneName = "foot.R"
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Sprint_foot_R_1.KEYF"
+        Size = 1408
+    }
+}

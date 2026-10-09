@@ -1,0 +1,8 @@
+AnimationTrack Rig_M4_Idle_middle_3_R_042_1 {
+    BoneName = middle_3_R_042
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Rig_M4_Idle_middle_3_R_042_1.KEYF"
+        Size = 11520
+    }
+    UUID = "6c794307-057f-4619-81e8-f8a0426e1a81"
+}

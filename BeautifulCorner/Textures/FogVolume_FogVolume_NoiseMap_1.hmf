@@ -1,0 +1,35 @@
+Texture FogVolume_FogVolume_NoiseMap_1 {
+    TextureDesc = {
+        Type = Texture3D
+        Format = R8
+        Extent = (32, 32, 32)
+        MinFilterMode = Linear
+        MagFilterMode = Linear
+        TextureWrapMode = Repeat
+        NumLayers = 1
+        ImageUsage = Sampled
+        MipOffsets = [
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+        ]
+    }
+    ImageData = {
+        Key = "Game://Textures/FogVolume_FogVolume_NoiseMap_1.TEX"
+        Size = 32768
+    }
+    UUID = "85c57f2e-3bf1-461c-9505-bbc6879d8f4b"
+}

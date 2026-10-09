@@ -1,0 +1,8 @@
+AnimationTrack Rig_M4_Fire_LastRoundCheck_twist_arm_1_R_051_1 {
+    BoneName = twist_arm_1_R_051
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Rig_M4_Fire_LastRoundCheck_twist_arm_1_R_051_1.KEYF"
+        Size = 8320
+    }
+    UUID = "cb1f5ccc-d847-48dd-ada8-1003d5d1f777"
+}

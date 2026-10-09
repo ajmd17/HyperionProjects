@@ -1,0 +1,8 @@
+InstanceSetData Boxwood_Instances {
+    Records = {
+        Key = "Game://InstanceData/Boxwood_Instances.INST"
+        Size = 1920
+    }
+    NextId = 40
+    UUID = "00b22c23-0832-47ae-b4be-316914f3ab49"
+}

@@ -1,0 +1,76 @@
+Material BoxMat {
+    BaseMaterial = null
+    Attributes = {
+        ShaderName = GeometryPass
+        ShaderProperties = {
+            Chunks = [
+                0
+                0
+                0
+                0
+                0
+                0
+                0
+                0
+            ]
+        }
+        Bucket = Opaque
+        FillMode = Fill
+        BlendFunction = {
+            SrcColor = None
+            DstColor = None
+            SrcAlpha = None
+            DstAlpha = None
+        }
+        FaceCullMode = Back
+        Flags = MAF_DEPTH_WRITE|MAF_DEPTH_TEST
+        StencilFunction = {
+            PassOp = Replace
+            FailOp = Keep
+            DepthFailOp = Keep
+            CompareOp = Always
+        }
+        DepthCompareOp = Less
+        StencilReference = 0
+        DepthBias = 0
+        DepthBiasSlope = 0
+    }
+    Parameters = {
+        NormalMapFlipY = false
+        RoughnessChannel = R
+        MetalnessChannel = R
+        AmbientOcclusionChannel = R
+        InverseHeight = true
+        Albedo = (1, 1, 1, 1)
+        Metalness = 0
+        Roughness = 0
+        AlphaThreshold = 0
+        ParallaxHeightScale = 0.1
+        Transmission = 0
+        IOR = 1.5
+        EmissiveColor = {
+            Red = 0.494118
+            Green = 1
+            Blue = 1
+            Alpha = 1
+        }
+        EmissiveIntensity = 1
+        UserParams = (0, 0, 0, 0)
+        UVScale = (1, 1)
+        Unlit = false
+        Flags = 128
+    }
+    Textures = {
+        Values = [
+            @"Game://Textures/columned-lava-rock_albedo"
+            @"Game://Textures/columned-lava-rock_normal-ogl"
+            @"Game://Textures/columned-lava-rock_height"
+            null
+            null
+            @"Game://Textures/columned-lava-rock_ao"
+            null
+            null
+        ]
+    }
+    IsDynamic = false
+}

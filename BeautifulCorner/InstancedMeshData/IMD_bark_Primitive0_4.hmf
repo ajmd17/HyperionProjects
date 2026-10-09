@@ -1,0 +1,39 @@
+InstancedMeshData IMD_bark_Primitive0_4 {
+    Buffers = [
+        BlobDataReference {
+            Key = "Game://InstancedMeshData/IMD_bark_Primitive0_4.IMD0"
+            Size = 128
+        }
+        BlobDataReference {
+            Key = "Game://InstancedMeshData/IMD_bark_Primitive0_4.IMD1"
+            Size = 128
+        }
+        BlobDataReference {
+            Key = ""
+            Size = 0
+        }
+        BlobDataReference {
+            Key = ""
+            Size = 0
+        }
+        BlobDataReference {
+            Key = ""
+            Size = 0
+        }
+    ]
+    BufferStructSizes = [
+        64
+        64
+        0
+        0
+        0
+    ]
+    BufferStructAlignments = [
+        16
+        16
+        0
+        0
+        0
+    ]
+    UUID = "a3b80204-44de-4ba5-aec4-0637b307035c"
+}

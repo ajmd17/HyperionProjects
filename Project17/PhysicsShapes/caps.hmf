@@ -1,0 +1,5 @@
+CapsulePhysicsShape caps {
+    Radius = 0.2
+    Height = 1.7
+    UUID = "541b0ebb-4f9b-4555-8a81-01799d5c721b"
+}

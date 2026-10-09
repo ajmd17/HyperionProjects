@@ -1,0 +1,8 @@
+AnimationTrack Rig_M4_ReloadOne_type2_ring_1_R_044 {
+    BoneName = ring_1_R_044
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Rig_M4_ReloadOne_type2_ring_1_R_044.KEYF"
+        Size = 7232
+    }
+    UUID = "c32f27e8-3a20-46c6-8018-70ea20b95761"
+}

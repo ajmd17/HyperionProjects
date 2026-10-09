@@ -1,0 +1,35 @@
+Texture grass_Roughness_2 {
+    TextureDesc = {
+        Type = Texture2D
+        Format = R8
+        Extent = (1536, 1024, 1)
+        MinFilterMode = LinearMipmap
+        MagFilterMode = Linear
+        TextureWrapMode = ClampToEdge
+        NumLayers = 1
+        ImageUsage = Sampled
+        MipOffsets = [
+            1572864
+            1966080
+            2064384
+            2088960
+            2095104
+            2096640
+            2097024
+            2097120
+            2097144
+            2097150
+            0
+            0
+            0
+            0
+            0
+            0
+        ]
+    }
+    ImageData = {
+        Key = "Game://Textures/grass_Roughness_2.TEX"
+        Size = 2097151
+    }
+    UUID = "29db33b5-63ac-42d2-be2e-1df61689917e"
+}

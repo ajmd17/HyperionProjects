@@ -1,0 +1,109 @@
+Mesh short_grass_LOD0 {
+    AABB = {
+        Min = (-1.0520189, 0, -1.077694)
+        Max = (1.1530836, 0.2437659, 1.0208914)
+    }
+    LodGeneration = {
+        NumLods = 4
+        TriangleRatios = [
+            1
+            0.5
+            0.25
+            0.125
+        ]
+        MaxRelativeError = 1
+        NormalWeight = 0.5
+        UV0Weight = 1
+        UV1Weight = 0.5
+        WindWeight = 1
+        LockBorder = false
+        Prune = false
+        MaxScreenErrorPixels = 1
+        SourceDataHash = 0
+    }
+    LightmapUVDataHash = 0
+    Lod0DataRevision = 1
+    MeshDesc = {
+        MeshAttributes = {
+            InputLayout = {
+                Mask = 103
+            }
+            Topology = Triangles
+            IndexBufferElemType = UnsignedInt
+        }
+        Lods = [
+            MeshLodDesc {
+                NumVertices = 4710
+                NumIndices = 9420
+                GeometricError = 0
+                ScreenSize = 0
+            }
+            MeshLodDesc {
+                NumVertices = 1568
+                NumIndices = 2352
+                GeometricError = 0
+                ScreenSize = 0.06
+            }
+            MeshLodDesc {
+                NumVertices = 628
+                NumIndices = 942
+                GeometricError = 0
+                ScreenSize = 0.025
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+                GeometricError = 0
+                ScreenSize = 0
+            }
+        ]
+    }
+    LodData = [
+        MeshLodData {
+            VertexData = {
+                Key = "Game://Meshes/short_grass_LOD0.VB"
+                Size = 301440
+            }
+            IndexData = {
+                Key = "Game://Meshes/short_grass_LOD0.IB"
+                Size = 37680
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = "Game://Meshes/short_grass_LOD0.VB1"
+                Size = 100352
+            }
+            IndexData = {
+                Key = "Game://Meshes/short_grass_LOD0.IB1"
+                Size = 9408
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = "Game://Meshes/short_grass_LOD0.VB2"
+                Size = 40192
+            }
+            IndexData = {
+                Key = "Game://Meshes/short_grass_LOD0.IB2"
+                Size = 3768
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+    ]
+    BvhData = {
+        Key = "Game://Meshes/short_grass_LOD0.BVH"
+        Size = 74316
+    }
+    Flags = None
+    UUID = "1bc1970d-378e-4cd0-bb73-d881d5e9cd5e"
+}

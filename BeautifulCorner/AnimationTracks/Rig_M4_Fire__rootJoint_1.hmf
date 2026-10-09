@@ -1,0 +1,8 @@
+AnimationTrack Rig_M4_Fire__rootJoint_1 {
+    BoneName = _rootJoint
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Rig_M4_Fire__rootJoint_1.KEYF"
+        Size = 64
+    }
+    UUID = "57fda3f0-02f1-495a-bf99-41d6ee11e87f"
+}

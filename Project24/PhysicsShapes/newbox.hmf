@@ -1,0 +1,6 @@
+BoxPhysicsShape "newbox" {
+    Bounds = {
+        Min = (-1, -1, -1)
+        Max = (1, 1, 28.7958)
+    }
+}

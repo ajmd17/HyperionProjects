@@ -1,0 +1,92 @@
+Material Material0 {
+    BaseMaterial = null
+    Attributes = {
+        ShaderName = GeometryPass
+        ShaderProperties = {
+            Chunks = [
+                0
+                0
+                0
+                0
+                0
+                0
+                0
+                0
+            ]
+        }
+        Bucket = Opaque
+        FillMode = Fill
+        BlendFunction = {
+            SrcColor = None
+            DstColor = None
+            SrcAlpha = None
+            DstAlpha = None
+        }
+        FaceCullMode = None
+        Flags = MAF_DEPTH_WRITE|MAF_DEPTH_TEST|MAF_ALPHA_DISCARD
+        StencilFunction = {
+            PassOp = Replace
+            FailOp = Keep
+            DepthFailOp = Keep
+            CompareOp = Always
+        }
+        DepthCompareOp = Less
+        StencilReference = 0
+        DepthBias = 0
+        DepthBiasSlope = 0
+    }
+    Parameters = {
+        NormalMapFlipY = false
+        RoughnessChannel = R
+        MetalnessChannel = R
+        AmbientOcclusionChannel = R
+        InverseHeight = false
+        Albedo = (0.58431375, 0.58431375, 0.58431375, 1)
+        Metalness = 1
+        Roughness = 1
+        AlphaThreshold = 0.5
+        ParallaxHeightScale = 0.02
+        Transmission = 0
+        IOR = 1.5
+        EmissiveColor = (0, 0, 0, 0)
+        EmissiveIntensity = 0
+        UserParams = (0, 0, 0, 0)
+        WindFrequency = 0
+        WindTrunkFlexibility = 0
+        WindTreeHeight = 0
+        WindFlutter = 0
+        FoliageNormalBlend = 0
+        FoliageBackfaceVolume = 0
+        UVScale = (1, 1)
+        Unlit = false
+        Foliage = false
+        TerrainColorMatch = false
+        Flags = 0
+        ColorVariation = 0
+        GroundNormalBlend = 0
+        BaseOcclusion = 0
+        BaseOcclusionHeight = 0
+    }
+    Textures = {
+        Values = [
+            @"Game://Textures/5061699253647017043"
+            @"Game://Textures/8773302468495022225"
+            null
+            @"Game://Textures/Material0_Metalness"
+            @"Game://Textures/Material0_Roughness"
+            null
+            null
+            null
+            null
+            null
+            null
+            null
+            null
+            null
+            null
+            null
+        ]
+    }
+    IsDynamic = false
+    UUID = "e6b4c8e1-a183-412f-809d-7c5df78deb58"
+}

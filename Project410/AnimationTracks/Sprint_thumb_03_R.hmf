@@ -1,0 +1,7 @@
+AnimationTrack Sprint_thumb_03_R {
+    BoneName = "thumb.03.R"
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Sprint_thumb_03_R.KEYF"
+        Size = 1408
+    }
+}

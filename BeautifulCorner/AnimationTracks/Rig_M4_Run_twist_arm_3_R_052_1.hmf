@@ -1,0 +1,8 @@
+AnimationTrack Rig_M4_Run_twist_arm_3_R_052_1 {
+    BoneName = twist_arm_3_R_052
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Rig_M4_Run_twist_arm_3_R_052_1.KEYF"
+        Size = 1920
+    }
+    UUID = "afda4eac-3fed-43a7-b30a-07eea61ee686"
+}

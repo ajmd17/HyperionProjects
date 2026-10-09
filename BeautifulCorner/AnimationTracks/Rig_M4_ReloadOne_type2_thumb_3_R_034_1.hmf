@@ -1,0 +1,8 @@
+AnimationTrack Rig_M4_ReloadOne_type2_thumb_3_R_034_1 {
+    BoneName = thumb_3_R_034
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Rig_M4_ReloadOne_type2_thumb_3_R_034_1.KEYF"
+        Size = 7232
+    }
+    UUID = "218c65da-e0ca-4ce5-a5dc-2107cc48406a"
+}

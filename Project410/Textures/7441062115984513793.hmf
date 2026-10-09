@@ -1,0 +1,35 @@
+Texture "7441062115984513793" {
+    TextureDesc = {
+        Type = Texture2D
+        Format = RGBA8_SRGB
+        Extent = (1024, 1024, 1)
+        MinFilterMode = LinearMipmap
+        MagFilterMode = Linear
+        TextureWrapMode = Repeat
+        NumLayers = 1
+        ImageUsage = Sampled
+        MipOffsets = [
+            4194304
+            5242880
+            5505024
+            5570560
+            5586944
+            5591040
+            5592064
+            5592320
+            5592384
+            5592400
+            0
+            0
+            0
+            0
+            0
+            0
+        ]
+    }
+    ImageData = {
+        Key = "Game://Textures/7441062115984513793.TEX"
+        Size = 5592404
+    }
+    UUID = "053151c0-ed6d-4956-b3be-918d8ff7abda"
+}

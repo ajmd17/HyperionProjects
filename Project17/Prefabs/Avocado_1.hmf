@@ -1,0 +1,92 @@
+Prefab Avocado_1 {
+    Root = {
+        UUID = "78d79c5d-4679-4b84-ac19-f8afc24fa24a"
+        Name = Avocado
+        NodeFlags = MobilityStatic
+        LocalBounds = {
+            Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+            Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+        }
+        LocalTransform = {
+            Translation = (0, 0, 0)
+            Scale = (1, 1, 1)
+            Rotation = {
+                X = 0
+                Y = 0
+                Z = 0
+                W = 1
+            }
+        }
+        Children = [
+            Node Avocado {
+                UUID = "6407e4fb-9395-4dfb-b5e7-3084c5d792a4"
+                NodeFlags = MobilityStatic|MobilityStaticByProxy
+                LocalBounds = {
+                    Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                    Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = -0
+                        Y = -1
+                        Z = -0
+                        W = 0
+                    }
+                }
+                Children = [
+                    Entity Avocado_Primitive0 {
+                        Tags = []
+                        Components = [
+                            TransformComponent {
+                                Translation = (0, 0.0314002, 4.65661e-10)
+                                Rotation = {
+                                    X = -0
+                                    Y = -1
+                                    Z = -0
+                                    W = 0
+                                }
+                                Scale = (1, 1, 1)
+                            }
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/Avocado_2"
+                                Material = @"Game://Materials/2256_Avocado_d"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                            }
+                        ]
+                        Layers = []
+                        UUID = "568d2e7e-46cd-44cd-8886-af2a5656dd8d"
+                        NodeFlags = MobilityStatic|MobilityStaticByProxy
+                        LocalBounds = {
+                            Min = (-0.0212809, -0.0314479, -0.013809)
+                            Max = (0.0212809, 0.0314479, 0.013809)
+                        }
+                        LocalTransform = {
+                            Translation = (0, 0.0314002, -4.65661e-10)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                ]
+                NodeTags = {
+                    Values = []
+                }
+            }
+        ]
+        NodeTags = {
+            Values = []
+        }
+    }
+}

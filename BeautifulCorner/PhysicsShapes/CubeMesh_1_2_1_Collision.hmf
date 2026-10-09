@@ -1,0 +1,70 @@
+CompoundPhysicsShape CubeMesh_1_2_1_Collision {
+    Hulls = [
+        ConvexHullRange {
+            FirstVertex = 0
+            NumVertices = 10
+            FirstIndex = 0
+            NumIndices = 42
+        }
+        ConvexHullRange {
+            FirstVertex = 10
+            NumVertices = 11
+            FirstIndex = 42
+            NumIndices = 54
+        }
+        ConvexHullRange {
+            FirstVertex = 21
+            NumVertices = 8
+            FirstIndex = 96
+            NumIndices = 36
+        }
+        ConvexHullRange {
+            FirstVertex = 29
+            NumVertices = 8
+            FirstIndex = 132
+            NumIndices = 36
+        }
+        ConvexHullRange {
+            FirstVertex = 37
+            NumVertices = 10
+            FirstIndex = 168
+            NumIndices = 48
+        }
+        ConvexHullRange {
+            FirstVertex = 47
+            NumVertices = 8
+            FirstIndex = 216
+            NumIndices = 36
+        }
+        ConvexHullRange {
+            FirstVertex = 55
+            NumVertices = 10
+            FirstIndex = 252
+            NumIndices = 48
+        }
+        ConvexHullRange {
+            FirstVertex = 65
+            NumVertices = 10
+            FirstIndex = 300
+            NumIndices = 48
+        }
+    ]
+    VertexData = {
+        Key = "Game://PhysicsShapes/CubeMesh_1_2_1_Collision.CHV"
+        Size = 900
+    }
+    IndexData = {
+        Key = "Game://PhysicsShapes/CubeMesh_1_2_1_Collision.CHI"
+        Size = 1392
+    }
+    DecompositionSettings = {
+        MaxHulls = 8
+        Resolution = 8000
+        MaxVerticesPerHull = 64
+        MaxRecursionDepth = 10
+        ShrinkWrap = true
+    }
+    SourceMesh = @"Game://Meshes/CubeMesh_1_2_1"
+    SourceDataHash = 4929408967777871058
+    UUID = "82334c51-87d6-4bfd-b009-93135f6a6cde"
+}

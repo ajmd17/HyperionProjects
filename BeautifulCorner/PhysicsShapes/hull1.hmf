@@ -1,0 +1,7 @@
+ConvexHullPhysicsShape hull1 {
+    VertexData = {
+        Key = ""
+        Size = 0
+    }
+    UUID = "a132aaf3-426d-4b4c-8be5-d2433a606959"
+}

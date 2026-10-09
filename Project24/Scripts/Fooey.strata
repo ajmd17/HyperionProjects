@@ -1,0 +1,18 @@
+// Fooey
+
+import Engine;
+
+Entity g_entity;
+
+void OnAdded(const Entity entity)
+{
+    g_entity = entity;
+}
+
+void Update(float delta)
+{
+}
+
+void Destroy()
+{
+}

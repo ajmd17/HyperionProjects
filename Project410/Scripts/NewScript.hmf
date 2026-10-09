@@ -1,0 +1,26 @@
+ScriptAsset "NewScript" {
+    ScriptAsset = {
+        Path = ""
+        AssemblyPath = ""
+        ClassName = ""
+        UUID = {
+            Data0 = 0
+            Data1 = 0
+        }
+        Language = HypScript
+    }
+    ScriptDesc = {
+        Path = ""
+        AssemblyPath = ""
+        ClassName = ""
+        UUID = {
+            Data0 = 0
+            Data1 = 0
+        }
+        Language = HypScript
+    }
+    Data = {
+        Key = "Game://Scripts/NewScript.BC"
+        Size = 128802
+    }
+}

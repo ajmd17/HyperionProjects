@@ -1,0 +1,8 @@
+AnimationTrack Rig_M4_Fire_LastRoundCheck_upperarm_L_03_1 {
+    BoneName = upperarm_L_03
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Rig_M4_Fire_LastRoundCheck_upperarm_L_03_1.KEYF"
+        Size = 8320
+    }
+    UUID = "a6101948-1889-4da1-b3d2-91c59c448c2d"
+}

@@ -1,0 +1,76 @@
+Material "CubeMaterial_LM_4" {
+    BaseMaterial = null
+    Parameters = {
+        NormalMapFlipY = false
+        RoughnessChannel = R
+        MetalnessChannel = R
+        AmbientOcclusionChannel = R
+        Albedo = (1, 0, 0, 1)
+        Metalness = 0
+        Roughness = 0.8
+        AlphaThreshold = 0
+        ParallaxHeightScale = 0.02
+        Transmission = 0
+        IOR = 1.5
+        EmissiveColor = {
+            Red = 0
+            Green = 0
+            Blue = 0
+            Alpha = 0
+        }
+        EmissiveIntensity = 0
+        UserParams = (0, 0, 0, 0)
+        UVScale = (1, 1)
+        Unlit = false
+        Flags = 0
+    }
+    Textures = {
+        Values = [
+            null
+            null
+            null
+            null
+            null
+            null
+            null
+            null
+        ]
+    }
+    Attributes = {
+        ShaderName = "GeometryPass"
+        ShaderProperties = {
+            Chunks = [
+                0
+                0
+                0
+                0
+                0
+                0
+                0
+                0
+            ]
+        }
+        Bucket = Lightmapped
+        FillMode = Fill
+        BlendFunction = {
+            SrcColor = One
+            DstColor = Zero
+            SrcAlpha = One
+            DstAlpha = Zero
+        }
+        CullFaces = Back
+        Flags = MAF_DEPTH_WRITE|MAF_DEPTH_TEST
+        StencilFunction = {
+            PassOp = Replace
+            FailOp = Keep
+            DepthFailOp = Keep
+            CompareOp = Always
+        }
+        DepthCompareOp = Less
+        StencilReference = 0
+        DepthBias = 0
+        DepthBiasSlope = 0
+    }
+    IsDynamic = false
+    FriendlyName = "CubeMaterialLM4"
+}

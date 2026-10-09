@@ -1,0 +1,7 @@
+AnimationTrack "Walk3_clavicle_R_1" {
+    BoneName = "clavicle.R"
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Walk3_clavicle_R_1.KEYF"
+        Size = 2688
+    }
+}

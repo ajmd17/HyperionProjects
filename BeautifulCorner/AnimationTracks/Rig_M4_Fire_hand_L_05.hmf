@@ -1,0 +1,8 @@
+AnimationTrack Rig_M4_Fire_hand_L_05 {
+    BoneName = hand_L_05
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Rig_M4_Fire_hand_L_05.KEYF"
+        Size = 2560
+    }
+    UUID = "9625b591-7351-45c9-9f51-f1713376a176"
+}

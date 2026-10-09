@@ -1,0 +1,8 @@
+AnimationTrack Rig_M4_Fire_LastRoundCheck_pose_controller_00_1 {
+    BoneName = pose_controller_00
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Rig_M4_Fire_LastRoundCheck_pose_controller_00_1.KEYF"
+        Size = 64
+    }
+    UUID = "1dc19e48-ecb2-4024-a6d4-dc842664f0cc"
+}

@@ -1,0 +1,6 @@
+BoxPhysicsShape floorbox {
+    Bounds = {
+        Min = (-42, -1.87936, -19)
+        Max = (9, -0.628496, 9)
+    }
+}

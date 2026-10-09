@@ -1,0 +1,6 @@
+BoxPhysicsShape CubeEntityCopyCopyCopy_BoxPhysicsShape {
+    Bounds = {
+        Min = (-1.00001, -1.00001, -0.965134)
+        Max = (13.7359, 5.21463, 0.428051)
+    }
+}

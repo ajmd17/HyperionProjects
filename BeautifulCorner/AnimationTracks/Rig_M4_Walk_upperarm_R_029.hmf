@@ -1,0 +1,8 @@
+AnimationTrack Rig_M4_Walk_upperarm_R_029 {
+    BoneName = upperarm_R_029
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Rig_M4_Walk_upperarm_R_029.KEYF"
+        Size = 3840
+    }
+    UUID = "bf6ff927-afc5-413e-bd34-0fe3d2047e2d"
+}

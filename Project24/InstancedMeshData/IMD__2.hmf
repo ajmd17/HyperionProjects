@@ -1,0 +1,38 @@
+InstancedMeshData "IMD__2" {
+    Buffers = [
+        BlobDataReference {
+            Key = "Game://InstancedMeshData/IMD__2.IMD0"
+            Size = 128
+        }
+        BlobDataReference {
+            Key = "Game://InstancedMeshData/IMD__2.IMD1"
+            Size = 128
+        }
+        BlobDataReference {
+            Key = ""
+            Size = 0
+        }
+        BlobDataReference {
+            Key = ""
+            Size = 0
+        }
+        BlobDataReference {
+            Key = ""
+            Size = 0
+        }
+    ]
+    BufferStructSizes = [
+        64
+        64
+        0
+        0
+        0
+    ]
+    BufferStructAlignments = [
+        16
+        16
+        0
+        0
+        0
+    ]
+}

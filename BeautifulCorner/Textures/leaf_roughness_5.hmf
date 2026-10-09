@@ -1,0 +1,35 @@
+Texture leaf_roughness_5 {
+    TextureDesc = {
+        Type = Texture2D
+        Format = RGBA8
+        Extent = (784, 3264, 1)
+        MinFilterMode = LinearMipmap
+        MagFilterMode = Linear
+        TextureWrapMode = ClampToEdge
+        NumLayers = 1
+        ImageUsage = Sampled
+        MipOffsets = [
+            10235904
+            12794880
+            13434624
+            13594560
+            13634544
+            13644336
+            13646784
+            13647384
+            13647528
+            13647552
+            13647564
+            0
+            0
+            0
+            0
+            0
+        ]
+    }
+    ImageData = {
+        Key = "Game://Textures/leaf_roughness_5.TEX"
+        Size = 13647568
+    }
+    UUID = "b96c48ba-9c27-434f-9f84-6948645afb34"
+}

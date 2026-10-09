@@ -1,0 +1,9 @@
+Sound burp2_x {
+    Format = MONO8
+    Frequency = 22050
+    SampleLength = 17248
+    Data = {
+        Key = "Game://Sounds/burp2_x.SND"
+        Size = 17248
+    }
+}

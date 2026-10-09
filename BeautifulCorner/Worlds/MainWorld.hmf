@@ -1,0 +1,213 @@
+World MainWorld {
+    WorldFlags = Default
+    EnvironmentSettings = {
+        Sky = {
+            Tint = (1, 1, 1)
+            Intensity = 1
+            OvercastBrightness = 1
+            ShowSunDisk = true
+        }
+        SkyLight = {
+            DiffuseIntensity = 1
+            SpecularIntensity = 1
+            OcclusionStrength = 1
+            OcclusionRadius = 3
+            OcclusionBias = 0.5
+        }
+        Exposure = {
+            ExposureCompensation = 1.6
+            TonemapOperator = AgX
+            WhiteBalanceTemperature = 0
+            WhiteBalanceTint = 0
+            Saturation = 1.05
+            Contrast = 1.05
+        }
+        HeightFog = {
+            Enabled = true
+            Density = 0.001
+            HeightFalloff = 0.05
+            BaseHeight = 0
+            StartDistance = 150
+            AerialPerspectiveDistance = 4500
+            SkyInscatter = 1
+            SunInscatter = 0.25
+            SunAnisotropy = 0.6
+            MaxOpacity = 1
+        }
+        Clouds = {
+            Enabled = true
+            Layer = {
+                BaseAltitude = 800
+                Thickness = 500
+            }
+            Shape = {
+                Coverage = 0.5
+                CloudTypeBias = 0.5
+                DensityMultiplier = 1
+                DetailErosion = 0.3
+            }
+            Noise = {
+                WeatherScale = 12000
+                CloudSize = 1500
+                ShapeScale = 3000
+                DetailScale = 250
+                Seed = 0
+            }
+            Wind = {
+                Direction = 45
+                Speed = 10
+                EvolutionSpeed = 1
+            }
+            Lighting = {
+                ShadowStrength = 0.85
+                ShadowSoftness = 0.2
+                HazeDistance = 40000
+            }
+        }
+        Wind = {
+            Direction = 45
+            Strength = 0.3
+            Gustiness = 0.5
+        }
+        GlobalIllumination = {
+            DDGIEnabled = true
+            RayTracedReflectionsEnabled = true
+        }
+    }
+    NonStreamingScenes = [
+        @"Game://Scenes/MainScene"
+    ]
+    StreamingLayers = []
+    Systems = [
+        PhysicsSystem {}
+
+        LightmapSystem {
+            NextLightmapVolumeId = 1
+            FreedLightmapVolumeIds = []
+        }
+        CameraSystem {}
+
+        WeaponSystem {}
+
+        CharacterControllerSystem {}
+
+        PlayerSystem {}
+
+        ReplicationApplySystem {}
+
+        DynamicSkySystem {}
+
+    ]
+    ActiveLayers = []
+    Environment = {
+        Sky = {
+            Tint = (1, 1, 1)
+            Intensity = 1
+            OvercastBrightness = 1
+            ShowSunDisk = true
+        }
+        SkyLight = {
+            DiffuseIntensity = 1
+            SpecularIntensity = 1
+            OcclusionStrength = 1
+            OcclusionRadius = 3
+            OcclusionBias = 0.5
+        }
+        Exposure = {
+            ExposureCompensation = 1.6
+            TonemapOperator = AgX
+            WhiteBalanceTemperature = 0
+            WhiteBalanceTint = 0
+            Saturation = 1.05
+            Contrast = 1.05
+        }
+        HeightFog = {
+            Enabled = true
+            Density = 0.001
+            HeightFalloff = 0.05
+            BaseHeight = 0
+            StartDistance = 150
+            AerialPerspectiveDistance = 4500
+            SkyInscatter = 1
+            SunInscatter = 0.25
+            SunAnisotropy = 0.6
+            MaxOpacity = 1
+        }
+        Clouds = {
+            Enabled = true
+            Layer = {
+                BaseAltitude = 800
+                Thickness = 500
+            }
+            Shape = {
+                Coverage = 0.5
+                CloudTypeBias = 0.5
+                DensityMultiplier = 1
+                DetailErosion = 0.3
+            }
+            Noise = {
+                WeatherScale = 12000
+                CloudSize = 1500
+                ShapeScale = 3000
+                DetailScale = 250
+                Seed = 0
+            }
+            Wind = {
+                Direction = 45
+                Speed = 10
+                EvolutionSpeed = 1
+            }
+            Lighting = {
+                ShadowStrength = 0.85
+                ShadowSoftness = 0.2
+                HazeDistance = 40000
+            }
+        }
+        Wind = {
+            Direction = 45
+            Strength = 0.3
+            Gustiness = 0.5
+        }
+        GlobalIllumination = {
+            DDGIEnabled = true
+            RayTracedReflectionsEnabled = true
+        }
+    }
+    Swatches = [
+        Swatch Default {
+            SwatchId = 0
+            BakeLayer = {
+                Name = Default
+                Categories = [
+                    BakeLayerCategory LightProvider {
+                        Revision = 0
+                        Assets = [
+                            ("MainScene/NewPointLight", 0)
+                        ]
+                    }
+                    BakeLayerCategory LightReceiver {
+                        Revision = 0
+                        Assets = [
+                            ("MainScene/LightmapVolume", 2811289871724776120)
+                            ("MainScene/IrradianceProbe", 2971550515361219317)
+                            ("MainScene/FogVolume", 0)
+                            ("MainScene/ReflectionProbe", 4711904395381549497)
+                            ("MainScene/IrradianceProbe1", 2971550515361219317)
+                            ("MainScene/ReflectionProbe1", 4711904395381549497)
+                            ("MainScene/IrradianceProbe2", 2971550515361219317)
+                        ]
+                    }
+                    BakeLayerCategory Lightmap {
+                        Revision = 18
+                        Assets = [
+                            ("MainScene/LightmapVolume", 2811289871724776120)
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+    ActiveSwatch = Default
+    Layers = []
+    UUID = "8ccfcb28-5c83-40f1-8f84-a298baf8e0cf"
+}

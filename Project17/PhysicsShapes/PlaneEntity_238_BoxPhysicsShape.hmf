@@ -1,0 +1,6 @@
+BoxPhysicsShape PlaneEntity_238_BoxPhysicsShape {
+    Bounds = {
+        Min = (-1, -1, 0)
+        Max = (1, 1, 0)
+    }
+}

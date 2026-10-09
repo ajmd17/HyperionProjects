@@ -1,0 +1,7 @@
+BoxPhysicsShape b1 {
+    Bounds = {
+        Min = (-1, -1, -1)
+        Max = (1, 1, 1)
+    }
+    UUID = "c041f8f4-246e-43c4-afeb-9b1ad9eee762"
+}

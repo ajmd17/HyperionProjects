@@ -1,0 +1,7 @@
+BoxPhysicsShape CubeEntity_21_BoxPhysicsShape {
+    Bounds = {
+        Min = (-1, -1, -1)
+        Max = (1, 14, 26)
+    }
+    UUID = "5a55c679-3e68-4000-b08a-3e496e3d85d6"
+}

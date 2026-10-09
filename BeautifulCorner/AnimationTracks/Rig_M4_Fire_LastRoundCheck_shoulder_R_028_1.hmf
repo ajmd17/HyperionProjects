@@ -1,0 +1,8 @@
+AnimationTrack Rig_M4_Fire_LastRoundCheck_shoulder_R_028_1 {
+    BoneName = shoulder_R_028
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Rig_M4_Fire_LastRoundCheck_shoulder_R_028_1.KEYF"
+        Size = 64
+    }
+    UUID = "14b61fda-5996-4779-b84d-f996f9bad92d"
+}

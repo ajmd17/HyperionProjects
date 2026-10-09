@@ -1,0 +1,8 @@
+AnimationTrack Rig_M4_Walk_Trigger_057 {
+    BoneName = Trigger_057
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Rig_M4_Walk_Trigger_057.KEYF"
+        Size = 3840
+    }
+    UUID = "69fcfbe0-d430-4368-b485-1fdf4bdac337"
+}

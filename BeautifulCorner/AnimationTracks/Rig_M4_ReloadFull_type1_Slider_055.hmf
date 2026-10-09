@@ -1,0 +1,8 @@
+AnimationTrack Rig_M4_ReloadFull_type1_Slider_055 {
+    BoneName = Slider_055
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Rig_M4_ReloadFull_type1_Slider_055.KEYF"
+        Size = 27200
+    }
+    UUID = "17ca3885-d2f4-4ff9-8ccb-12343e73edc1"
+}

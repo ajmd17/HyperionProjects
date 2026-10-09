@@ -1,0 +1,8 @@
+AnimationTrack Rig_M4_ReloadFull_type1_thumb_3_L_08 {
+    BoneName = thumb_3_L_08
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Rig_M4_ReloadFull_type1_thumb_3_L_08.KEYF"
+        Size = 27200
+    }
+    UUID = "5ee5b7b5-6c7e-4acd-be9e-0f5ae22e846e"
+}

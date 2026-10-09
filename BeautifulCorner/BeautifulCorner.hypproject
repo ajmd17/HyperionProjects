@@ -1,0 +1,7 @@
+EditorProject BeautifulCorner {
+    GameInstance = {}
+
+    EditorCameraPosition = (67.50259, 0.7833474, 230.49068)
+    EditorCameraDirection = (0.65402913, -0.75473356, -0.05121416)
+    EditWorldName = NewWorld
+}

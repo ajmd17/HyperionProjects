@@ -1,0 +1,8 @@
+AnimationTrack Rig_M4_Run_thumb_1_L_06_1 {
+    BoneName = thumb_1_L_06
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Rig_M4_Run_thumb_1_L_06_1.KEYF"
+        Size = 1920
+    }
+    UUID = "d63d88f4-a3a3-4135-bb27-37c3ed5a2a35"
+}

@@ -1,0 +1,35 @@
+Texture white {
+    TextureDesc = {
+        Type = Texture2D
+        Format = RGBA8_SRGB
+        Extent = (4, 4, 1)
+        MinFilterMode = LinearMipmap
+        MagFilterMode = Linear
+        TextureWrapMode = Repeat
+        NumLayers = 1
+        ImageUsage = Sampled
+        MipOffsets = [
+            64
+            80
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+        ]
+    }
+    ImageData = {
+        Key = "Game://Textures/white.TEX"
+        Size = 84
+    }
+    UUID = "b21ba974-70c7-4d28-bc11-b3288a1b1c15"
+}

@@ -1,0 +1,7 @@
+EditorProject RDR2Look {
+    GameInstance = {}
+
+    EditorCameraPosition = (67.94234, 52.802273, 1667.5205)
+    EditorCameraDirection = (-0.19969083, -0.30002314, -0.9327969)
+    EditWorldName = MainWorld
+}

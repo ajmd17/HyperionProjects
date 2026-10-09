@@ -1,0 +1,80 @@
+Mesh podlaha03_podlaha_albedo_0 {
+    AABB = {
+        Min = (-20.4753, -13.75, -0.125)
+        Max = (20.4753, 13.75, 0.125)
+    }
+    MeshDesc = {
+        MeshAttributes = {
+            InputLayout = {
+                Mask = 31
+            }
+            Topology = TOP_TRIANGLES
+            IndexBufferElemType = GET_UNSIGNED_INT
+        }
+        Lods = [
+            MeshLodDesc {
+                NumVertices = 12686
+                NumIndices = 16692
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+        ]
+    }
+    LodData = [
+        MeshLodData {
+            VertexData = {
+                Key = "Game://Meshes/podlaha03_podlaha_albedo_0.VB"
+                Size = 761160
+            }
+            IndexData = {
+                Key = "Game://Meshes/podlaha03_podlaha_albedo_0.IB"
+                Size = 66768
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+    ]
+    BvhData = {
+        Key = "Game://Meshes/podlaha03_podlaha_albedo_0.BVH"
+        Size = 176021
+    }
+    Flags = None
+}

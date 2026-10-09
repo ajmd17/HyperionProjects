@@ -1,0 +1,35 @@
+Texture leaves_Metalness_1 {
+    TextureDesc = {
+        Type = Texture2D
+        Format = R8
+        Extent = (784, 3264, 1)
+        MinFilterMode = LinearMipmap
+        MagFilterMode = Linear
+        TextureWrapMode = ClampToEdge
+        NumLayers = 1
+        ImageUsage = Sampled
+        MipOffsets = [
+            2558976
+            3198720
+            3358656
+            3398640
+            3408636
+            3411084
+            3411696
+            3411846
+            3411882
+            3411888
+            3411891
+            0
+            0
+            0
+            0
+            0
+        ]
+    }
+    ImageData = {
+        Key = "Game://Textures/leaves_Metalness_1.TEX"
+        Size = 3411892
+    }
+    UUID = "387e38bb-36aa-45df-bfa7-15858d7d4e1a"
+}

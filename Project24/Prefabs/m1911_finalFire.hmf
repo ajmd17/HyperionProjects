@@ -1,0 +1,223 @@
+Prefab m1911_finalFire {
+    Root = {
+        UUID = "a98b7142-ad5b-4324-bcc3-f50aa11a9b28"
+        Name = m1911_finalFire
+        NodeFlags = MobilityStatic
+        LocalBounds = {
+            Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+            Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+        }
+        LocalTransform = {
+            Translation = (0, 0, 0)
+            Scale = (0.01, 0.01, 0.01)
+            Rotation = {
+                X = 0.707107
+                Y = 0
+                Z = 0
+                W = 0.707107
+            }
+        }
+        Children = [
+            Node pCylinder5 {
+                UUID = "1c6bfd55-9574-4d59-b7ec-6c3d14f3aafc"
+                NodeFlags = MobilityStatic|MobilityStaticByProxy
+                LocalBounds = {
+                    Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                    Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = [
+                    Entity {
+                        Tags = []
+                        Components = [
+                            AnimationComponent {
+                                PlaybackState = {
+                                    AnimationIndex = 0
+                                    Status = PLAYING
+                                    LoopMode = REPEAT
+                                    Speed = 1
+                                    CurrentTime = 0
+                                }
+                            }
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/"
+                                Material = @"Game://Materials/lambert1"
+                                Skeleton = @"Game://Skeletons/Skeleton_2"
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                            }
+                        ]
+                        UUID = "bd1f5e04-643e-448a-9e88-6745213a55a4"
+                        NodeFlags = MobilityStaticByProxy|MobilityDynamic
+                        LocalBounds = {
+                            Min = (-34.1426, -7.63199, -1.58949)
+                            Max = (12.0302, 9.95681, 1.88864)
+                        }
+                        LocalTransform = {
+                            Translation = (0, 0, 0)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                ]
+                NodeTags = {
+                    Values = []
+                }
+            }
+            Node joint_CORE {
+                UUID = "dee8225d-68a3-4f28-ae71-082c3296eabe"
+                NodeFlags = MobilityStatic|MobilityStaticByProxy
+                LocalBounds = {
+                    Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                    Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                }
+                LocalTransform = {
+                    Translation = (7.33046, 0.237073, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = [
+                    Node joint_trigger {
+                        UUID = "717a90ac-8d52-465e-8601-d3900682faa8"
+                        NodeFlags = MobilityStatic|MobilityStaticByProxy
+                        LocalBounds = {
+                            Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                            Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                        }
+                        LocalTransform = {
+                            Translation = (4.35, 0.7, 2.35211e-09)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Node joint_slide {
+                        UUID = "0f120c56-2b56-4353-92e6-9a26a7ee704c"
+                        NodeFlags = MobilityStatic|MobilityStaticByProxy
+                        LocalBounds = {
+                            Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                            Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                        }
+                        LocalTransform = {
+                            Translation = (10.95, 4.56, 0)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0
+                                Y = -0
+                                Z = -1.11022e-16
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Node joint_hammer {
+                        UUID = "d10aed82-d49d-47a1-b035-2433ccffedb6"
+                        NodeFlags = MobilityStatic|MobilityStaticByProxy
+                        LocalBounds = {
+                            Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                            Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                        }
+                        LocalTransform = {
+                            Translation = (-1.51678, 3.63683, 5.4193e-08)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Node joint_gripsafety {
+                        UUID = "5d671677-f24f-442c-8fed-b24a515e07bb"
+                        NodeFlags = MobilityStatic|MobilityStaticByProxy
+                        LocalBounds = {
+                            Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                            Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                        }
+                        LocalTransform = {
+                            Translation = (-2.47642, 2.92236, 4.35465e-08)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Node joint_bullet {
+                        UUID = "342e84ce-fc92-4b92-931e-184e60635b7f"
+                        NodeFlags = MobilityStatic|MobilityStaticByProxy
+                        LocalBounds = {
+                            Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                            Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                        }
+                        LocalTransform = {
+                            Translation = (2.79846, 3.94502, 5.87853e-08)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                ]
+                NodeTags = {
+                    Values = []
+                }
+            }
+        ]
+        NodeTags = {
+            Values = []
+        }
+    }
+}

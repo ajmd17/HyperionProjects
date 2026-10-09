@@ -1,0 +1,80 @@
+Mesh Text_hangarA113_Text_hangarA113_0 {
+    AABB = {
+        Min = (-5.7017, -0.746989, 0)
+        Max = (5.7017, 0.746989, 0)
+    }
+    MeshDesc = {
+        MeshAttributes = {
+            InputLayout = {
+                Mask = 31
+            }
+            Topology = TOP_TRIANGLES
+            IndexBufferElemType = GET_UNSIGNED_INT
+        }
+        Lods = [
+            MeshLodDesc {
+                NumVertices = 369
+                NumIndices = 1071
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+        ]
+    }
+    LodData = [
+        MeshLodData {
+            VertexData = {
+                Key = "Game://Meshes/Text_hangarA113_Text_hangarA113_0.VB"
+                Size = 22140
+            }
+            IndexData = {
+                Key = "Game://Meshes/Text_hangarA113_Text_hangarA113_0.IB"
+                Size = 4284
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+    ]
+    BvhData = {
+        Key = "Game://Meshes/Text_hangarA113_Text_hangarA113_0.BVH"
+        Size = 46705
+    }
+    Flags = None
+}

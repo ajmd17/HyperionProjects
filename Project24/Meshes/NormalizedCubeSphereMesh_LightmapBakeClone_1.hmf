@@ -1,0 +1,80 @@
+Mesh NormalizedCubeSphereMesh_LightmapBakeClone_1 {
+    AABB = {
+        Min = (-1, -1, -1)
+        Max = (1, 1, 1)
+    }
+    MeshDesc = {
+        MeshAttributes = {
+            InputLayout = {
+                Mask = 15
+            }
+            Topology = Triangles
+            IndexBufferElemType = UnsignedInt
+        }
+        Lods = [
+            MeshLodDesc {
+                NumVertices = 547
+                NumIndices = 2304
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+        ]
+    }
+    LodData = [
+        MeshLodData {
+            VertexData = {
+                Key = "Game://Meshes/NormalizedCubeSphereMesh_LightmapBakeClone_1.VB"
+                Size = 21880
+            }
+            IndexData = {
+                Key = "Game://Meshes/NormalizedCubeSphereMesh_LightmapBakeClone_1.IB"
+                Size = 9216
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+    ]
+    BvhData = {
+        Key = "Game://Meshes/NormalizedCubeSphereMesh_LightmapBakeClone_1.BVH"
+        Size = 23817
+    }
+    Flags = None
+}

@@ -1,0 +1,35 @@
+Texture ReflectionProbe1_ColorMap_13 {
+    TextureDesc = {
+        Type = Cubemap
+        Format = RGBA16F
+        Extent = (128, 128, 1)
+        MinFilterMode = LinearMipmap
+        MagFilterMode = Linear
+        TextureWrapMode = ClampToEdge
+        NumLayers = 1
+        ImageUsage = Sampled|Storage
+        MipOffsets = [
+            786432
+            983040
+            1032192
+            1044480
+            1047552
+            1048320
+            1048512
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+        ]
+    }
+    ImageData = {
+        Key = "Game://Textures/ReflectionProbe1_ColorMap_13.TEX"
+        Size = 1048560
+    }
+    UUID = "0551fd7a-7fb4-47f1-8962-f17d8760613a"
+}

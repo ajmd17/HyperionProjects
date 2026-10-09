@@ -1,0 +1,1829 @@
+World NewWorld {
+    WorldFlags = Default
+    EnvironmentSettings = {
+        Sky = {
+            Tint = (1, 1, 1)
+            Intensity = 1
+            OvercastBrightness = 1
+            ShowSunDisk = true
+        }
+        SkyLight = {
+            DiffuseIntensity = 1.7
+            SpecularIntensity = 1
+            OcclusionStrength = 1
+            OcclusionRadius = 3
+            OcclusionBias = 0.5
+        }
+        Exposure = {
+            ExposureCompensation = 0.6
+            TonemapOperator = AgXPunchy
+            WhiteBalanceTemperature = 0
+            WhiteBalanceTint = 0
+            Saturation = 0.92
+            Contrast = 0.92
+            Vignette = 0.35
+        }
+        HeightFog = {
+            Enabled = true
+            Density = 0.0012
+            HeightFalloff = 0.03
+            BaseHeight = 0
+            StartDistance = 60
+            AerialPerspectiveDistance = 3500
+            SkyInscatter = 1
+            SunInscatter = 0.35
+            SunAnisotropy = 0.6
+            MaxOpacity = 1
+        }
+        Clouds = {
+            Enabled = true
+            Layer = {
+                BaseAltitude = 800
+                Thickness = 500
+            }
+            Shape = {
+                Coverage = 0.3
+                CloudTypeBias = 0.5
+                DensityMultiplier = 1
+                DetailErosion = 0.55
+            }
+            Noise = {
+                WeatherScale = 12000
+                CloudSize = 1500
+                ShapeScale = 3000
+                DetailScale = 250
+                Seed = 0
+            }
+            Wind = {
+                Direction = 45
+                Speed = 0
+                EvolutionSpeed = 0
+            }
+            Lighting = {
+                ShadowStrength = 0.85
+                ShadowSoftness = 0.2
+                HazeDistance = 40000
+            }
+        }
+        Wind = {
+            Direction = 45
+            Strength = 0.3
+            Gustiness = 0.5
+        }
+        GlobalIllumination = {
+            DDGIEnabled = true
+            RayTracedReflectionsEnabled = true
+        }
+    }
+    NonStreamingScenes = [
+        @"Game://Scenes/NewWorldScene"
+    ]
+    StreamingLayers = [
+        WGLayerDesc {
+            ClassName = TerrainWorldGridLayer
+            LayerName = Terrain
+            Info = {
+                Offset = (0, 0, 0)
+                Scale = (1, 1, 1)
+                Range = (-10, 10)
+                CellSize = 257
+                MaxDistance = 8
+                Seed = 1090994282
+                Infinite = true
+            }
+            Objects = [
+                WGObject {
+                    Coords = (-9, 0)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-9_0"
+                    }
+                }
+                WGObject {
+                    Coords = (-9, 1)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-9_1"
+                    }
+                }
+                WGObject {
+                    Coords = (-8, -3)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-8_-3"
+                    }
+                }
+                WGObject {
+                    Coords = (-8, -2)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-8_-2"
+                    }
+                }
+                WGObject {
+                    Coords = (-8, -1)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-8_-1"
+                    }
+                }
+                WGObject {
+                    Coords = (-8, 0)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-8_0"
+                    }
+                }
+                WGObject {
+                    Coords = (-8, 1)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-8_1"
+                    }
+                }
+                WGObject {
+                    Coords = (-8, 2)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-8_2"
+                    }
+                }
+                WGObject {
+                    Coords = (-8, 3)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-8_3"
+                    }
+                }
+                WGObject {
+                    Coords = (-8, 4)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-8_4"
+                    }
+                }
+                WGObject {
+                    Coords = (-7, -5)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-7_-5"
+                    }
+                }
+                WGObject {
+                    Coords = (-7, -4)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-7_-4"
+                    }
+                }
+                WGObject {
+                    Coords = (-7, -3)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-7_-3"
+                    }
+                }
+                WGObject {
+                    Coords = (-7, -2)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-7_-2"
+                    }
+                }
+                WGObject {
+                    Coords = (-7, -1)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-7_-1"
+                    }
+                }
+                WGObject {
+                    Coords = (-7, 0)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-7_0"
+                    }
+                }
+                WGObject {
+                    Coords = (-7, 1)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-7_1"
+                    }
+                }
+                WGObject {
+                    Coords = (-7, 2)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-7_2"
+                    }
+                }
+                WGObject {
+                    Coords = (-7, 3)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-7_3"
+                    }
+                }
+                WGObject {
+                    Coords = (-7, 4)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-7_4"
+                    }
+                }
+                WGObject {
+                    Coords = (-7, 5)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-7_5"
+                    }
+                }
+                WGObject {
+                    Coords = (-7, 6)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-7_6"
+                    }
+                }
+                WGObject {
+                    Coords = (-6, -6)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-6_-6"
+                    }
+                }
+                WGObject {
+                    Coords = (-6, -5)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-6_-5"
+                    }
+                }
+                WGObject {
+                    Coords = (-6, -4)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-6_-4"
+                    }
+                }
+                WGObject {
+                    Coords = (-6, -3)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-6_-3"
+                    }
+                }
+                WGObject {
+                    Coords = (-6, -2)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-6_-2"
+                    }
+                }
+                WGObject {
+                    Coords = (-6, -1)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-6_-1"
+                    }
+                }
+                WGObject {
+                    Coords = (-6, 0)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-6_0"
+                    }
+                }
+                WGObject {
+                    Coords = (-6, 1)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-6_1"
+                    }
+                }
+                WGObject {
+                    Coords = (-6, 2)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-6_2"
+                    }
+                }
+                WGObject {
+                    Coords = (-6, 3)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-6_3"
+                    }
+                }
+                WGObject {
+                    Coords = (-6, 4)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-6_4"
+                    }
+                }
+                WGObject {
+                    Coords = (-6, 5)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-6_5"
+                    }
+                }
+                WGObject {
+                    Coords = (-6, 6)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-6_6"
+                    }
+                }
+                WGObject {
+                    Coords = (-6, 7)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-6_7"
+                    }
+                }
+                WGObject {
+                    Coords = (-5, -7)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-5_-7"
+                    }
+                }
+                WGObject {
+                    Coords = (-5, -6)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-5_-6"
+                    }
+                }
+                WGObject {
+                    Coords = (-5, -5)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-5_-5"
+                    }
+                }
+                WGObject {
+                    Coords = (-5, -4)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-5_-4"
+                    }
+                }
+                WGObject {
+                    Coords = (-5, -3)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-5_-3"
+                    }
+                }
+                WGObject {
+                    Coords = (-5, -2)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-5_-2"
+                    }
+                }
+                WGObject {
+                    Coords = (-5, -1)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-5_-1"
+                    }
+                }
+                WGObject {
+                    Coords = (-5, 0)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-5_0"
+                    }
+                }
+                WGObject {
+                    Coords = (-5, 1)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-5_1"
+                    }
+                }
+                WGObject {
+                    Coords = (-5, 2)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-5_2"
+                    }
+                }
+                WGObject {
+                    Coords = (-5, 3)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-5_3"
+                    }
+                }
+                WGObject {
+                    Coords = (-5, 4)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-5_4"
+                    }
+                }
+                WGObject {
+                    Coords = (-5, 5)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-5_5"
+                    }
+                }
+                WGObject {
+                    Coords = (-5, 6)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-5_6"
+                    }
+                }
+                WGObject {
+                    Coords = (-5, 7)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-5_7"
+                    }
+                }
+                WGObject {
+                    Coords = (-5, 8)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-5_8"
+                    }
+                }
+                WGObject {
+                    Coords = (-4, -7)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-4_-7"
+                    }
+                }
+                WGObject {
+                    Coords = (-4, -6)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-4_-6"
+                    }
+                }
+                WGObject {
+                    Coords = (-4, -5)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-4_-5"
+                    }
+                }
+                WGObject {
+                    Coords = (-4, -4)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-4_-4"
+                    }
+                }
+                WGObject {
+                    Coords = (-4, -3)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-4_-3"
+                    }
+                }
+                WGObject {
+                    Coords = (-4, -2)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-4_-2"
+                    }
+                }
+                WGObject {
+                    Coords = (-4, -1)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-4_-1"
+                    }
+                }
+                WGObject {
+                    Coords = (-4, 0)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-4_0"
+                    }
+                }
+                WGObject {
+                    Coords = (-4, 1)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-4_1"
+                    }
+                }
+                WGObject {
+                    Coords = (-4, 2)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-4_2"
+                    }
+                }
+                WGObject {
+                    Coords = (-4, 3)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-4_3"
+                    }
+                }
+                WGObject {
+                    Coords = (-4, 4)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-4_4"
+                    }
+                }
+                WGObject {
+                    Coords = (-4, 5)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-4_5"
+                    }
+                }
+                WGObject {
+                    Coords = (-4, 6)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-4_6"
+                    }
+                }
+                WGObject {
+                    Coords = (-4, 7)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-4_7"
+                    }
+                }
+                WGObject {
+                    Coords = (-4, 8)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-4_8"
+                    }
+                }
+                WGObject {
+                    Coords = (-3, -8)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-3_-8"
+                    }
+                }
+                WGObject {
+                    Coords = (-3, -7)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-3_-7"
+                    }
+                }
+                WGObject {
+                    Coords = (-3, -6)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-3_-6"
+                    }
+                }
+                WGObject {
+                    Coords = (-3, -5)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-3_-5"
+                    }
+                }
+                WGObject {
+                    Coords = (-3, -4)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-3_-4"
+                    }
+                }
+                WGObject {
+                    Coords = (-3, -3)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-3_-3"
+                    }
+                }
+                WGObject {
+                    Coords = (-3, -2)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-3_-2"
+                    }
+                }
+                WGObject {
+                    Coords = (-3, -1)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-3_-1"
+                    }
+                }
+                WGObject {
+                    Coords = (-3, 0)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-3_0"
+                    }
+                }
+                WGObject {
+                    Coords = (-3, 1)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-3_1"
+                    }
+                }
+                WGObject {
+                    Coords = (-3, 2)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-3_2"
+                    }
+                }
+                WGObject {
+                    Coords = (-3, 3)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-3_3"
+                    }
+                }
+                WGObject {
+                    Coords = (-3, 4)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-3_4"
+                    }
+                }
+                WGObject {
+                    Coords = (-3, 5)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-3_5"
+                    }
+                }
+                WGObject {
+                    Coords = (-3, 6)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-3_6"
+                    }
+                }
+                WGObject {
+                    Coords = (-3, 7)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-3_7"
+                    }
+                }
+                WGObject {
+                    Coords = (-3, 8)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-3_8"
+                    }
+                }
+                WGObject {
+                    Coords = (-3, 9)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-3_9"
+                    }
+                }
+                WGObject {
+                    Coords = (-2, -8)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-2_-8"
+                    }
+                }
+                WGObject {
+                    Coords = (-2, -7)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-2_-7"
+                    }
+                }
+                WGObject {
+                    Coords = (-2, -6)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-2_-6"
+                    }
+                }
+                WGObject {
+                    Coords = (-2, -5)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-2_-5"
+                    }
+                }
+                WGObject {
+                    Coords = (-2, -4)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-2_-4"
+                    }
+                }
+                WGObject {
+                    Coords = (-2, -3)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-2_-3"
+                    }
+                }
+                WGObject {
+                    Coords = (-2, -2)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-2_-2"
+                    }
+                }
+                WGObject {
+                    Coords = (-2, -1)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-2_-1"
+                    }
+                }
+                WGObject {
+                    Coords = (-2, 0)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-2_0"
+                    }
+                }
+                WGObject {
+                    Coords = (-2, 1)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-2_1"
+                    }
+                }
+                WGObject {
+                    Coords = (-2, 2)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-2_2"
+                    }
+                }
+                WGObject {
+                    Coords = (-2, 3)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-2_3"
+                    }
+                }
+                WGObject {
+                    Coords = (-2, 4)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-2_4"
+                    }
+                }
+                WGObject {
+                    Coords = (-2, 5)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-2_5"
+                    }
+                }
+                WGObject {
+                    Coords = (-2, 6)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-2_6"
+                    }
+                }
+                WGObject {
+                    Coords = (-2, 7)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-2_7"
+                    }
+                }
+                WGObject {
+                    Coords = (-2, 8)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-2_8"
+                    }
+                }
+                WGObject {
+                    Coords = (-2, 9)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-2_9"
+                    }
+                }
+                WGObject {
+                    Coords = (-1, -8)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-1_-8"
+                    }
+                }
+                WGObject {
+                    Coords = (-1, -7)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-1_-7"
+                    }
+                }
+                WGObject {
+                    Coords = (-1, -6)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-1_-6"
+                    }
+                }
+                WGObject {
+                    Coords = (-1, -5)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-1_-5"
+                    }
+                }
+                WGObject {
+                    Coords = (-1, -4)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-1_-4"
+                    }
+                }
+                WGObject {
+                    Coords = (-1, -3)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-1_-3"
+                    }
+                }
+                WGObject {
+                    Coords = (-1, -2)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-1_-2"
+                    }
+                }
+                WGObject {
+                    Coords = (-1, -1)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-1_-1"
+                    }
+                }
+                WGObject {
+                    Coords = (-1, 0)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-1_0"
+                    }
+                }
+                WGObject {
+                    Coords = (-1, 1)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-1_1"
+                    }
+                }
+                WGObject {
+                    Coords = (-1, 2)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-1_2"
+                    }
+                }
+                WGObject {
+                    Coords = (-1, 3)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-1_3"
+                    }
+                }
+                WGObject {
+                    Coords = (-1, 4)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-1_4"
+                    }
+                }
+                WGObject {
+                    Coords = (-1, 5)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-1_5"
+                    }
+                }
+                WGObject {
+                    Coords = (-1, 6)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-1_6"
+                    }
+                }
+                WGObject {
+                    Coords = (-1, 7)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-1_7"
+                    }
+                }
+                WGObject {
+                    Coords = (-1, 8)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-1_8"
+                    }
+                }
+                WGObject {
+                    Coords = (-1, 9)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_-1_9"
+                    }
+                }
+                WGObject {
+                    Coords = (0, -9)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_0_-9"
+                    }
+                }
+                WGObject {
+                    Coords = (0, -8)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_0_-8"
+                    }
+                }
+                WGObject {
+                    Coords = (0, -7)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_0_-7"
+                    }
+                }
+                WGObject {
+                    Coords = (0, -6)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_0_-6"
+                    }
+                }
+                WGObject {
+                    Coords = (0, -5)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_0_-5"
+                    }
+                }
+                WGObject {
+                    Coords = (0, -4)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_0_-4"
+                    }
+                }
+                WGObject {
+                    Coords = (0, -3)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_0_-3"
+                    }
+                }
+                WGObject {
+                    Coords = (0, -2)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_0_-2"
+                    }
+                }
+                WGObject {
+                    Coords = (0, -1)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_0_-1"
+                    }
+                }
+                WGObject {
+                    Coords = (0, 0)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_0_0"
+                    }
+                }
+                WGObject {
+                    Coords = (0, 1)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_0_1"
+                    }
+                }
+                WGObject {
+                    Coords = (0, 2)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_0_2"
+                    }
+                }
+                WGObject {
+                    Coords = (0, 3)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_0_3"
+                    }
+                }
+                WGObject {
+                    Coords = (0, 4)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_0_4"
+                    }
+                }
+                WGObject {
+                    Coords = (0, 5)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_0_5"
+                    }
+                }
+                WGObject {
+                    Coords = (0, 6)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_0_6"
+                    }
+                }
+                WGObject {
+                    Coords = (0, 7)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_0_7"
+                    }
+                }
+                WGObject {
+                    Coords = (0, 8)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_0_8"
+                    }
+                }
+                WGObject {
+                    Coords = (0, 9)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_0_9"
+                    }
+                }
+                WGObject {
+                    Coords = (0, 10)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_0_10"
+                    }
+                }
+                WGObject {
+                    Coords = (1, -8)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_1_-8"
+                    }
+                }
+                WGObject {
+                    Coords = (1, -7)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_1_-7"
+                    }
+                }
+                WGObject {
+                    Coords = (1, -6)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_1_-6"
+                    }
+                }
+                WGObject {
+                    Coords = (1, -5)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_1_-5"
+                    }
+                }
+                WGObject {
+                    Coords = (1, -4)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_1_-4"
+                    }
+                }
+                WGObject {
+                    Coords = (1, -3)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_1_-3"
+                    }
+                }
+                WGObject {
+                    Coords = (1, -2)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_1_-2"
+                    }
+                }
+                WGObject {
+                    Coords = (1, -1)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_1_-1"
+                    }
+                }
+                WGObject {
+                    Coords = (1, 0)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_1_0"
+                    }
+                }
+                WGObject {
+                    Coords = (1, 1)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_1_1"
+                    }
+                }
+                WGObject {
+                    Coords = (1, 2)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_1_2"
+                    }
+                }
+                WGObject {
+                    Coords = (1, 3)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_1_3"
+                    }
+                }
+                WGObject {
+                    Coords = (1, 4)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_1_4"
+                    }
+                }
+                WGObject {
+                    Coords = (1, 5)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_1_5"
+                    }
+                }
+                WGObject {
+                    Coords = (1, 6)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_1_6"
+                    }
+                }
+                WGObject {
+                    Coords = (1, 7)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_1_7"
+                    }
+                }
+                WGObject {
+                    Coords = (1, 8)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_1_8"
+                    }
+                }
+                WGObject {
+                    Coords = (1, 9)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_1_9"
+                    }
+                }
+                WGObject {
+                    Coords = (1, 10)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_1_10"
+                    }
+                }
+                WGObject {
+                    Coords = (2, -8)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_2_-8"
+                    }
+                }
+                WGObject {
+                    Coords = (2, -7)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_2_-7"
+                    }
+                }
+                WGObject {
+                    Coords = (2, -6)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_2_-6"
+                    }
+                }
+                WGObject {
+                    Coords = (2, -5)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_2_-5"
+                    }
+                }
+                WGObject {
+                    Coords = (2, -4)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_2_-4"
+                    }
+                }
+                WGObject {
+                    Coords = (2, -3)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_2_-3"
+                    }
+                }
+                WGObject {
+                    Coords = (2, -2)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_2_-2"
+                    }
+                }
+                WGObject {
+                    Coords = (2, -1)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_2_-1"
+                    }
+                }
+                WGObject {
+                    Coords = (2, 0)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_2_0"
+                    }
+                }
+                WGObject {
+                    Coords = (2, 1)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_2_1"
+                    }
+                }
+                WGObject {
+                    Coords = (2, 2)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_2_2"
+                    }
+                }
+                WGObject {
+                    Coords = (2, 3)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_2_3"
+                    }
+                }
+                WGObject {
+                    Coords = (2, 4)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_2_4"
+                    }
+                }
+                WGObject {
+                    Coords = (2, 5)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_2_5"
+                    }
+                }
+                WGObject {
+                    Coords = (2, 6)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_2_6"
+                    }
+                }
+                WGObject {
+                    Coords = (2, 7)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_2_7"
+                    }
+                }
+                WGObject {
+                    Coords = (2, 8)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_2_8"
+                    }
+                }
+                WGObject {
+                    Coords = (2, 9)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_2_9"
+                    }
+                }
+                WGObject {
+                    Coords = (3, -8)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_3_-8"
+                    }
+                }
+                WGObject {
+                    Coords = (3, -7)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_3_-7"
+                    }
+                }
+                WGObject {
+                    Coords = (3, -6)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_3_-6"
+                    }
+                }
+                WGObject {
+                    Coords = (3, -5)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_3_-5"
+                    }
+                }
+                WGObject {
+                    Coords = (3, -4)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_3_-4"
+                    }
+                }
+                WGObject {
+                    Coords = (3, -3)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_3_-3"
+                    }
+                }
+                WGObject {
+                    Coords = (3, -2)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_3_-2"
+                    }
+                }
+                WGObject {
+                    Coords = (3, -1)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_3_-1"
+                    }
+                }
+                WGObject {
+                    Coords = (3, 0)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_3_0"
+                    }
+                }
+                WGObject {
+                    Coords = (3, 1)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_3_1"
+                    }
+                }
+                WGObject {
+                    Coords = (3, 2)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_3_2"
+                    }
+                }
+                WGObject {
+                    Coords = (3, 3)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_3_3"
+                    }
+                }
+                WGObject {
+                    Coords = (3, 4)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_3_4"
+                    }
+                }
+                WGObject {
+                    Coords = (3, 5)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_3_5"
+                    }
+                }
+                WGObject {
+                    Coords = (3, 6)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_3_6"
+                    }
+                }
+                WGObject {
+                    Coords = (3, 7)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_3_7"
+                    }
+                }
+                WGObject {
+                    Coords = (3, 8)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_3_8"
+                    }
+                }
+                WGObject {
+                    Coords = (3, 9)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_3_9"
+                    }
+                }
+                WGObject {
+                    Coords = (4, -7)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_4_-7"
+                    }
+                }
+                WGObject {
+                    Coords = (4, -6)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_4_-6"
+                    }
+                }
+                WGObject {
+                    Coords = (4, -5)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_4_-5"
+                    }
+                }
+                WGObject {
+                    Coords = (4, -4)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_4_-4"
+                    }
+                }
+                WGObject {
+                    Coords = (4, -3)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_4_-3"
+                    }
+                }
+                WGObject {
+                    Coords = (4, -2)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_4_-2"
+                    }
+                }
+                WGObject {
+                    Coords = (4, -1)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_4_-1"
+                    }
+                }
+                WGObject {
+                    Coords = (4, 0)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_4_0"
+                    }
+                }
+                WGObject {
+                    Coords = (4, 1)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_4_1"
+                    }
+                }
+                WGObject {
+                    Coords = (4, 2)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_4_2"
+                    }
+                }
+                WGObject {
+                    Coords = (4, 3)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_4_3"
+                    }
+                }
+                WGObject {
+                    Coords = (4, 4)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_4_4"
+                    }
+                }
+                WGObject {
+                    Coords = (4, 5)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_4_5"
+                    }
+                }
+                WGObject {
+                    Coords = (4, 6)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_4_6"
+                    }
+                }
+                WGObject {
+                    Coords = (4, 7)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_4_7"
+                    }
+                }
+                WGObject {
+                    Coords = (4, 8)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_4_8"
+                    }
+                }
+                WGObject {
+                    Coords = (4, 9)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_4_9"
+                    }
+                }
+                WGObject {
+                    Coords = (5, -7)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_5_-7"
+                    }
+                }
+                WGObject {
+                    Coords = (5, -6)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_5_-6"
+                    }
+                }
+                WGObject {
+                    Coords = (5, -5)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_5_-5"
+                    }
+                }
+                WGObject {
+                    Coords = (5, -4)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_5_-4"
+                    }
+                }
+                WGObject {
+                    Coords = (5, -3)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_5_-3"
+                    }
+                }
+                WGObject {
+                    Coords = (5, -2)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_5_-2"
+                    }
+                }
+                WGObject {
+                    Coords = (5, -1)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_5_-1"
+                    }
+                }
+                WGObject {
+                    Coords = (5, 0)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_5_0"
+                    }
+                }
+                WGObject {
+                    Coords = (5, 1)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_5_1"
+                    }
+                }
+                WGObject {
+                    Coords = (5, 2)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_5_2"
+                    }
+                }
+                WGObject {
+                    Coords = (5, 3)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_5_3"
+                    }
+                }
+                WGObject {
+                    Coords = (5, 4)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_5_4"
+                    }
+                }
+                WGObject {
+                    Coords = (5, 5)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_5_5"
+                    }
+                }
+                WGObject {
+                    Coords = (5, 6)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_5_6"
+                    }
+                }
+                WGObject {
+                    Coords = (5, 7)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_5_7"
+                    }
+                }
+                WGObject {
+                    Coords = (5, 8)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_5_8"
+                    }
+                }
+                WGObject {
+                    Coords = (6, -6)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_6_-6"
+                    }
+                }
+                WGObject {
+                    Coords = (6, -5)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_6_-5"
+                    }
+                }
+                WGObject {
+                    Coords = (6, -4)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_6_-4"
+                    }
+                }
+                WGObject {
+                    Coords = (6, -3)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_6_-3"
+                    }
+                }
+                WGObject {
+                    Coords = (6, -2)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_6_-2"
+                    }
+                }
+                WGObject {
+                    Coords = (6, -1)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_6_-1"
+                    }
+                }
+                WGObject {
+                    Coords = (6, 0)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_6_0"
+                    }
+                }
+                WGObject {
+                    Coords = (6, 1)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_6_1"
+                    }
+                }
+                WGObject {
+                    Coords = (6, 2)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_6_2"
+                    }
+                }
+                WGObject {
+                    Coords = (6, 3)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_6_3"
+                    }
+                }
+                WGObject {
+                    Coords = (6, 4)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_6_4"
+                    }
+                }
+                WGObject {
+                    Coords = (6, 5)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_6_5"
+                    }
+                }
+                WGObject {
+                    Coords = (6, 6)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_6_6"
+                    }
+                }
+                WGObject {
+                    Coords = (6, 7)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_6_7"
+                    }
+                }
+                WGObject {
+                    Coords = (6, 8)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_6_8"
+                    }
+                }
+                WGObject {
+                    Coords = (7, -4)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_7_-4"
+                    }
+                }
+                WGObject {
+                    Coords = (7, -3)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_7_-3"
+                    }
+                }
+                WGObject {
+                    Coords = (7, -2)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_7_-2"
+                    }
+                }
+                WGObject {
+                    Coords = (7, -1)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_7_-1"
+                    }
+                }
+                WGObject {
+                    Coords = (7, 0)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_7_0"
+                    }
+                }
+                WGObject {
+                    Coords = (7, 1)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_7_1"
+                    }
+                }
+                WGObject {
+                    Coords = (7, 2)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_7_2"
+                    }
+                }
+                WGObject {
+                    Coords = (7, 3)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_7_3"
+                    }
+                }
+                WGObject {
+                    Coords = (7, 4)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_7_4"
+                    }
+                }
+                WGObject {
+                    Coords = (7, 5)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_7_5"
+                    }
+                }
+                WGObject {
+                    Coords = (7, 6)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_7_6"
+                    }
+                }
+                WGObject {
+                    Coords = (7, 7)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_7_7"
+                    }
+                }
+                WGObject {
+                    Coords = (8, -2)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_8_-2"
+                    }
+                }
+                WGObject {
+                    Coords = (8, -1)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_8_-1"
+                    }
+                }
+                WGObject {
+                    Coords = (8, 0)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_8_0"
+                    }
+                }
+                WGObject {
+                    Coords = (8, 1)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_8_1"
+                    }
+                }
+                WGObject {
+                    Coords = (8, 2)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_8_2"
+                    }
+                }
+                WGObject {
+                    Coords = (8, 3)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_8_3"
+                    }
+                }
+                WGObject {
+                    Coords = (8, 4)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_8_4"
+                    }
+                }
+                WGObject {
+                    Coords = (8, 5)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_8_5"
+                    }
+                }
+                WGObject {
+                    Coords = (9, 1)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_9_1"
+                    }
+                }
+                WGObject {
+                    Coords = (9, 2)
+                    Path = {
+                        Value = "Game://Terrain/TerrainCellData_9_2"
+                    }
+                }
+            ]
+            Assets = [
+                WGLayerAsset {
+                    Key = GroundCover
+                    Path = {
+                        Value = "Game://Terrain/MeadowCover"
+                    }
+                }
+            ]
+        }
+    ]
+    Systems = [
+        DynamicSkySystem {}
+
+        PhysicsSystem {}
+
+        LightmapSystem {
+            NextLightmapVolumeId = 0
+            FreedLightmapVolumeIds = []
+        }
+        CameraSystem {}
+
+        WeaponSystem {}
+
+        CharacterControllerSystem {}
+
+        PlayerSystem {}
+
+        ReplicationApplySystem {}
+
+    ]
+    ActiveLayers = []
+    Environment = {
+        Sky = {
+            Tint = (1, 1, 1)
+            Intensity = 1
+            OvercastBrightness = 1
+            ShowSunDisk = true
+        }
+        SkyLight = {
+            DiffuseIntensity = 1.7
+            SpecularIntensity = 1
+            OcclusionStrength = 1
+            OcclusionRadius = 3
+            OcclusionBias = 0.5
+        }
+        Exposure = {
+            ExposureCompensation = 0.6
+            TonemapOperator = AgXPunchy
+            WhiteBalanceTemperature = 0
+            WhiteBalanceTint = 0
+            Saturation = 0.92
+            Contrast = 0.92
+            Vignette = 0.35
+        }
+        HeightFog = {
+            Enabled = true
+            Density = 0.0012
+            HeightFalloff = 0.03
+            BaseHeight = 0
+            StartDistance = 60
+            AerialPerspectiveDistance = 3500
+            SkyInscatter = 1
+            SunInscatter = 0.35
+            SunAnisotropy = 0.6
+            MaxOpacity = 1
+        }
+        Clouds = {
+            Enabled = true
+            Layer = {
+                BaseAltitude = 800
+                Thickness = 500
+            }
+            Shape = {
+                Coverage = 0.3
+                CloudTypeBias = 0.5
+                DensityMultiplier = 1
+                DetailErosion = 0.55
+            }
+            Noise = {
+                WeatherScale = 12000
+                CloudSize = 1500
+                ShapeScale = 3000
+                DetailScale = 250
+                Seed = 0
+            }
+            Wind = {
+                Direction = 45
+                Speed = 0
+                EvolutionSpeed = 0
+            }
+            Lighting = {
+                ShadowStrength = 0.85
+                ShadowSoftness = 0.2
+                HazeDistance = 40000
+            }
+        }
+        Wind = {
+            Direction = 45
+            Strength = 0.3
+            Gustiness = 0.5
+        }
+        GlobalIllumination = {
+            DDGIEnabled = true
+            RayTracedReflectionsEnabled = true
+        }
+    }
+    Swatches = [
+        Swatch Default {
+            SwatchId = 0
+            BakeLayer = {
+                Name = Default
+                Categories = [
+                    BakeLayerCategory LightProvider {
+                        Revision = 0
+                        Assets = []
+                    }
+                    BakeLayerCategory LightReceiver {
+                        Revision = 0
+                        Assets = []
+                    }
+                    BakeLayerCategory Lightmap {
+                        Revision = 0
+                        Assets = []
+                    }
+                ]
+            }
+        }
+    ]
+    ActiveSwatch = Default
+    Layers = []
+    UUID = "5efa45f2-3b7d-4f9e-bd18-1cfa1bb1dbb0"
+}

@@ -1,0 +1,35 @@
+Texture IrradianceProbe2_VisibilityMap_4 {
+    TextureDesc = {
+        Type = Cubemap
+        Format = RG16F
+        Extent = (64, 64, 1)
+        MinFilterMode = Linear
+        MagFilterMode = Linear
+        TextureWrapMode = ClampToEdge
+        NumLayers = 1
+        ImageUsage = Sampled|Storage
+        MipOffsets = [
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+        ]
+    }
+    ImageData = {
+        Key = "Game://Textures/IrradianceProbe2_VisibilityMap_4.TEX"
+        Size = 98304
+    }
+    UUID = "3dc4958f-3c40-4292-946b-2fc8574a6e73"
+}

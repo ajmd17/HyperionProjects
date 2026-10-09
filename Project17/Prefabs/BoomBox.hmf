@@ -1,0 +1,92 @@
+Prefab BoomBox {
+    Root = {
+        UUID = "8ca1437f-51d0-46c8-93a5-d0f77759f739"
+        Name = BoomBox
+        NodeFlags = MobilityStatic
+        LocalBounds = {
+            Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+            Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+        }
+        LocalTransform = {
+            Translation = (0, 0, 0)
+            Scale = (1, 1, 1)
+            Rotation = {
+                X = 0
+                Y = 0
+                Z = 0
+                W = 1
+            }
+        }
+        Children = [
+            Node BoomBox {
+                UUID = "1c594d56-eb3b-40d1-a7fd-c9e6cb516eb7"
+                NodeFlags = MobilityStatic|MobilityStaticByProxy
+                LocalBounds = {
+                    Min = (3.40282e+38, 3.40282e+38, 3.40282e+38)
+                    Max = (-3.40282e+38, -3.40282e+38, -3.40282e+38)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = -0
+                        Y = -1
+                        Z = -0
+                        W = 0
+                    }
+                }
+                Children = [
+                    Entity BoomBox_Primitive0 {
+                        Tags = []
+                        Components = [
+                            TransformComponent {
+                                Translation = (0, 0, 0)
+                                Rotation = {
+                                    X = -0
+                                    Y = -1
+                                    Z = -0
+                                    W = 0
+                                }
+                                Scale = (1, 1, 1)
+                            }
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/BoomBox"
+                                Material = @"Game://Materials/BoomBox_Mat"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                            }
+                        ]
+                        Layers = []
+                        UUID = "7407b982-133d-422c-8a3d-5e7601991c7c"
+                        NodeFlags = MobilityStatic|MobilityStaticByProxy
+                        LocalBounds = {
+                            Min = (-0.00992115, -0.00977163, -0.0100762)
+                            Max = (0.00992115, 0.00977163, 0.0100762)
+                        }
+                        LocalTransform = {
+                            Translation = (0, 0, 0)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                ]
+                NodeTags = {
+                    Values = []
+                }
+            }
+        ]
+        NodeTags = {
+            Values = []
+        }
+    }
+}

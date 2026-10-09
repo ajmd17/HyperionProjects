@@ -1,0 +1,8 @@
+AnimationTrack Rig_M4_Fire_Slider_055 {
+    BoneName = Slider_055
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Rig_M4_Fire_Slider_055.KEYF"
+        Size = 2560
+    }
+    UUID = "cae67623-8b90-4c08-93bb-1830bd802cbb"
+}

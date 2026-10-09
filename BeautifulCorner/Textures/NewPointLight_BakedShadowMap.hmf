@@ -1,0 +1,35 @@
+Texture NewPointLight_BakedShadowMap {
+    TextureDesc = {
+        Type = Cubemap
+        Format = D16
+        Extent = (256, 256, 1)
+        MinFilterMode = Nearest
+        MagFilterMode = Nearest
+        TextureWrapMode = ClampToEdge
+        NumLayers = 1
+        ImageUsage = Sampled|Attachment
+        MipOffsets = [
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+        ]
+    }
+    ImageData = {
+        Key = "Game://Textures/NewPointLight_BakedShadowMap.TEX"
+        Size = 786432
+    }
+    UUID = "72091ec2-d87e-4dcd-af73-658c596b8393"
+}

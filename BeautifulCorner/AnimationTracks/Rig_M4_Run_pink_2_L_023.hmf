@@ -1,0 +1,8 @@
+AnimationTrack Rig_M4_Run_pink_2_L_023 {
+    BoneName = pink_2_L_023
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Rig_M4_Run_pink_2_L_023.KEYF"
+        Size = 1920
+    }
+    UUID = "e7185acf-878d-4a3f-9927-c01a3ad3b7cd"
+}

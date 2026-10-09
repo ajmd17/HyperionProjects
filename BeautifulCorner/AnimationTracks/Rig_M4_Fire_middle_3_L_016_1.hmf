@@ -1,0 +1,8 @@
+AnimationTrack Rig_M4_Fire_middle_3_L_016_1 {
+    BoneName = middle_3_L_016
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Rig_M4_Fire_middle_3_L_016_1.KEYF"
+        Size = 2560
+    }
+    UUID = "8a93ea1b-1660-4632-9926-d5b25b8c0a9f"
+}

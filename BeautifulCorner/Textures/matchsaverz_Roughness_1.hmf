@@ -1,0 +1,35 @@
+Texture matchsaverz_Roughness_1 {
+    TextureDesc = {
+        Type = Texture2D
+        Format = R8
+        Extent = (1024, 1024, 1)
+        MinFilterMode = LinearMipmap
+        MagFilterMode = Linear
+        TextureWrapMode = Repeat
+        NumLayers = 1
+        ImageUsage = Sampled
+        MipOffsets = [
+            1048576
+            1310720
+            1376256
+            1392640
+            1396736
+            1397760
+            1398016
+            1398080
+            1398096
+            1398100
+            0
+            0
+            0
+            0
+            0
+            0
+        ]
+    }
+    ImageData = {
+        Key = "Game://Textures/matchsaverz_Roughness_1.TEX"
+        Size = 1398101
+    }
+    UUID = "128b684c-4f76-4afe-b74b-32cd1f9cf220"
+}

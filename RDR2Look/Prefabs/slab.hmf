@@ -1,0 +1,86 @@
+Prefab slab {
+    Root = {
+        UUID = "ac535a4f-973d-44a8-bee1-7bf199802516"
+        Name = slab
+        NodeFlags = MobilityStatic
+        LocalBounds = {
+            Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+            Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+        }
+        LocalTransform = {
+            Translation = (0, 0, 0)
+            Scale = (1, 1, 1)
+            Rotation = {
+                X = 0
+                Y = 0
+                Z = 0
+                W = 1
+            }
+        }
+        Children = [
+            Node slab {
+                UUID = "5b6910f6-a77d-4011-b110-015db2706338"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                    Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = [
+                    Entity slab_Primitive0 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/slab_LOD0_2"
+                                Material = @"Game://Materials/slab"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "7def39b4-5f31-41c5-973b-f71dac375a19"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-1.4014714, -0.2403856, -0.837587)
+                            Max = (1.4014714, 0.2403856, 0.837587)
+                        }
+                        LocalTransform = {
+                            Translation = (0.019816339, 0.1620708, -0.014896512)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                ]
+                NodeTags = {
+                    Values = []
+                }
+            }
+        ]
+        NodeTags = {
+            Values = []
+        }
+    }
+    Revision = 0
+    UUID = "7a74adb6-60b7-468c-b3a8-aab5e4d027a4"
+}

@@ -1,0 +1,35 @@
+Texture "LightmapVolumeAtlasTexture_LightmapVolume_1_I" {
+    TextureDesc = {
+        Type = Texture2D
+        Format = RGBA8
+        Extent = (2048, 2048, 1)
+        MinFilterMode = Linear
+        MagFilterMode = Linear
+        TextureWrapMode = ClampToEdge
+        NumLayers = 1
+        ImageUsage = Sampled
+        MipOffsets = [
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+        ]
+    }
+    ImageData = {
+        Key = "Game://Textures/LightmapVolumeAtlasTexture_LightmapVolume_1_I.TEX"
+        Size = 16777216
+    }
+    FriendlyName = "LightmapVolumeAtlasTextureLightmapVolume1I"
+}

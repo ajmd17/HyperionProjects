@@ -1,0 +1,35 @@
+Texture FogVolume_FogVolume_DataMap_5 {
+    TextureDesc = {
+        Type = Texture3D
+        Format = RGBA16F
+        Extent = (64, 40, 62)
+        MinFilterMode = Linear
+        MagFilterMode = Linear
+        TextureWrapMode = ClampToEdge
+        NumLayers = 1
+        ImageUsage = Sampled
+        MipOffsets = [
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+        ]
+    }
+    ImageData = {
+        Key = "Game://Textures/FogVolume_FogVolume_DataMap_5.TEX"
+        Size = 1269760
+    }
+    UUID = "6c31d4a2-1552-4994-a995-9485ab6cf5ad"
+}

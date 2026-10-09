@@ -1,0 +1,8 @@
+AnimationTrack Rig_M4_Run_lowerarm_R_030_1 {
+    BoneName = lowerarm_R_030
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Rig_M4_Run_lowerarm_R_030_1.KEYF"
+        Size = 1920
+    }
+    UUID = "155fb174-95b1-4f71-ab1b-b96315475380"
+}

@@ -1,0 +1,8 @@
+AnimationTrack Rig_M4_Walk_pose_controller_00_1 {
+    BoneName = pose_controller_00
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Rig_M4_Walk_pose_controller_00_1.KEYF"
+        Size = 64
+    }
+    UUID = "3653a793-34ec-46a4-b390-ac4771d6380f"
+}

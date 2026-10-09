@@ -1,0 +1,8 @@
+InstanceSetData GrassPatch_Instances {
+    Records = {
+        Key = "Game://InstanceData/GrassPatch_Instances.INST"
+        Size = 28800
+    }
+    NextId = 600
+    UUID = "b99dc2dd-6d82-4b52-a232-8268d7dcade0"
+}

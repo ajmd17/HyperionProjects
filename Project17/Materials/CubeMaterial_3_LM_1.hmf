@@ -1,0 +1,85 @@
+Material CubeMaterial_3_LM_1 {
+    BaseMaterial = null
+    Attributes = {
+        ShaderName = GeometryPass
+        ShaderProperties = {
+            Chunks = [
+                0
+                0
+                0
+                0
+                0
+                0
+                0
+                0
+            ]
+        }
+        Bucket = Lightmapped
+        FillMode = Fill
+        BlendFunction = {
+            SrcColor = None
+            DstColor = None
+            SrcAlpha = None
+            DstAlpha = None
+        }
+        FaceCullMode = Back
+        Flags = MAF_DEPTH_WRITE|MAF_DEPTH_TEST
+        StencilFunction = {
+            PassOp = Replace
+            FailOp = Keep
+            DepthFailOp = Keep
+            CompareOp = Always
+        }
+        DepthCompareOp = Less
+        StencilReference = 0
+        DepthBias = 0
+        DepthBiasSlope = 0
+    }
+    Parameters = {
+        NormalMapFlipY = true
+        RoughnessChannel = R
+        MetalnessChannel = R
+        AmbientOcclusionChannel = R
+        InverseHeight = true
+        Albedo = (1, 1, 1, 1)
+        Metalness = 0
+        Roughness = 1
+        AlphaThreshold = 0
+        ParallaxHeightScale = 0.02
+        Transmission = 0
+        IOR = 1.5
+        EmissiveColor = (0, 0, 0, 0)
+        EmissiveIntensity = 0
+        UserParams = (0, 0, 0, 0)
+        WindFrequency = 0
+        WindTrunkFlexibility = 0
+        WindTreeHeight = 0
+        WindFlutter = 0
+        UVScale = (4, 1.5)
+        Unlit = false
+        Foliage = false
+        Flags = 129
+    }
+    Textures = {
+        Values = [
+            @"Game://Textures/sloppy-brick-wall_albedo"
+            @"Game://Textures/sloppy-brick-wall_normal-ogl"
+            @"Game://Textures/sloppy-brick-wall_metallic"
+            @"Game://Textures/sloppy-brick-wall_metallic"
+            @"Game://Textures/sloppy-brick-wall_roughness"
+            null
+            null
+            null
+            null
+            null
+            null
+            null
+            null
+            null
+            null
+            null
+        ]
+    }
+    IsDynamic = false
+    UUID = "993634e0-af2d-410e-8ab7-27941f237c41"
+}

@@ -1,0 +1,4 @@
+CapsulePhysicsShape PlayerCapsuleShape {
+    Radius = 0.2
+    Height = 1.7
+}

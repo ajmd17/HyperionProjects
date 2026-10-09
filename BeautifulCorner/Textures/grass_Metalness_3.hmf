@@ -1,0 +1,35 @@
+Texture grass_Metalness_3 {
+    TextureDesc = {
+        Type = Texture2D
+        Format = R8
+        Extent = (4608, 1024, 1)
+        MinFilterMode = LinearMipmap
+        MagFilterMode = Linear
+        TextureWrapMode = ClampToEdge
+        NumLayers = 1
+        ImageUsage = Sampled
+        MipOffsets = [
+            4718592
+            5898240
+            6193152
+            6266880
+            6285312
+            6289920
+            6291072
+            6291360
+            6291432
+            6291450
+            6291454
+            6291456
+            0
+            0
+            0
+            0
+        ]
+    }
+    ImageData = {
+        Key = "Game://Textures/grass_Metalness_3.TEX"
+        Size = 6291457
+    }
+    UUID = "91d25a70-006d-41af-a742-e2d67e2c6a99"
+}

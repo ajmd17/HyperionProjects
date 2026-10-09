@@ -1,0 +1,8 @@
+AnimationTrack Rig_M4_Walk_Shell_058 {
+    BoneName = Shell_058
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Rig_M4_Walk_Shell_058.KEYF"
+        Size = 3840
+    }
+    UUID = "9dd673de-07ac-48cd-a79c-120e77046097"
+}

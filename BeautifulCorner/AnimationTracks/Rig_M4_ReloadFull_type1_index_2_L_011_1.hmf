@@ -1,0 +1,8 @@
+AnimationTrack Rig_M4_ReloadFull_type1_index_2_L_011_1 {
+    BoneName = index_2_L_011
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Rig_M4_ReloadFull_type1_index_2_L_011_1.KEYF"
+        Size = 27200
+    }
+    UUID = "fc53622a-9bb2-4bd3-b80e-7b241261a011"
+}

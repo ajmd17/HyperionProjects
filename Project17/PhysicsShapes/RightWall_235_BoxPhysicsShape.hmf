@@ -1,0 +1,7 @@
+BoxPhysicsShape RightWall_235_BoxPhysicsShape {
+    Bounds = {
+        Min = (-1, -1, -1)
+        Max = (1, 1, 1)
+    }
+    UUID = "7acad974-ad9b-44ad-a825-67474868bb0d"
+}

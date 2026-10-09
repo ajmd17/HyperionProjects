@@ -1,0 +1,6 @@
+BoxPhysicsShape BoxPhysicsShape_4 {
+    Bounds = {
+        Min = (-1.00001, -1, -0.965218)
+        Max = (13.7359, 5.21463, 0.427968)
+    }
+}

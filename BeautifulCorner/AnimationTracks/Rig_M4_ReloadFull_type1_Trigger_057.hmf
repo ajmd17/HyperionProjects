@@ -1,0 +1,8 @@
+AnimationTrack Rig_M4_ReloadFull_type1_Trigger_057 {
+    BoneName = Trigger_057
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Rig_M4_ReloadFull_type1_Trigger_057.KEYF"
+        Size = 27200
+    }
+    UUID = "18ef1d07-9fc2-4299-aab5-5c8c0a2b0967"
+}

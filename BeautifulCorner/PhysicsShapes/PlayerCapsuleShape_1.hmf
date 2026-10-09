@@ -1,0 +1,5 @@
+CapsulePhysicsShape PlayerCapsuleShape_1 {
+    Radius = 0.3
+    Height = 1.2
+    UUID = "6ed2c8c5-93fb-4629-a7f8-4a92fcce0db5"
+}

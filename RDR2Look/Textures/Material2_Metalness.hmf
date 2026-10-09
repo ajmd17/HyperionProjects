@@ -1,0 +1,35 @@
+Texture Material2_Metalness {
+    TextureDesc = {
+        Type = Texture2D
+        Format = R8
+        Extent = (1024, 1024, 1)
+        MinFilterMode = LinearMipmap
+        MagFilterMode = Linear
+        TextureWrapMode = Repeat
+        NumLayers = 1
+        ImageUsage = Sampled
+        MipOffsets = [
+            1048576
+            1310720
+            1376256
+            1392640
+            1396736
+            1397760
+            1398016
+            1398080
+            1398096
+            1398100
+            0
+            0
+            0
+            0
+            0
+            0
+        ]
+    }
+    ImageData = {
+        Key = "Game://Textures/Material2_Metalness.TEX"
+        Size = 1398101
+    }
+    UUID = "1d17cb0c-06d2-4604-9cfb-f04f6b069af8"
+}

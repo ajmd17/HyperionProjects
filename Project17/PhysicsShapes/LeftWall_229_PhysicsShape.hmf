@@ -1,0 +1,7 @@
+BoxPhysicsShape LeftWall_229_PhysicsShape {
+    Bounds = {
+        Min = (-1, -1, -1)
+        Max = (0.999998, 1, 0.435102)
+    }
+    UUID = "9b1d12cb-c2da-498b-b4f1-7dc03aa8e5bc"
+}

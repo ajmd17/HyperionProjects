@@ -1,0 +1,35 @@
+Texture ReflectionProbe_VisibilityMap_1 {
+    TextureDesc = {
+        Type = Cubemap
+        Format = RG16F
+        Extent = (64, 64, 1)
+        MinFilterMode = Linear
+        MagFilterMode = Linear
+        TextureWrapMode = ClampToEdge
+        NumLayers = 1
+        ImageUsage = Sampled|Storage
+        MipOffsets = [
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+        ]
+    }
+    ImageData = {
+        Key = "Game://Textures/ReflectionProbe_VisibilityMap_1.TEX"
+        Size = 98304
+    }
+    UUID = "befb385c-2671-489f-9627-8d1ee9b68e2f"
+}

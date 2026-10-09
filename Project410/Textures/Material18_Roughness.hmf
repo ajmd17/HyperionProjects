@@ -1,0 +1,35 @@
+Texture Material18_Roughness {
+    TextureDesc = {
+        Type = Texture2D
+        Format = R8
+        Extent = (1024, 1024, 1)
+        MinFilterMode = LinearMipmap
+        MagFilterMode = Linear
+        TextureWrapMode = Repeat
+        NumLayers = 1
+        ImageUsage = Sampled
+        MipOffsets = [
+            1048576
+            1310720
+            1376256
+            1392640
+            1396736
+            1397760
+            1398016
+            1398080
+            1398096
+            1398100
+            0
+            0
+            0
+            0
+            0
+            0
+        ]
+    }
+    ImageData = {
+        Key = "Game://Textures/Material18_Roughness.TEX"
+        Size = 1398101
+    }
+    UUID = "c4579e50-0c45-41f1-b50f-43f55e7ec8c6"
+}

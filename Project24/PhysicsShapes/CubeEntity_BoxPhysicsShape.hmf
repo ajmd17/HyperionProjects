@@ -1,0 +1,6 @@
+BoxPhysicsShape CubeEntity_BoxPhysicsShape {
+    Bounds = {
+        Min = (-42, -1, -19)
+        Max = (9, -0.628496, 9)
+    }
+}

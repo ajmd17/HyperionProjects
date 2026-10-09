@@ -1,0 +1,8 @@
+AnimationTrack Rig_M4_Fire_LastRoundCheck_Slider_055 {
+    BoneName = Slider_055
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Rig_M4_Fire_LastRoundCheck_Slider_055.KEYF"
+        Size = 8320
+    }
+    UUID = "909bd161-d95d-4d7b-a030-0ca7ea8242ba"
+}

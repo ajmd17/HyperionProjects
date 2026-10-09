@@ -1,0 +1,80 @@
+Mesh prepazka_base_ram_albedo_0 {
+    AABB = {
+        Min = (-13.5283, -27.8336, -3.33929)
+        Max = (13.5283, 27.8336, 3.33929)
+    }
+    MeshDesc = {
+        MeshAttributes = {
+            InputLayout = {
+                Mask = 31
+            }
+            Topology = TOP_TRIANGLES
+            IndexBufferElemType = GET_UNSIGNED_INT
+        }
+        Lods = [
+            MeshLodDesc {
+                NumVertices = 7447
+                NumIndices = 7719
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+            }
+        ]
+    }
+    LodData = [
+        MeshLodData {
+            VertexData = {
+                Key = "Game://Meshes/prepazka_base_ram_albedo_0.VB"
+                Size = 446820
+            }
+            IndexData = {
+                Key = "Game://Meshes/prepazka_base_ram_albedo_0.IB"
+                Size = 30876
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+    ]
+    BvhData = {
+        Key = "Game://Meshes/prepazka_base_ram_albedo_0.BVH"
+        Size = 30787
+    }
+    Flags = None
+}

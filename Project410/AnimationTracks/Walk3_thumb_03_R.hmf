@@ -1,0 +1,7 @@
+AnimationTrack Walk3_thumb_03_R {
+    BoneName = "thumb.03.R"
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Walk3_thumb_03_R.KEYF"
+        Size = 2688
+    }
+}

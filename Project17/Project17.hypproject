@@ -1,0 +1,6 @@
+EditorProject Project17 {
+    GameInstance = {}
+
+    EditorCameraPosition = (0.060611114, 5.8562527, 5.236336)
+    EditorCameraDirection = (-0.5313229, -0.79720014, -0.28664976)
+}

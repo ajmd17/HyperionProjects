@@ -1,0 +1,8 @@
+AnimationTrack Rig_M4_Fire_LastRoundCheck__rootJoint_1 {
+    BoneName = _rootJoint
+    KeyframeData = {
+        Key = "Game://AnimationTracks/Rig_M4_Fire_LastRoundCheck__rootJoint_1.KEYF"
+        Size = 64
+    }
+    UUID = "9bff73a2-9eeb-4d1d-a621-b15a23a9480e"
+}

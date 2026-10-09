@@ -1,0 +1,108 @@
+Mesh NormalizedCubeSphereMesh {
+    AABB = {
+        Min = (-1, -1, -1)
+        Max = (1, 1, 1)
+    }
+    LodGeneration = {
+        NumLods = 4
+        TriangleRatios = [
+            1
+            0.5
+            0.25
+            0.125
+        ]
+        MaxRelativeError = 1
+        NormalWeight = 0.5
+        UV0Weight = 1
+        UV1Weight = 0.5
+        WindWeight = 1
+        LockBorder = false
+        Prune = false
+        MaxScreenErrorPixels = 1
+        SourceDataHash = 17976563521504786434
+    }
+    LightmapUVDataHash = 0
+    MeshDesc = {
+        MeshAttributes = {
+            InputLayout = {
+                Mask = 15
+            }
+            Topology = Triangles
+            IndexBufferElemType = UnsignedInt
+        }
+        Lods = [
+            MeshLodDesc {
+                NumVertices = 507
+                NumIndices = 2304
+                GeometricError = 0
+                ScreenSize = 0
+            }
+            MeshLodDesc {
+                NumVertices = 275
+                NumIndices = 1152
+                GeometricError = 0.027959753
+                ScreenSize = 0.11471852
+            }
+            MeshLodDesc {
+                NumVertices = 157
+                NumIndices = 576
+                GeometricError = 0.04810724
+                ScreenSize = 0.06667399
+            }
+            MeshLodDesc {
+                NumVertices = 86
+                NumIndices = 288
+                GeometricError = 0.11097956
+                ScreenSize = 0.028901733
+            }
+        ]
+    }
+    LodData = [
+        MeshLodData {
+            VertexData = {
+                Key = "Game://Meshes/NormalizedCubeSphereMesh.VB"
+                Size = 20280
+            }
+            IndexData = {
+                Key = "Game://Meshes/NormalizedCubeSphereMesh.IB"
+                Size = 9216
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = "Game://Meshes/NormalizedCubeSphereMesh.VB1"
+                Size = 11000
+            }
+            IndexData = {
+                Key = "Game://Meshes/NormalizedCubeSphereMesh.IB1"
+                Size = 4608
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = "Game://Meshes/NormalizedCubeSphereMesh.VB2"
+                Size = 6280
+            }
+            IndexData = {
+                Key = "Game://Meshes/NormalizedCubeSphereMesh.IB2"
+                Size = 2304
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = "Game://Meshes/NormalizedCubeSphereMesh.VB3"
+                Size = 3440
+            }
+            IndexData = {
+                Key = "Game://Meshes/NormalizedCubeSphereMesh.IB3"
+                Size = 1152
+            }
+        }
+    ]
+    BvhData = {
+        Key = "Game://Meshes/NormalizedCubeSphereMesh.BVH"
+        Size = 24569
+    }
+    Flags = None
+    UUID = "eec77253-0ccc-47b9-a42f-db56a08d005c"
+}

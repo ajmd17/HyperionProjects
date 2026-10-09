@@ -1,0 +1,13 @@
+ScriptAsset "Fooey" {
+    ScriptDesc = {
+        Path = ""
+        AssemblyPath = ""
+        ClassName = ""
+        UUID = "00000000-0000-0000-0000-000000000000"
+        Language = Strata
+    }
+    Data = {
+        Key = ""
+        Size = 0
+    }
+}

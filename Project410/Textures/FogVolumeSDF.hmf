@@ -1,0 +1,35 @@
+Texture FogVolumeSDF {
+    TextureDesc = {
+        Type = Texture3D
+        Format = R16F
+        Extent = (128, 128, 128)
+        MinFilterMode = Linear
+        MagFilterMode = Linear
+        TextureWrapMode = ClampToEdge
+        NumLayers = 1
+        ImageUsage = Sampled
+        MipOffsets = [
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+        ]
+    }
+    ImageData = {
+        Key = "Game://Textures/FogVolumeSDF.TEX"
+        Size = 4194304
+    }
+    UUID = "00620e5e-d951-43a4-84ee-0ace3d54fbeb"
+}

@@ -1,0 +1,39 @@
+InstancedMeshData IMD_CubeEntity {
+    Buffers = [
+        BlobDataReference {
+            Key = "Game://InstancedMeshData/IMD_CubeEntity.IMD0"
+            Size = 64
+        }
+        BlobDataReference {
+            Key = "Game://InstancedMeshData/IMD_CubeEntity.IMD1"
+            Size = 64
+        }
+        BlobDataReference {
+            Key = ""
+            Size = 0
+        }
+        BlobDataReference {
+            Key = ""
+            Size = 0
+        }
+        BlobDataReference {
+            Key = ""
+            Size = 0
+        }
+    ]
+    BufferStructSizes = [
+        64
+        64
+        0
+        0
+        0
+    ]
+    BufferStructAlignments = [
+        16
+        16
+        0
+        0
+        0
+    ]
+    UUID = "d379b294-19de-48d5-ae04-5ecb424467fd"
+}
